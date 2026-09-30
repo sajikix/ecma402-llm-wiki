@@ -74,3 +74,16 @@ Append-only record of operations on this wiki. Each entry starts with `## [YYYY-
 
 - AGENTS.md: canonical-lag rule (`canonical_stage` frontmatter when a plenary transition isn't in `raw/proposals` yet; Stable Formatting and Intl Sequence Units), ECMA-262 proposals with a large Intl surface may get pages (Amount), champions include people the notes explicitly show as champions; new typo mappings `EAIO` → EAO, `SFO` → SFC.
 - `extract_proposals.py`: trailing "Related ECMA-262 proposals (ingested)" section. `extract_plenary_agenda.py`: `amount` / `measure` keywords; conclusion lines with "consensus"/"accepted"/"agreed" now count as stage signals (the 2026-05 Sequence Units Stage 2 bullet was hidden). Same signal fix in `extract_tg2_agenda.py`.
+
+## [2026-09-30] summarise | TG2 backlog, newest 10 (2023-09-07 .. 2024-09-26)
+
+- Summarised the 10 newest Summary backlog entries (2023-09-07, 2023-10-12, 2023-11-16, 2023-12-14, 2024-02-22, 2024-04-25, 2024-05-23, 2024-07-18, 2024-08-22, 2024-09-26) into `wiki/meetings/<YYYY>/`, added them to `wiki/meetings/README.md` and removed them from the backlog (22 entries left).
+- Stage-relevant TG2 events: Stable Formatting (then "root locale") judged ready for Stage 1 (2023-09-07); TG2 recommends a TG5 study before `Intl.MessageFormat` advances (2024-08-22); Smart Units pivots to a Measure type (2024-08-22); numerics-with-precision announced at Stage 0 and DurationFormat Stage 4 check deferred to October (2024-09-26); ECMA-402 11th edition approved, BAN to become co-editor (2024-07-18).
+- Quirks: `notes-2023-11-16.md` is headed "2022-11-16"; typos normalised (`LFS` → LAF, `HSI` → HJS, `PCO` → PFC, `SFO` → SFC, `YSK` → YSZ). Unlisted speakers added to frontmatter `attendees` (JGT in 2023-10-12 and 2024-04-25; BAN in 2025-08-14, fixing the earlier batch). The 2024-05-23 Accept-Language topic links `Tanych/accept-language#10` exactly as the notes give it.
+- `LFS` added to AGENTS.md mappings and `extract_people.py` alias exclusions.
+
+## [2026-09-30] summarise | TG2 backlog entries cited by two pages (2020-09-10, 2021-04-08)
+
+- Summarised 2020-09-10 (cited by intl-durationformat, intl-sequence-units) and 2021-04-08 (cited by intl-durationformat, intl-keep-trailing-zeros); moved them from the backlog to the meetings list (20 backlog entries left).
+- TG2 events: Intl.DisplayNames Stage 4 consensus (2020-09-10); Intl Locale Info and DisplayNames v2 Stage 3 support, Extend TimeZoneName Stage 2 support with `shortOffset`/`longOffset`, NumberFormat V3 rounding options settled (2021-04-08).
+- Cross-check: the citing pages match the notes; clarified on intl-keep-trailing-zeros that the 2021-04-08 notes spell the option value "stringIfInteger". SFC speaks but is unlisted in 2021-04-08 (added to attendees).
