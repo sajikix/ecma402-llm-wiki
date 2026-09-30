@@ -9,8 +9,8 @@
 
 | Proposal | Champion | Publication |
 | --- | --- | --- |
-| [Intl Era and MonthCode Proposal](https://github.com/tc39/proposal-intl-era-monthcode) | Frank Yung-Fong Tang, Ben Allen | 2026 ⏳ |
-| [Intl Locale Info](https://github.com/tc39/proposal-intl-locale-info) | Frank Yung-Fong Tang | 2026 ⏳ |
+| **[Intl Era and MonthCode Proposal](intl-era-month-code.md)** | Frank Yung-Fong Tang, Ben Allen | 2026 ⏳ |
+| **[Intl Locale Info](intl-locale-info.md)** | Frank Yung-Fong Tang | 2026 ⏳ |
 | **[Intl.DurationFormat](intl-durationformat.md)** | Younies Mahmoud, Ujjwal Sharma | 2025 |
 | [Intl.NumberFormat V3](https://github.com/tc39/proposal-intl-numberformat-v3) | Shane Carr | 2023 |
 | [Extend TimeZoneName Option Proposal](https://github.com/tc39/proposal-intl-extend-timezonename) | Frank Yung-Fong Tang | 2022 |

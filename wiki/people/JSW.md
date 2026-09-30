@@ -12,7 +12,7 @@ tags: [person]
 - **Full name**: Jeff Walden
 - **Affiliation**: SpiderMonkey/Mozilla / Spidermonkey
 - **Champion drafts**: (none among curated pages)
-- **Mentioned on proposal pages**: [Intl.DurationFormat](../proposals/intl-durationformat.md)
+- **Mentioned on proposal pages**: [Intl.DurationFormat](../proposals/intl-durationformat.md), [Intl Locale Info](../proposals/intl-locale-info.md)
 - **TG2 meetings attended**: 23
 - **Plenary meetings attended**: 0
 

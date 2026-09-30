@@ -12,7 +12,7 @@ tags: [person]
 - **Full name**: Leo Balter
 - **Affiliation**: Bocoup / Salesforce
 - **Champion drafts**: (none among curated pages)
-- **Mentioned on proposal pages**: [Intl.DurationFormat](../proposals/intl-durationformat.md)
+- **Mentioned on proposal pages**: [Intl.DurationFormat](../proposals/intl-durationformat.md), [Intl Locale Info](../proposals/intl-locale-info.md)
 - **TG2 meetings attended**: 22
 - **Plenary meetings attended**: 13
 

@@ -12,7 +12,7 @@ tags: [person]
 - **Full name**: Zibi Braniecki
 - **Affiliation**: Amazon / Amazon Alexa / Invited Expert / Mozilla
 - **Champion drafts**: (none among curated pages)
-- **Mentioned on proposal pages**: [Amount](../proposals/amount.md), [Intl.DurationFormat](../proposals/intl-durationformat.md), [Intl Sequence Units](../proposals/intl-sequence-units.md), [Stable Formatting](../proposals/stable-formatting.md)
+- **Mentioned on proposal pages**: [Amount](../proposals/amount.md), [Intl.DurationFormat](../proposals/intl-durationformat.md), [Intl Locale Info](../proposals/intl-locale-info.md), [Intl Sequence Units](../proposals/intl-sequence-units.md), [Stable Formatting](../proposals/stable-formatting.md)
 - **TG2 meetings attended**: 42
 - **Plenary meetings attended**: 3
 

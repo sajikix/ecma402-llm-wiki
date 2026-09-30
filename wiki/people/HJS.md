@@ -12,7 +12,7 @@ tags: [person]
 - **Full name**: Henri Sivonen
 - **Affiliation**: Mozilla
 - **Champion drafts**: (none among curated pages)
-- **Mentioned on proposal pages**: [Amount](../proposals/amount.md), [Intl Keep Trailing Zeros](../proposals/intl-keep-trailing-zeros.md), [Stable Formatting](../proposals/stable-formatting.md)
+- **Mentioned on proposal pages**: [Amount](../proposals/amount.md), [Intl Era/Month Code](../proposals/intl-era-month-code.md), [Intl Keep Trailing Zeros](../proposals/intl-keep-trailing-zeros.md), [Intl Locale Info](../proposals/intl-locale-info.md), [Stable Formatting](../proposals/stable-formatting.md)
 - **TG2 meetings attended**: 27
 - **Plenary meetings attended**: 1
 

@@ -12,7 +12,7 @@ tags: [person]
 - **Full name**: Jordan Harband
 - **Affiliation**: Coinbase / HeroDevs / Herodevs / Invited Expert / Invited expert / Socket / Socket Inc / Socket, Inc / invited expert
 - **Champion drafts**: (none among curated pages)
-- **Mentioned on proposal pages**: [Amount](../proposals/amount.md), [Intl.DurationFormat](../proposals/intl-durationformat.md), [Intl Sequence Units](../proposals/intl-sequence-units.md)
+- **Mentioned on proposal pages**: [Amount](../proposals/amount.md), [Intl.DurationFormat](../proposals/intl-durationformat.md), [Intl Locale Info](../proposals/intl-locale-info.md), [Intl Sequence Units](../proposals/intl-sequence-units.md)
 - **TG2 meetings attended**: 0
 - **Plenary meetings attended**: 35
 

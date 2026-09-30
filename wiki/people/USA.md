@@ -11,8 +11,8 @@ tags: [person]
 
 - **Full name**: Ujjwal Sharma
 - **Affiliation**: Igalia / Igalia S.L. / Igalia, S.L
-- **Champion drafts**: [Intl.DurationFormat](../proposals/intl-durationformat.md)
-- **Mentioned on proposal pages**: [Amount](../proposals/amount.md), [Intl.DurationFormat](../proposals/intl-durationformat.md), [Intl Sequence Units](../proposals/intl-sequence-units.md), [Stable Formatting](../proposals/stable-formatting.md)
+- **Champion drafts**: [Intl.DurationFormat](../proposals/intl-durationformat.md), [Intl Era/Month Code](../proposals/intl-era-month-code.md)
+- **Mentioned on proposal pages**: [Amount](../proposals/amount.md), [Intl.DurationFormat](../proposals/intl-durationformat.md), [Intl Era/Month Code](../proposals/intl-era-month-code.md), [Intl Locale Info](../proposals/intl-locale-info.md), [Intl Sequence Units](../proposals/intl-sequence-units.md), [Stable Formatting](../proposals/stable-formatting.md)
 - **TG2 meetings attended**: 49
 - **Plenary meetings attended**: 32
 

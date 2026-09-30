@@ -88,6 +88,22 @@ Append-only record of operations on this wiki. Each entry starts with `## [YYYY-
 - TG2 events: Intl.DisplayNames Stage 4 consensus (2020-09-10); Intl Locale Info and DisplayNames v2 Stage 3 support, Extend TimeZoneName Stage 2 support with `shortOffset`/`longOffset`, NumberFormat V3 rounding options settled (2021-04-08).
 - Cross-check: the citing pages match the notes; clarified on intl-keep-trailing-zeros that the 2021-04-08 notes spell the option value "stringIfInteger". SFC speaks but is unlisted in 2021-04-08 (added to attendees).
 
+## [2026-09-30] ingest | Intl Era/Month Code
+
+- Created `wiki/proposals/intl-era-month-code.md` (canonical "Intl Era and MonthCode Proposal"; champions FYT, BAN, plus SFC ("taken up the mantle", 2025-04) and USA, PFC (the 2025-07 plenary Conclusion calls them "the champions")).
+- Stage history: Stage 1 2022-11 (`dec-01.md`), Stage 2 2023-01 (`feb-01.md`), Stage 2.7 2025-07 (`july-30.md`, conditional on an ECMA-402 editor), Stage 3 2026-01 (`january-20.md`), Stage 4 2026-03 (`march-10.md`); the 2025-11 "for Stage 3" slot did not advance. Stalled 2023-24 until implementers revived it in 2025-03.
+- Main issues from TG2 2025-26: era-code authority and naming (CE/BCE, ROC, Japanese pre-Meiji and 6 Meiji), epoch years, the Hijri fallback (`islamic` → `islamic-tbla`, `islamic-rgsa` ignored), the closed calendar list, the PR #69 arithmetic scope and its "editorial" mislabel, `overflow: "reject"` for missing leap months, reference years and the safe date range.
+- Publication note: canonical gives 2026, but the text was folded into the Temporal ECMA-402 PR (ecma402#1044), and the editors said it was not in the ES2026 cut (TG2 2026-04-16, 2026-05-07).
+- Summary backlog: 2 meetings added (2022-06-16, 2022-10-06); slug appended to 2022-05-19 and 2023-01-12.
+
+## [2026-09-30] ingest | Intl Locale Info
+
+- Created `wiki/proposals/intl-locale-info.md` (`families: [locale]`). Precursor `Intl.resolveLocaleInfo` in "Abstract Locale Operations" (plenary 2015-11, 2016-01) sets `first_seen: "2015-11"`.
+- Stage transitions from plenary conclusions: Stage 1 2020-09 (`sept-23.md`), Stage 2 2021-01 without `unitInfo` (`jan-26.md`), Stage 3 2021-04 (`apr-20.md`), Stage 4 2025-11 (`november-18.md`, with PR #92); ES2026. The planned 2022-11 Stage 4 slot became an update; the 2023-11 plenary raised but did not decide a return to Stage 2.
+- Champion: FYT (sole). SFC (presenter 2025-02/05) and ABL (Anba; spec issues, PR #92) appear in the text only.
+- Main issues: measurement-system scope; preference lists and `-u-` keywords, list ordering; non-contiguous `weekend`; getters → `get` methods and shipped-getter web compat; `firstDayOfWeek` / `-u-fw`; calendar/region influence on week info with follow-ups ecma402 #1051/#1097/#1059; text direction; time zones; `minimalDays` removal; fallback behaviour (PR #92) and post-Stage-4 PRs #1072/#1074/#1086.
+- Summary backlog: 9 TG2 meetings added; `intl-locale-info` appended to 4 existing entries.
+
 ## [2026-09-30] wiki | champion rule wording; new typo mappings
 
 - AGENTS.md: a plenary Conclusion / Speaker's Summary that calls the presenters "the champions" counts as explicitly showing them as champions; `FYC` / `FYI` → FYT added to the typo mappings (and to `extract_people.py` exclusions); ES-edition note that Intl Era/Month Code reached Stage 4 in 2026-03 but missed the ES2026 cut like Temporal.
