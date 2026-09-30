@@ -64,6 +64,23 @@ def page_titles():
     return m
 
 
+REPO_URL = re.compile(r"github\.com/[\w.-]+/([\w.-]+)", re.IGNORECASE)
+
+
+def repo_pages():
+    """proposal repo name (lowercase) -> filename, from frontmatter `repo:`."""
+    m = {}
+    for pf in sorted(PROPOSALS.glob("*.md")):
+        if pf.name == "index.md":
+            continue
+        fm = re.search(r"^---\n(.*?)\n---", pf.read_text(encoding="utf-8"), re.DOTALL)
+        r = re.search(r"^repo:\s*(\S+)", fm.group(1), re.MULTILINE) if fm else None
+        u = REPO_URL.search(r.group(1)) if r else None
+        if u:
+            m[u.group(1).lower()] = pf.name
+    return m
+
+
 def rel_proposals(pf):
     """Relative path from pf's directory to wiki/proposals (posix style)."""
     depth = len(pf.parent.relative_to(WIKI).parts)
@@ -110,9 +127,12 @@ def take_first(core, pat):
     return None
 
 
-def ensure_topic_bullets(lines, token_re, titles_ci, rel):
+def ensure_topic_bullets(lines, token_re, titles_ci, rel, repos):
     """Daily files: order each topic's meta bullets as wiki > proposal >
-    Slides, with the wiki bullet added from the heading when missing.
+    Slides, with the wiki bullet added when missing: from a proposal name in
+    the heading, or from the `- proposal:` bullet's URL pointing into a
+    page's repo (issue-titled topics such as "Values that round to zero #15"
+    never name their proposal).
 
     The section is rebuilt in oxfmt's canonical shape (one blank line after
     the heading, one blank line between a list and a following paragraph) so
@@ -139,6 +159,12 @@ def ensure_topic_bullets(lines, token_re, titles_ci, rel):
             section.append(lines[i])
             i += 1
         had_trailing_blank = bool(section) and section[-1] == ""
+        for l in section:
+            if PROPOSAL_BULLET.match(l):
+                for u in REPO_URL.finditer(l):
+                    fname = repos.get(u.group(1).lower())
+                    if fname and fname not in fnames:
+                        fnames.append(fname)
         core = list(section)
         while core and core[0] == "":
             core.pop(0)
@@ -182,6 +208,7 @@ def main():
         r"(?<![A-Za-z0-9])(" + alt + r")(?![A-Za-z0-9])", re.IGNORECASE
     )
 
+    repos = repo_pages()
     changed = 0
     for pf in sorted(MEETINGS.glob("*/*.md")):
         rel = rel_proposals(pf)
@@ -189,7 +216,7 @@ def main():
         text = orig
         if DAILY.match(pf.name):
             lines = ensure_topic_bullets(
-                text.splitlines(keepends=False), token_re, titles_ci, rel
+                text.splitlines(keepends=False), token_re, titles_ci, rel, repos
             )
             text = "\n".join(lines) + ("\n" if text.endswith("\n") else "")
         lines = text.splitlines(keepends=False)

@@ -165,12 +165,12 @@ tags: [meeting, tg2]
 
 Then a one-paragraph `## Overview` (moderator, main outcomes), followed by one `##` section per discussion topic (the topic's original heading, kept in English):
 
-- Place the opening meta bullet list in **wiki → proposal → slide order** (omit any that don't apply; labels are lowercase): `- wiki: [Title](../../proposals/<slug>.md)`, `- proposal: [name](URL)` / a PR or issue URL, `- slide: [link](URL)`. `tools/link_proposals.py` adds the `wiki:` bullet automatically when the heading names a proposal that has a page.
+- Place the opening meta bullet list in **wiki → proposal → slide order** (omit any that don't apply; labels are lowercase): `- wiki: [Title](../../proposals/<slug>.md)`, `- proposal: [name](URL)` / a PR or issue URL, `- slide: [link](URL)`. `tools/link_proposals.py` adds the `wiki:` bullet automatically when the heading names a proposal that has a page, or when the `- proposal:` URL points into a page's `repo` (so issue-titled topics are covered — keep the proposal bullet's URL precise).
 - Follow with a **2-5 line** summary in English. Person abbreviations and proposal names may be plain text (the link scripts handle them).
 - If there's a `#### Conclusion`, **always include it** (e.g. "TG2 approval", "TG2 supports Stage 2.7").
 - Standing items with no real discussion (Standing items, logistics, empty status updates) may be omitted; keep Editors' / Implementers' / MessageFormat WG updates when they carry content.
 
-`wiki/meetings/README.md` lists the summarised meetings (newest first) with a one-line gist each.
+`wiki/meetings/README.md` lists the summarised meetings (newest first) with a one-line gist each, followed by a `## Summary backlog` table (`| Date | Referenced by |`, oldest first) of TG2 meetings that proposal pages already cite but that have no summary yet.
 
 ## Formatting
 
@@ -208,7 +208,8 @@ Skip committing when there's nothing to commit.
    - Acronyms that are never people (`ICU`, `CLDR`, `MF2`, ...) go in `extract_people.py`'s `NON_PERSON`. Real delegate abbreviations that usually mean something else (`JSC` = JavaScriptCore, `MF` = MessageFormat vs. Michael Ficarra) go in its `AMBIGUOUS` (shared with `link_people.py`): they are never detected or linked from bare text, so link the person occurrences by hand (`[MF](../people/MF.md)`) and re-run the scripts.
 5. Run `python3 tools/extract_proposals.py` so `wiki/proposals/index.md` links the new page (add to its `ALIASES` if the page title differs from the canonical title).
 6. Update the catalog row in `wiki/README.md` (and the family page, if any).
-7. Append an entry to `wiki/log.md`.
+7. **Unsummarised TG2 meetings**: ingest never waits for summaries — read the raw notes directly (the page links to GitHub URLs, so it works without a summary). Then, for every TG2 meeting the page cites that has no `wiki/meetings/<YYYY>/<date>.md` yet, add it to the `## Summary backlog` table in `wiki/meetings/README.md` (or append this proposal's slug to its "Referenced by" cell if already listed). Don't summarise them as part of the ingest.
+8. Append an entry to `wiki/log.md` (mention how many meetings were added to the backlog).
 
 ### Query (answering a question)
 
@@ -247,7 +248,7 @@ Summarise one TG2 meeting topic-by-topic (distinct from proposal-centric Ingest)
 
 1. Read `raw/ecma402/meetings/notes-<date>.md`.
 2. Write `wiki/meetings/<YYYY>/<date>.md` in the format above.
-3. Add the meeting to `wiki/meetings/README.md`.
+3. Add the meeting to `wiki/meetings/README.md`, and remove it from the `## Summary backlog` table if it was listed there. With no target given, `/summarise` may also take the oldest backlog entry instead of the latest meeting when the user asks to "work the backlog".
 4. **Generate links**: `python3 tools/extract_people.py && python3 tools/link_people.py && python3 tools/link_proposals.py` (people pages link TG2 attendance to existing summaries).
 5. Commit with `[summarise]` and record it in `wiki/log.md`.
 
