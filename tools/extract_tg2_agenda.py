@@ -51,7 +51,7 @@ STAGE_RE = re.compile(r"stage\s+(\d(?:\.\d)?)", re.IGNORECASE)
 ADVANCE_RE = re.compile(
     r"(advance[sd]?|advancing|promote[sd]?|move[sd]?\s+to|reach(?:e[sd])?|"
     r"approv(?:e[sd]?|al)|recommend|withdraw|reject|decline|block|demote[sd]?|"
-    r"stays?\s+at|remain[s]?\s+at|did\s+not|no\s+consensus|conditional|support)",
+    r"stays?\s+at|remain[s]?\s+at|did\s+not|consensus|accepted|agreed|conditional|support)",
     re.IGNORECASE,
 )
 CONCLUSION_HEAD = re.compile(r"^#{3,6}\s*\**\s*conclusions?\b", re.IGNORECASE)

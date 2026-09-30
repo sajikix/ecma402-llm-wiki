@@ -45,3 +45,8 @@ Append-only record of operations on this wiki. Each entry starts with `## [YYYY-
 
 - AGENTS.md: ingest reads raw notes regardless of summaries and records cited-but-unsummarised TG2 meetings in the `## Summary backlog` of `wiki/meetings/README.md`; `/summarise` removes entries. Seeded the backlog with the 23 unsummarised TG2 meetings cited by Intl.DurationFormat.
 - `link_proposals.py`: also adds the `- wiki:` bullet when a topic's `- proposal:` URL points into a page's frontmatter `repo` (issue-titled topics never name their proposal).
+
+## [2026-09-30] wiki | canonical-lag, ECMA-262 and champion rules; index fixes
+
+- AGENTS.md: canonical-lag rule (`canonical_stage` frontmatter when a plenary transition isn't in `raw/proposals` yet; Stable Formatting and Intl Sequence Units), ECMA-262 proposals with a large Intl surface may get pages (Amount), champions include people the notes explicitly show as champions; new typo mappings `EAIO` → EAO, `SFO` → SFC.
+- `extract_proposals.py`: trailing "Related ECMA-262 proposals (ingested)" section. `extract_plenary_agenda.py`: `amount` / `measure` keywords; conclusion lines with "consensus"/"accepted"/"agreed" now count as stage signals (the 2026-05 Sequence Units Stage 2 bullet was hidden). Same signal fix in `extract_tg2_agenda.py`.

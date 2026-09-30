@@ -36,6 +36,7 @@ STATIC_KEYWORDS = [
     r"\btg ?2\b", r"locale", r"tolocale\w*", r"collat", r"plural",
     r"messageformat", r"cldr", r"\bicu\b", r"time ?zone",
     r"calendar", r"stable formatting", r"\bera\b", r"month ?code",
+    r"\bamount\b", r"\bmeasure\b",  # Amount (formerly Measure), ECMA-262 with Intl surface
 ]
 
 # Identifiers from proposal titles that are too generic to match on their own.
@@ -50,7 +51,7 @@ STAGE_RE = re.compile(r"stage\s+(\d(?:\.\d)?)", re.IGNORECASE)
 ADVANCE_RE = re.compile(
     r"(advance[sd]?|advancing|promote[sd]?|move[sd]?\s+to|reach(?:e[sd])?|"
     r"approv(?:e[sd]?|al)|withdraw|reject|decline|block|demote[sd]?|stays?\s+at|"
-    r"remain[s]?\s+at|did\s+not|no\s+consensus|conditional)",
+    r"remain[s]?\s+at|did\s+not|consensus|accepted|agreed|conditional)",
     re.IGNORECASE,
 )
 

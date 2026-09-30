@@ -9,7 +9,8 @@ This file is the wiki's operating schema. A new session should read this first a
 - **Raw sources** — `raw/` (a set of submodules). **Read-only, immutable**. Never edit. This is the ground-truth material.
   - `raw/ecma402/` (tc39/ecma402) — the ECMA-402 spec source (`spec/*.html`) and **TG2 monthly meeting notes** (`meetings/notes-<YYYY-MM-DD>.md`, 2017-12 onward). **The primary source for design discussion, issues, TG2 approvals of normative PRs, and TG2's recommendations to plenary**.
   - `raw/notes/` (tc39/notes) — verbatim TC39 plenary transcripts. **The primary source for stage transitions** (stage advancement is decided at plenary, not in TG2) and for plenary-level concerns raised by delegates outside TG2. Also the source of `delegates.txt` (abbreviation → full name).
-  - `raw/proposals/` (tc39/proposals) — the canonical proposal list. Only **`raw/proposals/ecma402/`** is in scope. **The primary source for a proposal's confirmed current stage / status / champion**.
+  - `raw/proposals/` (tc39/proposals) — the canonical proposal list. **`raw/proposals/ecma402/`** is the main scope. **The primary source for a proposal's confirmed current stage / status / champion**.
+  - **ECMA-262 proposals with a large ECMA-402 surface** (e.g. Amount, Decimal, Temporal) may also get a page when TG2 discusses them substantially. Their canonical entry is in the ECMA-262 tables (`raw/proposals/README.md`, `stage-1-proposals.md`, `finished-proposals.md`, `inactive-proposals.md`); set `ecma: [262]` (or `[262, 402]` if they change ECMA-402 text) and focus the page on the TG2/Intl side while still recording all plenary transitions.
 - **The wiki** — `wiki/`. Fully owned by the LLM. It generates/updates proposal pages, family pages, meeting summaries, indexes, and the log.
 - **Generated** — `wiki/_generated/`, `wiki/people/`, `wiki/proposals/index.md`. Machine-extracted output from `tools/` scripts. **Do not hand-edit** (regeneration overwrites it).
 
@@ -19,6 +20,7 @@ This file is the wiki's operating schema. A new session should read this first a
 - **Design issues, alternatives considered, and who argued what** → **`raw/ecma402/meetings`** (TG2) is primary; plenary is primary for concerns raised there.
 - A proposal's confirmed **current stage (`current_stage` / `status`) and champion** → **`raw/proposals/ecma402`** is primary. If a current stage inferred from notes disagrees, first suspect the notes-side reading and re-trace both.
 - `raw/proposals` is a **current snapshot** with no history; the notes tell the history but are weak for confirming the current stage. Cross-check both rather than filling in from just one.
+- **Canonical lag**: `raw/proposals` is edited by hand after each plenary and can lag. If a plenary `Conclusion` clearly records a transition that the canonical table doesn't reflect yet (e.g. Stable Formatting and Intl Sequence Units reached Stage 2 at the 2026-05 plenary while `raw/proposals/ecma402` still lists them under Stage 1), use the plenary result for `current_stage` / `status`, add `canonical_stage: <stage in raw/proposals>` to the frontmatter, and say so in the chart note. Remove `canonical_stage` once the canonical table catches up (Lint checks this).
 - When TG2 and plenary notes disagree on a fact (e.g. a date or what was agreed), the plenary conclusion wins for stage/consensus; otherwise note the discrepancy on the page rather than silently picking one.
 
 ## Directory layout
@@ -112,7 +114,7 @@ No `# H1` after the frontmatter (the `title` is the page title). Body sections (
    Note: `xychart-beta` requires mermaid 10.3+ and rendering is renderer-dependent. Use ASCII for the title.
 
 4. `## Main issues` — points that became contentious during development. One subheading `### <issue name (English)>` per issue. For each: what was at stake / who raised concerns (abbreviation) / at which meeting (TG2 or plenary) / how it was resolved (or that it's unresolved). Link the GitHub issue/PR number when the notes cite one (e.g. `proposal-intl-duration-format#55`). Quote with `>` (kept in the original English).
-   **Champions**: frontmatter `champions` = the canonical champions from `raw/proposals/ecma402/` plus historical champions who have since left (keep them). A de facto presenter who is not a champion (e.g. BAN presenting DurationFormat PRs on USA's behalf) is mentioned in the text only.
+   **Champions**: frontmatter `champions` = the canonical champions from `raw/proposals` plus historical champions who have since left (keep them) plus people the notes explicitly show as champions (a self-declaration such as SFC's "I'm champion of the amount proposal", or a recognised request to join the champion group) even if the canonical table doesn't list them yet — say so in the Overview. Presenters, co-authors and spec contributors who are never called champions (e.g. BAN presenting DurationFormat PRs on USA's behalf, JMN on Amount) are mentioned in the text only.
 
 5. `## Related proposals` — cross-links in the form `[Title](other-slug.md)` (a proposal not yet created is written as plain code-formatted text).
 6. `## Sources` — a bulleted list of the meeting files referenced, split into `TG2:` and `Plenary:` groups, each as GitHub URLs.
@@ -201,7 +203,7 @@ Skip committing when there's nothing to commit.
 2. Read the matching sections. For plenary, `### Conclusion` / `### Speaker's Summary of Key Points` are key for judging the stage. For TG2, `#### Conclusion`.
 3. Create or update the proposal page (format above). Keep quotes in the original English.
    - **Don't settle a champion from delegates.txt alone**. Corroborate with the meeting's presenter and body text.
-   - Early TG2 notes (2017-2020) use ad-hoc abbreviations; normalise to the delegates.txt abbreviation in the wiki. Known mappings: `SC` → SFC (Shane Carr; also in plenary 2021-04), `FT` / `YFT` / `FTY` → FYT (Frank Yung-Fong Tang), `USH` → USA (Ujjwal Sharma), `ZBI` → ZB (Zibi Braniecki), `LB` (2020-01-09) → LEO (Leo Balter; delegates.txt's LB is Lee Byron). Recent TG2 typos: `PCO`/`PRC` → PFC, `HSI`/`HSJ`/`HYS` → HJS, `DMN` → DLM, `YSK` → YSZ, `JNM` → JMN. Collision: `MGR` in 2025 TG2 notes is Manish Goregaokar, but delegates.txt's MGR is Mira Gross (in `AMBIGUOUS`). Other abbreviations not in delegates.txt (e.g. `MGM`, `KAP`, `ECH`) are kept as written in the notes. Add new mappings here when found.
+   - Early TG2 notes (2017-2020) use ad-hoc abbreviations; normalise to the delegates.txt abbreviation in the wiki. Known mappings: `SC` → SFC (Shane Carr; also in plenary 2021-04), `FT` / `YFT` / `FTY` → FYT (Frank Yung-Fong Tang), `USH` → USA (Ujjwal Sharma), `ZBI` → ZB (Zibi Braniecki), `LB` (2020-01-09) → LEO (Leo Balter; delegates.txt's LB is Lee Byron). Recent TG2 typos: `PCO`/`PRC` → PFC, `HSI`/`HSJ`/`HYS` → HJS, `DMN` → DLM, `YSK` → YSZ, `JNM` → JMN, `EAIO` → EAO, `SFO` → SFC. Collision: `MGR` in 2025 TG2 notes is Manish Goregaokar, but delegates.txt's MGR is Mira Gross (in `AMBIGUOUS`). Other abbreviations not in delegates.txt (e.g. `MGM`, `KAP`, `ECH`) are kept as written in the notes. Add new mappings here when found.
    - Verify speaker attribution and dates against the original text.
 4. **Generate and link people** (always run once the page is written):
    - `python3 tools/extract_people.py` then `python3 tools/link_people.py` then `python3 tools/link_proposals.py`.
@@ -266,6 +268,7 @@ Plenary meetings are not summarised as a whole here (that's tc39-llm-wiki's job)
 
 `wiki/proposals/index.md` is **generated by `extract_proposals.py` from `raw/proposals/ecma402/`**. ECMA-402 has only a few dozen proposals, so every stage is listed in full, including all Stage 4 proposals with their Expected Publication Year; rows with a publication year of the current year or later are marked ⏳ (not yet in a ratified edition).
 
+- Ingested ECMA-262 proposals are listed in a trailing "Related ECMA-262 proposals (ingested)" section, taken from the page frontmatter (not from the ECMA-262 tables).
 - ES-edition rule: a proposal at Stage 4 and merged by the end-of-March freeze goes into that year's edition, approved at the end-of-June Ecma GA (e.g. ES2026 = ECMA-402 13th edition). The **Expected Publication Year** is the definitive signal of which edition a proposal ships in.
 
 ## Using the backbones (important)

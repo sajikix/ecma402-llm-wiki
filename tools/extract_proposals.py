@@ -125,6 +125,24 @@ def parse_flat(fname, stage):
     return out
 
 
+def page_meta():
+    """filename -> (title, frontmatter text) for deep-read pages."""
+    out = {}
+    for pf in sorted(WIKI_PROP.glob("*.md")):
+        if pf.name == "index.md":
+            continue
+        fm = re.search(r"^---\n(.*?)\n---", read(pf), re.DOTALL)
+        t = re.search(r"^title:\s*(.+)$", fm.group(1), re.MULTILINE) if fm else None
+        if t:
+            out[pf.name] = (t.group(1).strip(), fm.group(1))
+    return out
+
+
+def fm_field(fm, key):
+    m = re.search(rf"^{key}:\s*(.+)$", fm, re.MULTILINE)
+    return m.group(1).strip().strip('"') if m else ""
+
+
 def wiki_page_map():
     m = {}
     for pf in WIKI_PROP.glob("*.md"):
@@ -193,6 +211,22 @@ def main():
             elif stage == "inactive":
                 cells.append(esc(r["note"]))
             out.append("| " + " | ".join(cells) + " |")
+        out.append("")
+
+    # Deep-read pages of ECMA-262 proposals (not in the ECMA-402 tables).
+    linked = {pages.get(norm(r["title"])) for r in rows}
+    extra = [(f, t, fm) for f, (t, fm) in page_meta().items() if f not in linked]
+    if extra:
+        out.append(f"## Related ECMA-262 proposals (ingested) ({len(extra)})")
+        out.append("")
+        out.append("> Not in `raw/proposals/ecma402/`; stage and champions come from the page frontmatter "
+                   "(canonical: the ECMA-262 tables in `raw/proposals/`).")
+        out.append("")
+        out.append("| Proposal | Champion | Stage |")
+        out.append("| --- | --- | --- |")
+        for f, t, fm in sorted(extra, key=lambda x: x[1].lower()):
+            champs = fm_field(fm, "champions").strip("[]")
+            out.append(f"| **[{esc(t)}]({f})** | {esc(champs)} | {fm_field(fm, 'current_stage')} |")
         out.append("")
 
     OUT.parent.mkdir(parents=True, exist_ok=True)

@@ -54,6 +54,10 @@ NON_PERSON = {
     "UTS", "UTR", "BCP", "BCP47", "IANA", "TZ", "TZDB", "W3C", "MDN", "NFC",
     "NFD", "WG", "WHATWG", "CSP", "PR", "PRS", "TC", "TC39", "CLI", "AO",
     "JIT", "TS", "VM", "BTW", "LDML", "UCD", "CJK", "RTL", "LTR",
+    # Ad-hoc / mistyped TG2 abbreviations that pages normalise (AGENTS.md
+    # "Known mappings") and may cite in parentheses; never person pages.
+    "SC", "FT", "YFT", "FTY", "USH", "ZBI", "PCO", "PRC", "HSI", "HSJ",
+    "HYS", "DMN", "YSK", "JNM", "EAIO", "SFO",
 }
 
 # Real delegate abbreviations that usually mean something else in prose. They

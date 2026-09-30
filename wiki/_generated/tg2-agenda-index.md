@@ -756,9 +756,9 @@
 - 2020-08-13 · Discussion Topics › **Intl.DateTimeFormat.prototype.formatRange toward Stage 4** — stage: 4  [proposal-intl-DateTimeFormat-formatRange]
 - 2020-08-13 · Discussion Topics › **Intl Enumeration API**  [proposal-intl-enumeration, proposal-intl-enumeration#3]
 - 2020-08-13 · Discussion Topics › **Intl Locale Info API** — stage: 1  [proposal-intl-locale-info]
-  - Consensus for Stage 1.
+  - → Consensus for Stage 1.
 - 2020-08-13 · Discussion Topics › **Intl.DisplayNames V2** — stage: 1  [proposal-temporal]
-  - Consensus for Stage 1
+  - → Consensus for Stage 1
 - 2020-08-13 · Discussion Topics › **Update "Conformance" section for new options/constructors**  [ecma402#467]
 - 2020-08-13 · Discussion Topics › **Require options to be an object #480**  [ecma402#480]
 
@@ -770,7 +770,7 @@
 - 2020-09-10 · Discussion Topics › **Unicode Conference**
 - 2020-09-10 · Discussion Topics › **DateTimeFormat formatRange toward Stage 4** — stage: 4  [proposal-intl-DateTimeFormat-formatRange#25, proposal-intl-DateTimeFormat-formatRange#13, proposal-intl-DateTimeFormat-formatRange#27]
 - 2020-09-10 · Discussion Topics › **Intl.DisplayNames toward Stage 4** — stage: 4  [proposal-intl-displaynames#82, proposal-intl-displaynames#81]
-  - Stage 4 consensus.  FYT will add it to the TC39 agenda.
+  - → Stage 4 consensus.  FYT will add it to the TC39 agenda.
 - 2020-09-10 · Discussion Topics › **Test262 error in DateTime Style**  [proposal-intl-datetime-style#40]
 - 2020-09-10 · Discussion Topics › **Negative durations in Intl.DurationFormat #29**  [proposal-intl-duration-format#29, proposal-temporal#558]
 - 2020-09-10 · Discussion Topics › **Handling wrong arguments for dotted format #33**  [proposal-intl-duration-format#33]
@@ -1101,7 +1101,7 @@
 - 2022-02-10 · Temporal Presentation › **Editorial: refactor intl spec #1928**  [proposal-temporal#1928]
   - Continue to address comments and questions on the issue
 - 2022-02-10 · Proposals and Discussion Topics › **Intl.MessageFormat for Stage 1** — stage: 1
-  - We have consensus for Stage 1 and add this for upcoming TC39 meetings
+  - → We have consensus for Stage 1 and add this for upcoming TC39 meetings
 - 2022-02-10 · Proposals and Discussion Topics › **Should we consider hiding lower-power fields in scope? #7**  [proposal-intl-eradisplay#7]
   - Focus in solving the eras issue and look into it in further detail in future
 
