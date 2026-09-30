@@ -39,7 +39,9 @@ WIKI_MEETINGS = ROOT / "wiki" / "meetings"
 OUT_DIR = ROOT / "wiki" / "people"
 
 ABBR_TOKEN = re.compile(r"[A-Z][A-Z0-9]{1,4}")
-REF_TOKEN = re.compile(r"(?<![A-Za-z0-9_#@.\[\]])([A-Z][A-Z0-9]{1,4})(?![A-Za-z0-9_])")
+REF_TOKEN = re.compile(r"(?<![A-Za-z0-9_#@.\[\]-])([A-Z][A-Z0-9]{1,4})(?![A-Za-z0-9_-])")
+# Code is never a person reference ("ja-JP", `CE`/`BCE`).
+CODE = re.compile(r"```.*?```|`[^`\n]*`", re.DOTALL)
 WIKILINK = re.compile(r"\[\[([A-Z][A-Z0-9]{1,4})(?:\|[^\]]*)?\]\]")
 PEOPLE_LINK = re.compile(r"/people/([A-Z][A-Z0-9]{1,4})\.md")
 TG2_FILE = re.compile(r"^notes-(\d{4}-\d{2}-\d{2})\.md$")
@@ -57,7 +59,7 @@ NON_PERSON = {
     # Ad-hoc / mistyped TG2 abbreviations that pages normalise (AGENTS.md
     # "Known mappings") and may cite in parentheses; never person pages.
     "SC", "FT", "YFT", "FTY", "USH", "ZBI", "PCO", "PRC", "HSI", "HSJ",
-    "HYS", "DMN", "YSK", "JNM", "EAIO", "SFO", "LFS",
+    "HYS", "DMN", "YSK", "JNM", "EAIO", "SFO", "LFS", "FYC", "FYI",
 }
 
 # Real delegate abbreviations that usually mean something else in prose. They
@@ -68,6 +70,7 @@ AMBIGUOUS = {
     "JSC",  # JavaScriptCore, rarely J. S. Choi
     "MF",   # MessageFormat, or Michael Ficarra
     "MGR",  # TG2 2025 notes: Manish Goregaokar; delegates.txt: Mira Gross
+    "BCE",  # the era code, or Ben Coe
 }
 
 
@@ -181,7 +184,7 @@ def parse_frontmatter(text):
 
 
 def refs_in(text, roster, champions=()):
-    tokens = set(REF_TOKEN.findall(text)) - AMBIGUOUS
+    tokens = set(REF_TOKEN.findall(CODE.sub(" ", text))) - AMBIGUOUS
     tokens |= set(WIKILINK.findall(text)) | set(PEOPLE_LINK.findall(text)) | set(champions)
     return (tokens & roster) - NON_PERSON
 

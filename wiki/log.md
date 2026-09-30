@@ -87,3 +87,8 @@ Append-only record of operations on this wiki. Each entry starts with `## [YYYY-
 - Summarised 2020-09-10 (cited by intl-durationformat, intl-sequence-units) and 2021-04-08 (cited by intl-durationformat, intl-keep-trailing-zeros); moved them from the backlog to the meetings list (20 backlog entries left).
 - TG2 events: Intl.DisplayNames Stage 4 consensus (2020-09-10); Intl Locale Info and DisplayNames v2 Stage 3 support, Extend TimeZoneName Stage 2 support with `shortOffset`/`longOffset`, NumberFormat V3 rounding options settled (2021-04-08).
 - Cross-check: the citing pages match the notes; clarified on intl-keep-trailing-zeros that the 2021-04-08 notes spell the option value "stringIfInteger". SFC speaks but is unlisted in 2021-04-08 (added to attendees).
+
+## [2026-09-30] wiki | champion rule wording; new typo mappings
+
+- AGENTS.md: a plenary Conclusion / Speaker's Summary that calls the presenters "the champions" counts as explicitly showing them as champions; `FYC` / `FYI` → FYT added to the typo mappings (and to `extract_people.py` exclusions); ES-edition note that Intl Era/Month Code reached Stage 4 in 2026-03 but missed the ES2026 cut like Temporal.
+- `extract_people.py`: person detection now skips code spans and hyphenated tokens (`"ja-JP"` had produced a page for JP = John Pampuch) and treats `BCE` (era code vs. Ben Coe) as `AMBIGUOUS`; removed the three auto-links to BCE.
