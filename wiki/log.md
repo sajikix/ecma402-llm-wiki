@@ -46,6 +46,30 @@ Append-only record of operations on this wiki. Each entry starts with `## [YYYY-
 - AGENTS.md: ingest reads raw notes regardless of summaries and records cited-but-unsummarised TG2 meetings in the `## Summary backlog` of `wiki/meetings/README.md`; `/summarise` removes entries. Seeded the backlog with the 23 unsummarised TG2 meetings cited by Intl.DurationFormat.
 - `link_proposals.py`: also adds the `- wiki:` bullet when a topic's `- proposal:` URL points into a page's frontmatter `repo` (issue-titled topics never name their proposal).
 
+## [2026-09-30] ingest | Stable Formatting
+
+- New page `wiki/proposals/stable-formatting.md` (champion EAO, sole; families: stable-formatting, family page not created).
+- Key transitions (plenary): Stage 1 2023-09 (`2023-09/september-27.md`), Stage 2 2026-05 (`2026-05/may-20.md`; Stage 2.7 reviewers RGN, DLM). The 2025-02 update (`2025-02/february-19.md`) settled the `zxx` direction and let PR #18 be merged; no stage change. Canonical lag: `raw/proposals/ecma402` still lists Stage 1, so the page records `canonical_stage: 1`.
+- Origin: TG2 2023-06-01 (misuse of localized strings after the NNBSP breakage); presented at TG2 2023-09-07 as "Define the behavior and properties of the “und” root locale" (`eemeli/proposal-intl-root-locale`) and renamed Stable Formatting there. The spin-off Default Behaviours for some Intl APIs (`und` root locale for Collator/Segmenter/case mapping) reached Stage 1 at the same 2026-05 session.
+- Main issues: general locale vs. purpose-built APIs (#17); trigger `null`/`und`/`zxx`/`Intl.STABLE` (PR #21); `und` as root vs. host default (ecma402#885, PR #956); stable vs. locale-independent for Collator/Segmenter/case mapping (PR #24); ECMA-402 vs. CLDR ownership of the data; per-API output (SI prefixes, short unit identifiers, DisplayNames holes, DurationFormat "P" strings vs. composed output PR #23, RelativeTimeFormat, `Intl.Locale` iso8601 PR #22); shifting motivation (misuse → testing → determinism).
+- Summary backlog: 5 meetings added (2023-06-01, 2023-09-07, 2023-12-14, 2024-02-22, 2024-08-22), 1 existing row updated (2023-11-16).
+
+## [2026-09-30] ingest | Intl Sequence Units
+
+- Key transitions (plenary): Stage 1 and Stage 2 in the same 2026-05 slot (`2026-05/may-20.md`, "Intl Sequence Units for Stage 1 or 2"; conclusion "Consensus for Stage 1." + "Consensus for Stage 2 with the object-based design"; EAO and DLM Stage 2.7 reviewers). `raw/proposals/ecma402` still lists it under Stage 1 → `canonical_stage: 1`. 2026-07 (`2026-07/july-22.md`, "Duration units in Amount and Intl Sequence Units") was discussion only.
+- Prehistory: ecma402#398 "Sequence unit formatting" (TG2 2020-07-09); part of Smart Unit Preferences and Measure (Stage 1 2024-10) until Amount dropped compound units (2025-07); WH's person-height "feet-and-inches" objection to Amount (2026-03) led SFC to split it out (TG2 2026-03-19, 2026-04-16).
+- Main issues: in scope for Intl / NumberFormat vs Amount.toLocaleString; scalar vs structured input (#1) → array (#16, TG2 2026-09-17); missing/extra/out-of-range/negative values (#2 #4 #5 #6); sanctioned unit groups and order (#7 #9); integer larger units (#3) and throwing on significant digits (#14); zero-valued components (#11); time units (#8, unresolved after 2026-07 plenary) and arcminute/arcsecond (#13).
+- Champion: SFC.
+- Summary backlog: 6 TG2 meetings added (2018-03-16, 2020-07-09, 2020-09-10, 2024-05-23, 2024-08-22, 2024-09-26).
+
+## [2026-09-30] ingest | Amount
+
+- Created `wiki/proposals/amount.md`: an ECMA-262 proposal with a large ECMA-402 surface (`ecma: [262]`, `families: [number-format]`), repo tc39/proposal-amount (formerly proposal-measure).
+- Stage transitions from plenary conclusions: Stage 1 2024-10 (`october-10.md`, item titled "Measure object stage 0"); renamed Measure → Amount at 2025-07 without advancing (`july-29.md`); Stage 2 2026-05 (`may-20.md`, reviewers WH and JHD). Stage 2 slots in 2025-07, 2025-09 and 2026-03 did not advance.
+- Champions: BAN (canonical) plus EAO (asked to be recognised, 2025-02) and SFC ("I'm champion of the amount proposal", 2025-09) per the notes; JMN is a contributor, mentioned in text (new champions rule in AGENTS.md).
+- Main issues: scope (conversion removed, then restored), type vs. protocol (Intl Unit Protocol split out), Decimal split and precision (Intl Keep Trailing Zeros), rounding and representation, non-finite values and ToIntlMathematicalValue limits, conversion math (double rounding; led to Math.fma), Intl integration (public fields, currency as unit, null no-unit), mixed units and array-valued `.value`, time units (unresolved), naming and V8 concerns, rationals.
+- Summary backlog: 2024-08-22 added; `amount` appended to 2024-07-18 and 2024-09-26.
+
 ## [2026-09-30] wiki | canonical-lag, ECMA-262 and champion rules; index fixes
 
 - AGENTS.md: canonical-lag rule (`canonical_stage` frontmatter when a plenary transition isn't in `raw/proposals` yet; Stable Formatting and Intl Sequence Units), ECMA-262 proposals with a large Intl surface may get pages (Amount), champions include people the notes explicitly show as champions; new typo mappings `EAIO` → EAO, `SFO` → SFC.

@@ -12,7 +12,7 @@ tags: [person]
 - **Full name**: Frank Yung-Fong Tang
 - **Affiliation**: Google / Google i18n, V8
 - **Champion drafts**: (none among curated pages)
-- **Mentioned on proposal pages**: [Intl.DurationFormat](../proposals/intl-durationformat.md)
+- **Mentioned on proposal pages**: [Amount](../proposals/amount.md), [Intl.DurationFormat](../proposals/intl-durationformat.md), [Stable Formatting](../proposals/stable-formatting.md)
 - **TG2 meetings attended**: 62
 - **Plenary meetings attended**: 21
 

@@ -12,7 +12,7 @@ tags: [person]
 - **Full name**: Caio Lima
 - **Affiliation**: Igalia
 - **Champion drafts**: (none among curated pages)
-- **Mentioned on proposal pages**: [Intl Keep Trailing Zeros](../proposals/intl-keep-trailing-zeros.md)
+- **Mentioned on proposal pages**: [Amount](../proposals/amount.md), [Intl Keep Trailing Zeros](../proposals/intl-keep-trailing-zeros.md)
 - **TG2 meetings attended**: 7
 - **Plenary meetings attended**: 12
 

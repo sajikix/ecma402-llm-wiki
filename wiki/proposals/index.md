@@ -49,14 +49,14 @@
 | [explore associating a unit with a number](https://github.com/sffc/proposal-intl-unit-protocol) | Shane Carr |
 | [Intl Energy Units](https://github.com/johanrd/proposal-intl-energy-units) | Nicolò Ribaudo, Shane Carr |
 | [Intl LocaleMatcher](https://github.com/tc39/proposal-intl-localematcher) | Shane Carr, Long Ho |
-| [Intl Sequence Units](https://github.com/tc39/proposal-intl-sequence-units) | Shane Carr |
+| **[Intl Sequence Units](intl-sequence-units.md)** | Shane Carr |
 | [Intl.DateTimeFormat Alignment With Other Standards](https://github.com/tc39/proposal-intl-datetime-alignment) | Eemeli Aro |
 | [Intl.MessageFormat](https://github.com/tc39/proposal-intl-messageformat) | Eemeli Aro |
 | [Intl.MessageResource](https://github.com/tc39/proposal-intl-message-resource) | Eemeli Aro |
 | [Intl.Segmenter v2](https://github.com/tc39/proposal-intl-segmenter-v2) | Frank Yung-Fong Tang |
 | [Intl.ZonedDateTimeFormat](https://github.com/FrankYFTang/intl-zoneddatetimeformat) | Frank Yung-Fong Tang |
 | [Smart Unit Preferences in Intl.NumberFormat](https://github.com/tc39/proposal-smart-unit-preferences) | Younies Mahmoud |
-| [Stable Formatting](https://github.com/tc39/proposal-stable-formatting) | Eemeli Aro |
+| **[Stable Formatting](stable-formatting.md)** | Eemeli Aro |
 
 ## Stage 0 (2)
 
@@ -70,3 +70,11 @@
 | Proposal | Champion | Rationale |
 | --- | --- | --- |
 | [Intl.UnitFormat](https://github.com/tc39/proposal-intl-unit-format) | Zibi Braniecki | Withdrawn: deprecated in favor of Unified Intl.NumberFormat |
+
+## Related ECMA-262 proposals (ingested) (1)
+
+> Not in `raw/proposals/ecma402/`; stage and champions come from the page frontmatter (canonical: the ECMA-262 tables in `raw/proposals/`).
+
+| Proposal | Champion | Stage |
+| --- | --- | --- |
+| **[Amount](amount.md)** | [BAN](../people/BAN.md), [EAO](../people/EAO.md), [SFC](../people/SFC.md) | 2 |

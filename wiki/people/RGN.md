@@ -12,7 +12,7 @@ tags: [person]
 - **Full name**: Richard Gibson
 - **Affiliation**: Agoric / Agoric / OpenJS Foundation / Open JS Foundation / OpenJS Foundation / OpenJS foundation, Oracle / OpenJSF and Oracle
 - **Champion drafts**: (none among curated pages)
-- **Mentioned on proposal pages**: [Intl.DurationFormat](../proposals/intl-durationformat.md), [Intl Keep Trailing Zeros](../proposals/intl-keep-trailing-zeros.md)
+- **Mentioned on proposal pages**: [Amount](../proposals/amount.md), [Intl.DurationFormat](../proposals/intl-durationformat.md), [Intl Keep Trailing Zeros](../proposals/intl-keep-trailing-zeros.md), [Intl Sequence Units](../proposals/intl-sequence-units.md), [Stable Formatting](../proposals/stable-formatting.md)
 - **TG2 meetings attended**: 67
 - **Plenary meetings attended**: 30
 

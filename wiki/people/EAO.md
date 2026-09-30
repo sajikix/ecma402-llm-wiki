@@ -11,8 +11,8 @@ tags: [person]
 
 - **Full name**: Eemeli Aro
 - **Affiliation**: Mozilla / OpenJSF
-- **Champion drafts**: [Intl Keep Trailing Zeros](../proposals/intl-keep-trailing-zeros.md)
-- **Mentioned on proposal pages**: [Intl.DurationFormat](../proposals/intl-durationformat.md), [Intl Keep Trailing Zeros](../proposals/intl-keep-trailing-zeros.md)
+- **Champion drafts**: [Amount](../proposals/amount.md), [Intl Keep Trailing Zeros](../proposals/intl-keep-trailing-zeros.md), [Stable Formatting](../proposals/stable-formatting.md)
+- **Mentioned on proposal pages**: [Amount](../proposals/amount.md), [Intl.DurationFormat](../proposals/intl-durationformat.md), [Intl Keep Trailing Zeros](../proposals/intl-keep-trailing-zeros.md), [Intl Sequence Units](../proposals/intl-sequence-units.md), [Stable Formatting](../proposals/stable-formatting.md)
 - **TG2 meetings attended**: 60
 - **Plenary meetings attended**: 21
 

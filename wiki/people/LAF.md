@@ -12,7 +12,7 @@ tags: [person]
 - **Full name**: Louis-Aimé de Fouquières
 - **Affiliation**: Invited Expert
 - **Champion drafts**: (none among curated pages)
-- **Mentioned on proposal pages**: [Intl.DurationFormat](../proposals/intl-durationformat.md)
+- **Mentioned on proposal pages**: [Amount](../proposals/amount.md), [Intl.DurationFormat](../proposals/intl-durationformat.md)
 - **TG2 meetings attended**: 35
 - **Plenary meetings attended**: 0
 

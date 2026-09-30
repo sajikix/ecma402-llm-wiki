@@ -12,7 +12,7 @@ tags: [person]
 - **Full name**: Justin Grant
 - **Affiliation**: Invited Expert / Invited Expert for Temporal / Temporal (Invited)
 - **Champion drafts**: (none among curated pages)
-- **Mentioned on proposal pages**: [Intl.DurationFormat](../proposals/intl-durationformat.md)
+- **Mentioned on proposal pages**: [Intl.DurationFormat](../proposals/intl-durationformat.md), [Stable Formatting](../proposals/stable-formatting.md)
 - **TG2 meetings attended**: 13
 - **Plenary meetings attended**: 9
 
