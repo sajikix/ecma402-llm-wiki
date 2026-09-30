@@ -14,9 +14,10 @@ A wiki for tracing **how each ECMA-402 (Intl) proposal changed stage, what was d
 
 ## Ingested proposals
 
-| Proposal                                                | Current stage     | Status  | Summary                                                                                                                                                                                                                           |
-| ------------------------------------------------------- | ----------------- | ------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [Intl.DurationFormat](proposals/intl-durationformat.md) | Stage 4 (2024-12) | shipped | Locale-aware formatting of compound durations (long/short/narrow/digital, per-unit styles); Stage 3 for three years of implementer-driven fixes (fractionalDigits, negative sign, digital style), decoupled from Temporal; ES2025 |
+| Proposal                                                          | Current stage     | Status  | Summary                                                                                                                                                                                                                                                                 |
+| ----------------------------------------------------------------- | ----------------- | ------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Intl.DurationFormat](proposals/intl-durationformat.md)           | Stage 4 (2024-12) | shipped | Locale-aware formatting of compound durations (long/short/narrow/digital, per-unit styles); Stage 3 for three years of implementer-driven fixes (fractionalDigits, negative sign, digital style), decoupled from Temporal; ES2025                                       |
+| [Intl Keep Trailing Zeros](proposals/intl-keep-trailing-zeros.md) | Stage 3 (2026-05) | stage3  | `Intl.NumberFormat` / `Intl.PluralRules` keep the trailing zeros of numeric string input ("1.0" → "1.0", plural "other"); spun out of the Decimal debate; `trailingZeroDisplay: "stripToMinimum"` opt-out; Stage 3 delayed by the round-to-zero precision dispute (#15) |
 
 ## Families
 

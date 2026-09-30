@@ -33,28 +33,29 @@ Topic-by-topic digests of ECMA-402 task group (TG2) monthly calls, produced by `
 
 TG2 meetings already cited by proposal pages but not yet summarised (oldest first). `/summarise <date>` removes an entry; `/ingest` adds them (AGENTS.md "Workflow > Ingest" step 7).
 
-| Date                                                                                 | Referenced by       |
-| ------------------------------------------------------------------------------------ | ------------------- |
-| [2017-12-15](https://github.com/tc39/ecma402/blob/main/meetings/notes-2017-12-15.md) | intl-durationformat |
-| [2019-11-14](https://github.com/tc39/ecma402/blob/main/meetings/notes-2019-11-14.md) | intl-durationformat |
-| [2020-01-09](https://github.com/tc39/ecma402/blob/main/meetings/notes-2020-01-09.md) | intl-durationformat |
-| [2020-01-30](https://github.com/tc39/ecma402/blob/main/meetings/notes-2020-01-30.md) | intl-durationformat |
-| [2020-09-10](https://github.com/tc39/ecma402/blob/main/meetings/notes-2020-09-10.md) | intl-durationformat |
-| [2021-01-14](https://github.com/tc39/ecma402/blob/main/meetings/notes-2021-01-14.md) | intl-durationformat |
-| [2021-02-11](https://github.com/tc39/ecma402/blob/main/meetings/notes-2021-02-11.md) | intl-durationformat |
-| [2021-04-08](https://github.com/tc39/ecma402/blob/main/meetings/notes-2021-04-08.md) | intl-durationformat |
-| [2021-06-03](https://github.com/tc39/ecma402/blob/main/meetings/notes-2021-06-03.md) | intl-durationformat |
-| [2021-10-07](https://github.com/tc39/ecma402/blob/main/meetings/notes-2021-10-07.md) | intl-durationformat |
-| [2022-01-13](https://github.com/tc39/ecma402/blob/main/meetings/notes-2022-01-13.md) | intl-durationformat |
-| [2022-05-19](https://github.com/tc39/ecma402/blob/main/meetings/notes-2022-05-19.md) | intl-durationformat |
-| [2022-08-04](https://github.com/tc39/ecma402/blob/main/meetings/notes-2022-08-04.md) | intl-durationformat |
-| [2022-09-01](https://github.com/tc39/ecma402/blob/main/meetings/notes-2022-09-01.md) | intl-durationformat |
-| [2022-11-03](https://github.com/tc39/ecma402/blob/main/meetings/notes-2022-11-03.md) | intl-durationformat |
-| [2022-12-08](https://github.com/tc39/ecma402/blob/main/meetings/notes-2022-12-08.md) | intl-durationformat |
-| [2023-01-12](https://github.com/tc39/ecma402/blob/main/meetings/notes-2023-01-12.md) | intl-durationformat |
-| [2023-04-06](https://github.com/tc39/ecma402/blob/main/meetings/notes-2023-04-06.md) | intl-durationformat |
-| [2023-06-29](https://github.com/tc39/ecma402/blob/main/meetings/notes-2023-06-29.md) | intl-durationformat |
-| [2023-10-12](https://github.com/tc39/ecma402/blob/main/meetings/notes-2023-10-12.md) | intl-durationformat |
-| [2023-11-16](https://github.com/tc39/ecma402/blob/main/meetings/notes-2023-11-16.md) | intl-durationformat |
-| [2024-04-25](https://github.com/tc39/ecma402/blob/main/meetings/notes-2024-04-25.md) | intl-durationformat |
-| [2024-09-26](https://github.com/tc39/ecma402/blob/main/meetings/notes-2024-09-26.md) | intl-durationformat |
+| Date                                                                                 | Referenced by                                 |
+| ------------------------------------------------------------------------------------ | --------------------------------------------- |
+| [2017-12-15](https://github.com/tc39/ecma402/blob/main/meetings/notes-2017-12-15.md) | intl-durationformat                           |
+| [2019-11-14](https://github.com/tc39/ecma402/blob/main/meetings/notes-2019-11-14.md) | intl-durationformat                           |
+| [2020-01-09](https://github.com/tc39/ecma402/blob/main/meetings/notes-2020-01-09.md) | intl-durationformat                           |
+| [2020-01-30](https://github.com/tc39/ecma402/blob/main/meetings/notes-2020-01-30.md) | intl-durationformat                           |
+| [2020-09-10](https://github.com/tc39/ecma402/blob/main/meetings/notes-2020-09-10.md) | intl-durationformat                           |
+| [2021-01-14](https://github.com/tc39/ecma402/blob/main/meetings/notes-2021-01-14.md) | intl-durationformat                           |
+| [2021-02-11](https://github.com/tc39/ecma402/blob/main/meetings/notes-2021-02-11.md) | intl-durationformat                           |
+| [2021-04-08](https://github.com/tc39/ecma402/blob/main/meetings/notes-2021-04-08.md) | intl-durationformat, intl-keep-trailing-zeros |
+| [2021-06-03](https://github.com/tc39/ecma402/blob/main/meetings/notes-2021-06-03.md) | intl-durationformat                           |
+| [2021-10-07](https://github.com/tc39/ecma402/blob/main/meetings/notes-2021-10-07.md) | intl-durationformat                           |
+| [2022-01-13](https://github.com/tc39/ecma402/blob/main/meetings/notes-2022-01-13.md) | intl-durationformat                           |
+| [2022-05-19](https://github.com/tc39/ecma402/blob/main/meetings/notes-2022-05-19.md) | intl-durationformat                           |
+| [2022-08-04](https://github.com/tc39/ecma402/blob/main/meetings/notes-2022-08-04.md) | intl-durationformat                           |
+| [2022-09-01](https://github.com/tc39/ecma402/blob/main/meetings/notes-2022-09-01.md) | intl-durationformat                           |
+| [2022-11-03](https://github.com/tc39/ecma402/blob/main/meetings/notes-2022-11-03.md) | intl-durationformat                           |
+| [2022-12-08](https://github.com/tc39/ecma402/blob/main/meetings/notes-2022-12-08.md) | intl-durationformat                           |
+| [2023-01-12](https://github.com/tc39/ecma402/blob/main/meetings/notes-2023-01-12.md) | intl-durationformat                           |
+| [2023-04-06](https://github.com/tc39/ecma402/blob/main/meetings/notes-2023-04-06.md) | intl-durationformat                           |
+| [2023-06-29](https://github.com/tc39/ecma402/blob/main/meetings/notes-2023-06-29.md) | intl-durationformat                           |
+| [2023-10-12](https://github.com/tc39/ecma402/blob/main/meetings/notes-2023-10-12.md) | intl-durationformat                           |
+| [2023-11-16](https://github.com/tc39/ecma402/blob/main/meetings/notes-2023-11-16.md) | intl-durationformat                           |
+| [2024-04-25](https://github.com/tc39/ecma402/blob/main/meetings/notes-2024-04-25.md) | intl-durationformat                           |
+| [2024-07-18](https://github.com/tc39/ecma402/blob/main/meetings/notes-2024-07-18.md) | intl-keep-trailing-zeros                      |
+| [2024-09-26](https://github.com/tc39/ecma402/blob/main/meetings/notes-2024-09-26.md) | intl-durationformat                           |

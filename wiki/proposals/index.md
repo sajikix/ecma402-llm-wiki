@@ -32,7 +32,7 @@
 
 | Proposal | Champion |
 | --- | --- |
-| [Keep trailing zeros in Intl.NumberFormat and Intl.PluralRules](https://github.com/tc39/proposal-intl-keep-trailing-zeros) | Eemeli Aro |
+| **[Keep trailing zeros in Intl.NumberFormat and Intl.PluralRules](intl-keep-trailing-zeros.md)** | Eemeli Aro |
 
 ## Stage 2 (2)
 

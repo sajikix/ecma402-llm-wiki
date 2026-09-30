@@ -11,8 +11,8 @@ tags: [person]
 
 - **Full name**: Eemeli Aro
 - **Affiliation**: Mozilla / OpenJSF
-- **Champion drafts**: (none among curated pages)
-- **Mentioned on proposal pages**: [Intl.DurationFormat](../proposals/intl-durationformat.md)
+- **Champion drafts**: [Intl Keep Trailing Zeros](../proposals/intl-keep-trailing-zeros.md)
+- **Mentioned on proposal pages**: [Intl.DurationFormat](../proposals/intl-durationformat.md), [Intl Keep Trailing Zeros](../proposals/intl-keep-trailing-zeros.md)
 - **TG2 meetings attended**: 60
 - **Plenary meetings attended**: 21
 

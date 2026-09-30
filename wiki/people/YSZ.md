@@ -12,7 +12,7 @@ tags: [person]
 - **Full name**: Yusuke Suzuki
 - **Affiliation**: Apple
 - **Champion drafts**: (none among curated pages)
-- **Mentioned on proposal pages**: [Intl.DurationFormat](../proposals/intl-durationformat.md)
+- **Mentioned on proposal pages**: [Intl.DurationFormat](../proposals/intl-durationformat.md), [Intl Keep Trailing Zeros](../proposals/intl-keep-trailing-zeros.md)
 - **TG2 meetings attended**: 63
 - **Plenary meetings attended**: 4
 
