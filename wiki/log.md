@@ -9,6 +9,13 @@ Append-only record of operations on this wiki. Each entry starts with `## [YYYY-
 - Tools: `extract_tg2_agenda.py` (new; handles list-style 2017-2019 and heading-style notes), `extract_plenary_agenda.py` (new; ECMA-402 heading filter), `extract_proposals.py` (ECMA-402 only, all stages), `extract_people.py` (adds TG2 attendee lists), `link_people.py`, `link_proposals.py`.
 - Generated: TG2 agenda index (106 meetings), plenary ECMA-402 agenda index, proposal stage index (36 proposals).
 
+## [2026-09-30] ingest | Intl.DurationFormat
+
+- Key transitions (plenary): Stage 1 2020-02 (`2020-02/february-6.md`, "Time Duration Format Proposal for Stage 1" — missed by the plenary index and absent from the canonical Meeting Notes column), Stage 2 2020-06 (`2020-06/june-2.md`), Stage 3 2021-10 (`2021-10/oct-25.md`, conditional on the `fractionalDigits` minimum question), Stage 4 2024-12 (`2024-12/december-02.md`); publication 2025. Eleven Stage 3 update / normative-PR plenary slots in between (2022-06 .. 2024-10), plus a Stage 2 redesign update in 2021-08.
+- Main issues: separate class vs. NumberFormat/DateTimeFormat/RelativeTimeFormat; the `"digital"` style (naming, always-display defaults, zero minutes, locale separators, grouping separators PR #198); no arithmetic (rounding/truncation/out-of-range units); `fractionalDigits` (Stage 3 condition, default, plenary approved the wrong change in 2023-05 and reverted it in 2023-07); negative durations (sign on first unit per CLDR, PR #176); coupling with Temporal (borrowed AOs/string parsing, RangeError for strings, plural option names, Temporal.Duration limits); `formatToParts` granularity (PR #126).
+- Champions: YMD (2020), USA (from 2021); BAN presented most normative PRs 2023-11 .. 2024-10; FYT volunteered in 2019-11 before YMD took it on.
+- People generated (24): ABL BAN BSH DE DLM EAO FYT JGT JHD JSW KG LAF LEO PFC RBN RCA RGN SFC SYG USA WH YMD YSZ ZB. Added `JSC` to `extract_people.py` `NON_PERSON` (JavaScriptCore; already in `link_people.py` `AMBIGUOUS`).
+
 ## [2026-09-30] wiki | tool fixes from the DurationFormat shake-down
 
 - `extract_plenary_agenda.py`: harvested identifiers also match their spaced form (`Duration ?Format`), so 2020-02 "Time Duration Format Proposal for Stage 1" is now indexed; "Stage N reviewers" lines no longer count as stage signals (281 items).

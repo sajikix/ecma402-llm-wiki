@@ -16,6 +16,7 @@ A wiki for tracing **how each ECMA-402 (Intl) proposal changed stage, what was d
 
 | Proposal                                                | Current stage     | Status  | Summary                                                                                                                                                                                                                           |
 | ------------------------------------------------------- | ----------------- | ------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Intl.DurationFormat](proposals/intl-durationformat.md) | Stage 4 (2024-12) | shipped | Locale-aware formatting of compound durations (long/short/narrow/digital, per-unit styles); Stage 3 for three years of implementer-driven fixes (fractionalDigits, negative sign, digital style), decoupled from Temporal; ES2025 |
 
 ## Families
 
