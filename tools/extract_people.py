@@ -59,7 +59,7 @@ NON_PERSON = {
     # Ad-hoc / mistyped TG2 abbreviations that pages normalise (AGENTS.md
     # "Known mappings") and may cite in parentheses; never person pages.
     "SC", "FT", "YFT", "FTY", "USH", "ZBI", "PCO", "PRC", "HSI", "HSJ",
-    "HYS", "DMN", "YSK", "JNM", "EAIO", "SFO", "LFS", "FYC", "FYI",
+    "HYS", "DMN", "YSK", "JNM", "EAIO", "SFO", "LFS", "FYC", "FYI", "SFA",
 }
 
 # Real delegate abbreviations that usually mean something else in prose. They

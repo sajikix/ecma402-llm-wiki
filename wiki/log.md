@@ -108,3 +108,10 @@ Append-only record of operations on this wiki. Each entry starts with `## [YYYY-
 
 - AGENTS.md: a plenary Conclusion / Speaker's Summary that calls the presenters "the champions" counts as explicitly showing them as champions; `FYC` / `FYI` → FYT added to the typo mappings (and to `extract_people.py` exclusions); ES-edition note that Intl Era/Month Code reached Stage 4 in 2026-03 but missed the ES2026 cut like Temporal.
 - `extract_people.py`: person detection now skips code spans and hyphenated tokens (`"ja-JP"` had produced a page for JP = John Pampuch) and treats `BCE` (era code vs. Ben Coe) as `AMBIGUOUS`; removed the three auto-links to BCE.
+
+## [2026-09-30] summarise | TG2 backlog, next 10 (2022-08-04 .. 2023-06-29)
+
+- Summarised 2022-08-04, 2022-09-01, 2022-10-06, 2022-11-03, 2022-12-08, 2023-01-12, 2023-04-06, 2023-05-04, 2023-06-01, 2023-06-29; moved them from the backlog to the meetings list.
+- TG2 events: Intl Enumeration cleared for Stage 4 (2022-10-06); `proposal-intl-temporal` renamed to Intl Era and Month Codes (2022-10-06); Intl.MessageResource split out for Stage 1 (2022-10-06); Era Display decoupled from Temporal (2022-11-03); DurationFormat to ask for Stage 4 (2023-01-12); Intl.ZonedDateTimeFormat Stage 1 support (2023-04-06); time zone canonicalization toward Stage 2/3 with an FYT objection (2023-05-04, 2023-06-29).
+- Cross-checks against citing pages: fixed intl-durationformat (issue #55 came up at 2022-11-03, not 2022-08-04) and intl-locale-info (the 2023-05-04 notes don't credit ABL with #68; FYT brought it). Title-date quirk: `notes-2023-01-12.md` is headed 2023-01-13. The 2023-05-04 notes give a malformed URL `github.com/tc39/issues/574` (kept verbatim).
+- New typo mappings `SFA` → SFC, `DM` → DLM, `AB` → ABL.

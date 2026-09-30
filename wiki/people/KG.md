@@ -18,7 +18,7 @@ tags: [person]
 
 ## TG2 meetings attended
 
-- 2022-08-04
+- [2022-08-04](../meetings/2022/2022-08-04.md)
 
 ## Plenary meetings attended
 

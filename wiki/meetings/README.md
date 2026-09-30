@@ -38,6 +38,16 @@ Topic-by-topic digests of ECMA-402 task group (TG2) monthly calls, produced by `
 | [2023-11-16](2023/2023-11-16.md) | ICU 74 regression and Firefox back-out; four DurationFormat PRs, #839 currency precision and Locale Info `firstDayOfWeek` go to TG1; #830/#777/#809 closed.                                         |
 | [2023-10-12](2023/2023-10-12.md) | BAN to present DurationFormat PRs at TG1; first-day-of-week getter (#78) back to TG1; time zone canonicalization (#825/#806) and negative duration format discussed.                                |
 | [2023-09-07](2023/2023-09-07.md) | DurationFormat #172/#167 approved; root-locale proposal renamed Stable Formatting and judged ready for Stage 1; MessageFormat API questions; #788 tentatively approved; Locale Info issues settled. |
+| [2023-06-29](2023/2023-06-29.md) | #786 and #768 get consensus, #788 held for September TG1; canonical-tz Stage 3 preview draws an FYT objection; DurationFormat #150 revert; Locale Info #68.                                         |
+| [2023-06-01](2023/2023-06-01.md) | TG2 approves #786 (max fractional digits 100); UTC offset zones (#788) backed with precision open; localized-string misuse and Etc/Unknown discussed without consensus.                             |
+| [2023-05-04](2023/2023-05-04.md) | ES2023 cut; #768 roundingPriority reorder supported; Time Zone Canonicalization design discussed before Stage 2; `-u-fw` normative PR planned for July.                                             |
+| [2023-04-06](2023/2023-04-06.md) | ES2023 blockers: NumberFormat v3 resolvedOptions order, #709 and #758 agreed; ZonedDateTimeFormat Stage 1 support; DurationFormat #139/#146 agreed, #144 leaning to option 4.                       |
+| [2023-01-12](2023/2023-01-12.md) | Stage 3 issues cleared for NumberFormat v3 (approximatelySign, read order, exponent limit); DurationFormat heads to Stage 4; Locale Info getters go to TG1.                                         |
+| [2022-12-08](2022/2022-12-08.md) | TG2 approves the Gregorian BC(E) era fix (#729); both fractionalSecondDigits PRs backlogged; DurationFormat plural/singular names (#44); Locale Info getters-to-methods (#65) left open.            |
+| [2022-11-03](2022/2022-11-03.md) | TG2 approves #724 (GMT to UTC), merges #708; User Preferences privacy debate; Era Display decoupled from Temporal; DurationFormat strings throw `RangeError`.                                       |
+| [2022-10-06](2022/2022-10-06.md) | Intl Enumeration cleared for Stage 4 after PR #43; Locale Info Stage 4 delayed; intl-temporal renamed intl-era-and-month-codes; message resources split (Stage 1).                                  |
+| [2022-09-01](2022/2022-09-01.md) | PR #708 adds microsecond/nanosecond units; DurationFormat defaults settled ("short", digital always-display); `useGrouping` throws RangeError; MessageFormat bundle split.                          |
+| [2022-08-04](2022/2022-08-04.md) | NumberFormat v3 `useGrouping` "true"/"false" map to "auto"; Temporal's DateTimeFormat changes to be reverted or justified; DurationFormat numeric parts; W3C localizable-string presentation.       |
 | [2021-04-08](2021/2021-04-08.md) | Locale Info and DisplayNames v2 to Stage 3, Extend TimeZoneName to Stage 2 (shortOffset/longOffset), NumberFormat V3 rounding settled; DurationFormat option and plural issues.                     |
 | [2020-09-10](2020/2020-09-10.md) | Intl.DisplayNames gets Stage 4 consensus; DurationFormat scoped to unsigned durations after Temporal signed durations; clock-style naming debated.                                                  |
 
@@ -66,13 +76,3 @@ TG2 meetings already cited by proposal pages but not yet summarised (oldest firs
 | [2022-04-21](https://github.com/tc39/ecma402/blob/main/meetings/notes-2022-04-21.md) | intl-locale-info                         |
 | [2022-05-19](https://github.com/tc39/ecma402/blob/main/meetings/notes-2022-05-19.md) | intl-durationformat, intl-era-month-code |
 | [2022-06-16](https://github.com/tc39/ecma402/blob/main/meetings/notes-2022-06-16.md) | intl-era-month-code, intl-locale-info    |
-| [2022-08-04](https://github.com/tc39/ecma402/blob/main/meetings/notes-2022-08-04.md) | intl-durationformat                      |
-| [2022-09-01](https://github.com/tc39/ecma402/blob/main/meetings/notes-2022-09-01.md) | intl-durationformat                      |
-| [2022-10-06](https://github.com/tc39/ecma402/blob/main/meetings/notes-2022-10-06.md) | intl-era-month-code, intl-locale-info    |
-| [2022-11-03](https://github.com/tc39/ecma402/blob/main/meetings/notes-2022-11-03.md) | intl-durationformat                      |
-| [2022-12-08](https://github.com/tc39/ecma402/blob/main/meetings/notes-2022-12-08.md) | intl-durationformat, intl-locale-info    |
-| [2023-01-12](https://github.com/tc39/ecma402/blob/main/meetings/notes-2023-01-12.md) | intl-durationformat, intl-era-month-code |
-| [2023-04-06](https://github.com/tc39/ecma402/blob/main/meetings/notes-2023-04-06.md) | intl-durationformat                      |
-| [2023-05-04](https://github.com/tc39/ecma402/blob/main/meetings/notes-2023-05-04.md) | intl-locale-info                         |
-| [2023-06-01](https://github.com/tc39/ecma402/blob/main/meetings/notes-2023-06-01.md) | stable-formatting                        |
-| [2023-06-29](https://github.com/tc39/ecma402/blob/main/meetings/notes-2023-06-29.md) | intl-durationformat, intl-locale-info    |
