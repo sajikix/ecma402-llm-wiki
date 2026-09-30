@@ -1,0 +1,9 @@
+[submodule "raw/ecma402"]
+	path = raw/ecma402
+	url = https://github.com/tc39/ecma402
+[submodule "raw/notes"]
+	path = raw/notes
+	url = https://github.com/tc39/notes
+[submodule "raw/proposals"]
+	path = raw/proposals
+	url = https://github.com/tc39/proposals

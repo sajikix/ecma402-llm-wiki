@@ -1,0 +1,5 @@
+{
+  "proseWrap": "preserve",
+  "embeddedLanguageFormatting": "off",
+  "ignorePatterns": ["raw/**", "wiki/_generated/**", "wiki/proposals/index.md", "node_modules/**"]
+}
