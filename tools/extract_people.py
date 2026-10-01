@@ -60,7 +60,7 @@ NON_PERSON = {
     # "Known mappings") and may cite in parentheses; never person pages.
     "SC", "FT", "YFT", "FTY", "USH", "ZBI", "PCO", "PRC", "HSI", "HSJ",
     "HYS", "DMN", "YSK", "JNM", "EAIO", "SFO", "LFS", "FYC", "FYI", "SFA", "EOA", "LFA", "YZS", "RGT", "CC", "FB",
-    "SL", "SFL", "JV", "JW", "RG", "RC", "VY", "YM", "BK",
+    "SL", "SFL", "JV", "JW", "RG", "RC", "VY", "YM", "BK", "KGN",
 }
 
 # Real delegate abbreviations that usually mean something else in prose. They
@@ -73,6 +73,8 @@ AMBIGUOUS = {
     "MGR",  # TG2 2025 notes: Manish Goregaokar; delegates.txt: Mira Gross
     "BCE",  # the era code, or Ben Coe
     "JH",   # 2017-2018 TG2: Jack Horton; delegates.txt: Jafar Husain
+    "EA",   # 2019 TG2: Eemeli Aro; delegates.txt: Erik Arvidsson
+    "AH",   # 2019 TG2: Axel Hecht; delegates.txt: Anna Henningsen
 }
 
 

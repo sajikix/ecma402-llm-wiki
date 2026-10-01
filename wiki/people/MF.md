@@ -12,7 +12,7 @@ tags: [person]
 - **Full name**: Michael Ficarra
 - **Affiliation**: F5 / F5 Networks
 - **Champion drafts**: (none among curated pages)
-- **Mentioned on proposal pages**: [Amount](../proposals/amount.md), [Intl.DurationFormat](../proposals/intl-durationformat.md), [Intl Era/Month Code](../proposals/intl-era-month-code.md), [Intl Locale Info](../proposals/intl-locale-info.md), [Smart Unit Preferences in Intl.NumberFormat](../proposals/smart-unit-preferences.md), [Stable Formatting](../proposals/stable-formatting.md)
+- **Mentioned on proposal pages**: [Amount](../proposals/amount.md), [Intl.DurationFormat](../proposals/intl-durationformat.md), [Intl Era/Month Code](../proposals/intl-era-month-code.md), [Intl Locale Info](../proposals/intl-locale-info.md), [Intl.MessageFormat](../proposals/intl-messageformat.md), [Smart Unit Preferences in Intl.NumberFormat](../proposals/smart-unit-preferences.md), [Stable Formatting](../proposals/stable-formatting.md)
 - **TG2 meetings attended**: 0
 - **Plenary meetings attended**: 16
 

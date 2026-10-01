@@ -79,4 +79,11 @@ Topic-by-topic digests of ECMA-402 task group (TG2) monthly calls, produced by `
 
 TG2 meetings already cited by proposal pages but not yet summarised (oldest first). `/summarise <date>` removes an entry; `/ingest` adds them (AGENTS.md "Workflow > Ingest" step 7).
 
-(empty — every TG2 meeting cited by a proposal page has a summary)
+| Date                                                                                 | Referenced by      |
+| ------------------------------------------------------------------------------------ | ------------------ |
+| [2018-08-16](https://github.com/tc39/ecma402/blob/main/meetings/notes-2018-08-16.md) | intl-messageformat |
+| [2019-06-13](https://github.com/tc39/ecma402/blob/main/meetings/notes-2019-06-13.md) | intl-messageformat |
+| [2021-07-01](https://github.com/tc39/ecma402/blob/main/meetings/notes-2021-07-01.md) | intl-messageformat |
+| [2022-02-10](https://github.com/tc39/ecma402/blob/main/meetings/notes-2022-02-10.md) | intl-messageformat |
+| [2023-02-09](https://github.com/tc39/ecma402/blob/main/meetings/notes-2023-02-09.md) | intl-messageformat |
+| [2024-01-18](https://github.com/tc39/ecma402/blob/main/meetings/notes-2024-01-18.md) | intl-messageformat |

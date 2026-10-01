@@ -145,3 +145,11 @@ Append-only record of operations on this wiki. Each entry starts with `## [YYYY-
 - Cross-check fixes on proposal pages: intl-locale-info (#33 order debate was SFC vs ZB; no ABL remark in the notes), intl-durationformat (`digital` was a poll result, not a settled vote; JHD "noticed" rather than "objected" to the Temporal dependency). Removed an inferred `proposal-intl-numberformat-v3#21` URL from the 2021-02-11 summary.
 - Title-date quirks: 2020-12-04 headed "December 12", 2024-03-28 headed "2023-03-28". Many early ad-hoc abbreviations added to AGENTS.md and the `extract_people.py` exclusions; `JH` (Jack Horton vs. delegates.txt Jafar Husain) added to `AMBIGUOUS`.
 - Unlinked an ad-hoc `MM` (= MCM) in the 2019-07-11 Overview mapping list that `link_people.py` had linked to Mark S. Miller.
+
+## [2026-10-01] ingest | Intl.MessageFormat
+
+- Added `wiki/proposals/intl-messageformat.md` (Stage 1 since the 2022-03 plenary `mar-30.md`; no Stage 2 request ever made; last plenary item 2024-06 `june-11.md`).
+- Champions `[EAO, DLM, USA]`: DLM as a historical co-champion ("championed by me and by Dan Minor", 2022-03 plenary; TG2 2022-01-13); USA joined as co-champion per the 2024-04 plenary conclusion; EAO announced stepping back at TG2 2024-03-28 but stayed on. Canonical lists EAO only.
+- Covers the 2018-2019 move of the syntax to the Unicode MFWG, the 2022 MessageResource split, the 2024-02 plenary DSL-stability debate and the "dozen organizations" bar, the rejected data-model-only PR #47, the TG2 2024-08-22 TG5-study recommendation, MF2 milestones, onError/error handling, API shape, and MF2 function options diverging from ECMA-402.
+- New abbreviation notes: `KGN` → KG; `EA` (Eemeli Aro) and `AH` (Axel Hecht) collide with delegates.txt in 2019 TG2 notes and are now `AMBIGUOUS`.
+- Summary backlog: 6 TG2 meetings added (2018-08-16, 2019-06-13, 2021-07-01, 2022-02-10, 2023-02-09, 2024-01-18).

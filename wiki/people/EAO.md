@@ -11,8 +11,8 @@ tags: [person]
 
 - **Full name**: Eemeli Aro
 - **Affiliation**: Mozilla / OpenJSF
-- **Champion drafts**: [Amount](../proposals/amount.md), [Intl Keep Trailing Zeros](../proposals/intl-keep-trailing-zeros.md), [Stable Formatting](../proposals/stable-formatting.md)
-- **Mentioned on proposal pages**: [Amount](../proposals/amount.md), [Intl.DurationFormat](../proposals/intl-durationformat.md), [Intl Era/Month Code](../proposals/intl-era-month-code.md), [Intl Keep Trailing Zeros](../proposals/intl-keep-trailing-zeros.md), [Intl Locale Info](../proposals/intl-locale-info.md), [Intl Sequence Units](../proposals/intl-sequence-units.md), [Intl Unit Protocol](../proposals/intl-unit-protocol.md), [Smart Unit Preferences in Intl.NumberFormat](../proposals/smart-unit-preferences.md), [Stable Formatting](../proposals/stable-formatting.md)
+- **Champion drafts**: [Amount](../proposals/amount.md), [Intl Keep Trailing Zeros](../proposals/intl-keep-trailing-zeros.md), [Intl.MessageFormat](../proposals/intl-messageformat.md), [Stable Formatting](../proposals/stable-formatting.md)
+- **Mentioned on proposal pages**: [Amount](../proposals/amount.md), [Intl.DurationFormat](../proposals/intl-durationformat.md), [Intl Era/Month Code](../proposals/intl-era-month-code.md), [Intl Keep Trailing Zeros](../proposals/intl-keep-trailing-zeros.md), [Intl Locale Info](../proposals/intl-locale-info.md), [Intl.MessageFormat](../proposals/intl-messageformat.md), [Intl Sequence Units](../proposals/intl-sequence-units.md), [Intl Unit Protocol](../proposals/intl-unit-protocol.md), [Smart Unit Preferences in Intl.NumberFormat](../proposals/smart-unit-preferences.md), [Stable Formatting](../proposals/stable-formatting.md)
 - **TG2 meetings attended**: 60
 - **Plenary meetings attended**: 21
 

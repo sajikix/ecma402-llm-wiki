@@ -12,7 +12,7 @@ tags: [person]
 - **Full name**: Kevin Gibbons
 - **Affiliation**: F5 / F5 Networks / Invited Expert
 - **Champion drafts**: (none among curated pages)
-- **Mentioned on proposal pages**: [Amount](../proposals/amount.md), [Intl.DurationFormat](../proposals/intl-durationformat.md), [Intl Unit Protocol](../proposals/intl-unit-protocol.md), [Stable Formatting](../proposals/stable-formatting.md)
+- **Mentioned on proposal pages**: [Amount](../proposals/amount.md), [Intl.DurationFormat](../proposals/intl-durationformat.md), [Intl.MessageFormat](../proposals/intl-messageformat.md), [Intl Unit Protocol](../proposals/intl-unit-protocol.md), [Stable Formatting](../proposals/stable-formatting.md)
 - **TG2 meetings attended**: 1
 - **Plenary meetings attended**: 21
 
