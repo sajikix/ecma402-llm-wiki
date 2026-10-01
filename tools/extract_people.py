@@ -72,6 +72,7 @@ AMBIGUOUS = {
     "MF",   # MessageFormat, or Michael Ficarra
     "MGR",  # TG2 2025 notes: Manish Goregaokar; delegates.txt: Mira Gross
     "BCE",  # the era code, or Ben Coe
+    "BE",   # Buddhist Era, or Brendan Eich
     "JH",   # 2017-2018 TG2: Jack Horton; delegates.txt: Jafar Husain
     "EA",   # 2019 TG2: Eemeli Aro; delegates.txt: Erik Arvidsson
     "AH",   # 2019 TG2: Axel Hecht; delegates.txt: Anna Henningsen

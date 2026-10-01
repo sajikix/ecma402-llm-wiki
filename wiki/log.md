@@ -160,3 +160,23 @@ Append-only record of operations on this wiki. Each entry starts with `## [YYYY-
 - TG2 events: Unified NumberFormat #11/#9 settled (2018-08-16); MessageFormat landscape survey and the move toward Unicode MessageFormat 2.0 (2019-06-13); NumberFormat v3 Stage 3 approval and Enumeration to proceed to Stage 3 (2021-07-01); Intl.MessageFormat TG2 "consensus for Stage 1" (2022-02-10); EAO turns a MessageFormat Stage 2 request into an update (2024-01-18).
 - Cross-check: softened intl-messageformat's "ZB's counter-proposal won" (2019-06-13 records only agreement, no formal conclusion). New mapping `SG` → SGN.
 - Unlinked ad-hoc `MM` (= MCM) in 2019-06-13 that `link_people.py` had linked to Mark S. Miller.
+
+## [2026-10-01] ingest | eraDisplay option for Intl.DateTimeFormat
+
+- Added `wiki/proposals/intl-eradisplay.md` (champions SFC, LAF; families: date-time).
+- Stage 1 at the 2021-01 plenary (`jan-27.md`; TG2 recommended on 2020-12-04), Stage 2 at the 2022-11 plenary (`nov-29.md`; reviewers EAO, DLM). No Stage 2.7 request yet; matches the canonical table.
+- Main issues: era-only scope (#7), value set and `auto` default, runtime pattern selection via internal slots (#4), decoupling from Temporal, CLDR-driven cutoffs instead of the current date (#9), year precision / `yearStyle` naming (#10), Julian/Gregorian reckoning, champion bandwidth.
+- Summary backlog: 2 TG2 meetings added (2020-11-05, 2024-06-20).
+
+## [2026-10-01] ingest | Default Behaviours for some Intl APIs
+
+- Added `wiki/proposals/intl-default-behaviours.md` (Stage 1 at the 2026-05 plenary `may-20.md`, presented right after Stable Formatting's Stage 2; no later plenary or TG2 item through 2026-09-17). Champion `[EAO]`, matching canonical; `first_seen` 2023-09.
+- Covers the prehistory inside Stable Formatting and ecma402: #885 ("und" as root or host default), case-mapping locale resolution #896 / #956, the 2025-02 plenary split of root behaviour from `zxx` stability, and PR #24 at TG2 2026-05-07 (file `notes-2026-05-19.md`), where TG2 approved the spin-off.
+- Main issues: what "und" means today; the identifier ("und" vs "root" / Symbol / `zxx`, SFC's web-compat concern); locale-independent vs stable; case mapping; what "untailored" means for Segmenter.
+- Summary backlog: no additions (all 9 cited TG2 meetings are summarised).
+
+## [2026-10-01] wiki | eraDisplay / Default Behaviours cross-links and summary fixes
+
+- Linked the new pages from stable-formatting and intl-era-month-code; `link_proposals.py` aliases "eraDisplay", "Era Display", "Default Behaviours".
+- Summary wording fixes found during these ingests: 2025-02-06 (`["und","tr"]` fallback was SFC's answer accepted by RGN, not a group agreement), 2026-05-19 (SFC's and RGN's actual stability points), 2026-03-19 (eraDisplay cutoffs were SFC's proposed conclusion, not an agreed direction).
+- `BE` (Buddhist Era vs. Brendan Eich) added to `AMBIGUOUS`; removed the auto-links on intl-eradisplay.

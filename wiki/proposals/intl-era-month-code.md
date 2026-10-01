@@ -168,7 +168,7 @@ This tied the proposal's publication to Temporal's merge. Temporal's ECMA-262 PR
 
 - `proposal-temporal` — the parent proposal. Era/monthCode defines the ECMA-402 behaviour of its non-ISO calendars, and the spec text was merged into the Temporal ECMA-402 PR (ecma402#1044).
 - `proposal-canonical-tz` (Time Zone Canonicalization) — the other Temporal-adjacent ECMA-402 proposal planned to move to Stage 4 together with Temporal.
-- `intl-eradisplay` — the `eraDisplay` option for `Intl.DateTimeFormat`, discussed in TG2 in the same period. [SFC](../people/SFC.md) (2023-12-14) wanted variant era names revisited "when Temporal, Era Code, and Era Display are all landed".
+- [eraDisplay option for Intl.DateTimeFormat](intl-eradisplay.md) — the `eraDisplay` option for `Intl.DateTimeFormat`, discussed in TG2 in the same period. [SFC](../people/SFC.md) (2023-12-14) wanted variant era names revisited "when Temporal, Era Code, and Era Display are all landed".
 - [Intl.DurationFormat](intl-durationformat.md) — another date-time proposal entangled with Temporal (and decoupled from it in 2022).
 - [Stable Formatting](stable-formatting.md) — the `iso8601`-calendar formatting discussion (ecma402#1036) was repeatedly compared to it.
 

@@ -38,14 +38,14 @@
 
 | Proposal | Champion |
 | --- | --- |
-| [eraDisplay option for Intl.DateTimeFormat](https://github.com/tc39/proposal-intl-eradisplay) | Shane Carr, Louis-Aime |
+| **[eraDisplay option for Intl.DateTimeFormat](intl-eradisplay.md)** | Shane Carr, Louis-Aime |
 | [More Currency Display Choices](https://github.com/tc39/proposal-intl-currency-display-choices) | Eemeli Aro |
 
 ## Stage 1 (12)
 
 | Proposal | Champion |
 | --- | --- |
-| [Default Behaviours for some Intl APIs](https://github.com/eemeli/proposal-intl-default-behaviours) | Eemeli Aro |
+| **[Default Behaviours for some Intl APIs](intl-default-behaviours.md)** | Eemeli Aro |
 | **[explore associating a unit with a number](intl-unit-protocol.md)** | Shane Carr |
 | [Intl Energy Units](https://github.com/johanrd/proposal-intl-energy-units) | Nicolò Ribaudo, Shane Carr |
 | [Intl LocaleMatcher](https://github.com/tc39/proposal-intl-localematcher) | Shane Carr, Long Ho |

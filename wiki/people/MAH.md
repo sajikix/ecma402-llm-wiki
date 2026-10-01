@@ -12,7 +12,7 @@ tags: [person]
 - **Full name**: Mathieu Hofman
 - **Affiliation**: Agoric / Stripe
 - **Champion drafts**: (none among curated pages)
-- **Mentioned on proposal pages**: [Stable Formatting](../proposals/stable-formatting.md)
+- **Mentioned on proposal pages**: [Default Behaviours for some Intl APIs](../proposals/intl-default-behaviours.md), [Stable Formatting](../proposals/stable-formatting.md)
 - **TG2 meetings attended**: 0
 - **Plenary meetings attended**: 11
 

@@ -46,6 +46,9 @@ ALIASES = {
     "Unit Protocol": "intl-unit-protocol.md",
     "Smart Unit Preferences": "smart-unit-preferences.md",
     "Smart Units": "smart-unit-preferences.md",
+    "eraDisplay": "intl-eradisplay.md",
+    "Era Display": "intl-eradisplay.md",
+    "Default Behaviours": "intl-default-behaviours.md",
 }
 
 
