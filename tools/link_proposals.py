@@ -43,6 +43,9 @@ ALIASES = {
     "Intl Era and Month Code": "intl-era-month-code.md",
     "Keep trailing zeros": "intl-keep-trailing-zeros.md",
     "DurationFormat": "intl-durationformat.md",
+    "Unit Protocol": "intl-unit-protocol.md",
+    "Smart Unit Preferences": "smart-unit-preferences.md",
+    "Smart Units": "smart-unit-preferences.md",
 }
 
 

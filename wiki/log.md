@@ -115,3 +115,25 @@ Append-only record of operations on this wiki. Each entry starts with `## [YYYY-
 - TG2 events: Intl Enumeration cleared for Stage 4 (2022-10-06); `proposal-intl-temporal` renamed to Intl Era and Month Codes (2022-10-06); Intl.MessageResource split out for Stage 1 (2022-10-06); Era Display decoupled from Temporal (2022-11-03); DurationFormat to ask for Stage 4 (2023-01-12); Intl.ZonedDateTimeFormat Stage 1 support (2023-04-06); time zone canonicalization toward Stage 2/3 with an FYT objection (2023-05-04, 2023-06-29).
 - Cross-checks against citing pages: fixed intl-durationformat (issue #55 came up at 2022-11-03, not 2022-08-04) and intl-locale-info (the 2023-05-04 notes don't credit ABL with #68; FYT brought it). Title-date quirk: `notes-2023-01-12.md` is headed 2023-01-13. The 2023-05-04 notes give a malformed URL `github.com/tc39/issues/574` (kept verbatim).
 - New typo mappings `SFA` → SFC, `DM` → DLM, `AB` → ABL.
+
+## [2026-10-01] ingest | Intl Unit Protocol
+
+- Added `wiki/proposals/intl-unit-protocol.md` (canonical "explore associating a unit with a number", champion SFC, families: number-format).
+- Stage 1 at the 2025-11 plenary (`november-18.md`), Stage 2 at the 2026-03 plenary (`march-11.md`, RGN and ACE as Stage 2.7 reviewers); canonical table still lists Stage 1, so `canonical_stage: 1`.
+- Prehistory traced through Amount: TG2 2024-07-18 (EAO's NumberFormat input protocol), plenary 2025-02 (KG protocol-only), 2025-07/2025-09 (no internal-slot reads, TG3).
+- Main issues: protocol vs built-in type, public fields vs internal slots, shape and naming (object bag, `number`→`value`, `currency`→`unit`), conflicting units (#3, conversion gated on Amount), currency as unit (`cup`/`CUP`), web-compat sniffing and `null` no-unit (#5), array-valued `value` for sequence units (proposal-amount#118), loss of constructor-time data preloading.
+- Summary backlog: no additions (all 7 cited TG2 meetings are summarised).
+
+## [2026-10-01] ingest | Smart Unit Preferences in Intl.NumberFormat
+
+- Created `wiki/proposals/smart-unit-preferences.md` (`families: [number-format]`). First mention: SFC at the 2020-02 plenary (`february-6.md`), so `first_seen: "2020-02"`.
+- Stage transitions from plenary conclusions: Stage 1 2020-06 (`june-4.md`); no later transition. The 2024-06 (`june-12.md`) and 2024-10 (`october-10.md`) slots were BAN's updates.
+- Champion: YMD (canonical). BAN (2024 revival, fork repo) and HUG appear in the text only. YMD's separate `Units Conversion` proposal (Stage 1 2022-03, `mar-30.md`) is recorded on the page; it is missing from every raw/proposals/ecma402 table.
+- Effectively dormant: no own agenda item after 2024-10. Its parts live on in Amount (`convertTo` + ECMA-402 locale/usage, TG2 2026-02-19), Intl Sequence Units and Intl Unit Protocol.
+- Main issues: black box vs building blocks; unit conversion and Intl misuse, then the move to Measure/Amount; user preferences, fingerprinting and the `en-US` problem; which usages; measurement system from Locale Info; mixed units.
+- Summary backlog: 5 meetings added, `smart-unit-preferences` appended to the rest of 8 cited unsummarised meetings.
+
+## [2026-10-01] wiki | unit-proposal cross-links and aliases
+
+- Replaced plain-code references to `intl-unit-protocol` / `smart-unit-preferences` (and the wrong slug `intl-smart-unit-preferences` on intl-locale-info) with links on amount, intl-keep-trailing-zeros, intl-sequence-units and intl-locale-info; corrected amount's protocol-sniffing wording (a plain `Get` of `value` and `unit`, no presence check, per TG2 2026-08-06).
+- `extract_proposals.py` alias for "explore associating a unit with a number"; `link_proposals.py` aliases "Unit Protocol", "Smart Unit Preferences", "Smart Units"; AGENTS.md: `EOA` → EAO, `repo:` keeps the canonical URL even after a move to the tc39 org.

@@ -165,8 +165,8 @@ Arcminute and arcsecond, used as examples throughout, are not ECMA-402 units ([E
 ## Related proposals
 
 - [Amount](amount.md) — held mixed units while it was Measure (2024-10 to 2025-07); its `person-height` conversion to `foot-and-inch` motivated splitting this proposal out, and its array-valued `.value` (proposal-amount#118) drove the switch to array input. Time-unit support (#8) is decided jointly.
-- `intl-unit-protocol` ("explore associating a unit with a number") — the `{ value, unit }` protocol through which `Intl.NumberFormat` reads Amount-like objects; TG2 agreed it reads only `.value` and `.unit`, with `.value` possibly an array for sequence units.
-- `smart-unit-preferences` — locale- and usage-based unit selection (e.g. US `person-height` gives feet and inches); sequence units were once treated as part of it (2020-02, 2024).
+- [Intl Unit Protocol](intl-unit-protocol.md) ("explore associating a unit with a number") — the `{ value, unit }` protocol through which `Intl.NumberFormat` reads Amount-like objects; TG2 agreed it reads only `.value` and `.unit`, with `.value` possibly an array for sequence units.
+- [Smart Unit Preferences in Intl.NumberFormat](smart-unit-preferences.md) — locale- and usage-based unit selection (e.g. US `person-height` gives feet and inches); sequence units were once treated as part of it (2020-02, 2024).
 - [Intl.DurationFormat](intl-durationformat.md) — the precedent for formatting compound values: same-sign rule, no balancing, integer-only non-smallest fields. It differs in reading all fields, per-field zero display and a digital style, and it is the current answer for time units.
 - [Intl Keep Trailing Zeros](intl-keep-trailing-zeros.md) — `trailingZeroDisplay` was proposed and rejected as the way to hide zero-valued components (#11).
 - `intl-energy-units` — the precedent for motivating each new unit, and the model for a separate arcminute/arcsecond proposal.

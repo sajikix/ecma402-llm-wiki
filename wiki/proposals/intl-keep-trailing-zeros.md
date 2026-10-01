@@ -136,7 +136,7 @@ The proposal was a test case for newer process steps. At the Stage 2 plenary [CD
 - `proposal-decimal` — the origin of the trailing-zeros argument; Decimal chose normalization and left precision to other proposals.
 - `proposal-amount` (formerly Measure) — carries precision alongside a value; discussed in the same plenary sessions (2025-07, 2026-03), and shares the `ToIntlMathematicalValue` limits question.
 - `intl-numberformat-v3` — introduced `trailingZeroDisplay` and the string-precision changes this proposal builds on.
-- `intl-unit-protocol` / `intl-sequence-units` — 2026 unit proposals where `trailingZeroDisplay` semantics came up again.
+- [Intl Unit Protocol](intl-unit-protocol.md) / `intl-sequence-units` — 2026 unit proposals where `trailingZeroDisplay` semantics came up again.
 - [Intl.DurationFormat](intl-durationformat.md) — its `fractionalDigits` Stage 3 condition (2021) was also about showing trailing zeros.
 
 ## Sources

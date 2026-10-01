@@ -46,7 +46,7 @@
 | Proposal | Champion |
 | --- | --- |
 | [Default Behaviours for some Intl APIs](https://github.com/eemeli/proposal-intl-default-behaviours) | Eemeli Aro |
-| [explore associating a unit with a number](https://github.com/sffc/proposal-intl-unit-protocol) | Shane Carr |
+| **[explore associating a unit with a number](intl-unit-protocol.md)** | Shane Carr |
 | [Intl Energy Units](https://github.com/johanrd/proposal-intl-energy-units) | Nicolò Ribaudo, Shane Carr |
 | [Intl LocaleMatcher](https://github.com/tc39/proposal-intl-localematcher) | Shane Carr, Long Ho |
 | **[Intl Sequence Units](intl-sequence-units.md)** | Shane Carr |
@@ -55,7 +55,7 @@
 | [Intl.MessageResource](https://github.com/tc39/proposal-intl-message-resource) | Eemeli Aro |
 | [Intl.Segmenter v2](https://github.com/tc39/proposal-intl-segmenter-v2) | Frank Yung-Fong Tang |
 | [Intl.ZonedDateTimeFormat](https://github.com/FrankYFTang/intl-zoneddatetimeformat) | Frank Yung-Fong Tang |
-| [Smart Unit Preferences in Intl.NumberFormat](https://github.com/tc39/proposal-smart-unit-preferences) | Younies Mahmoud |
+| **[Smart Unit Preferences in Intl.NumberFormat](smart-unit-preferences.md)** | Younies Mahmoud |
 | **[Stable Formatting](stable-formatting.md)** | Eemeli Aro |
 
 ## Stage 0 (2)

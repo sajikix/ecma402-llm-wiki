@@ -52,6 +52,7 @@ LABEL = {
 ALIASES = {
     "intleraandmonthcodeproposal": "intl-era-month-code.md",
     "keeptrailingzerosinintlnumberformatandintlpluralrules": "intl-keep-trailing-zeros.md",
+    "exploreassociatingaunitwithanumber": "intl-unit-protocol.md",
 }
 
 
