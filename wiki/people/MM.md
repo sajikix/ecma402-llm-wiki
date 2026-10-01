@@ -12,13 +12,13 @@ tags: [person]
 - **Full name**: Mark S. Miller
 - **Affiliation**: Agoric / Apple
 - **Champion drafts**: (none among curated pages)
-- **Mentioned on proposal pages**: [Amount](../proposals/amount.md), [Intl Locale Info](../proposals/intl-locale-info.md)
+- **Mentioned on proposal pages**: [Amount](../proposals/amount.md), [Intl Locale Info](../proposals/intl-locale-info.md), [Intl Unit Protocol](../proposals/intl-unit-protocol.md)
 - **TG2 meetings attended**: 2
 - **Plenary meetings attended**: 16
 
 ## TG2 meetings attended
 
-- 2019-07-11
+- [2019-07-11](../meetings/2019/2019-07-11.md)
 - 2019-06-13
 
 ## Plenary meetings attended

@@ -12,7 +12,7 @@ tags: [person]
 - **Full name**: Justin Ridgewell
 - **Affiliation**: Google / Vercel
 - **Champion drafts**: (none among curated pages)
-- **Mentioned on proposal pages**: [Amount](../proposals/amount.md)
+- **Mentioned on proposal pages**: [Amount](../proposals/amount.md), [Intl Unit Protocol](../proposals/intl-unit-protocol.md)
 - **TG2 meetings attended**: 0
 - **Plenary meetings attended**: 20
 

@@ -33,6 +33,7 @@ Topic-by-topic digests of ECMA-402 task group (TG2) monthly calls, produced by `
 | [2024-07-18](2024/2024-07-18.md) | ECMA-402 11th edition approved and BAN to become co-editor; DurationFormat V8/JSC status; Decimal-Intl check-in; MessageFormat static functions; `getWeekInfo` PR narrowed.                         |
 | [2024-05-23](2024/2024-05-23.md) | Apple's tentative Accept-Language feedback; Smart Unit Preferences black box vs building blocks; MessageFormat `onError`; Collator substring search deferred to Unicode/ICU4X.                      |
 | [2024-04-25](2024/2024-04-25.md) | DurationFormat refactor and grouping fixes; #881 deferred to 2025; TG2 approves time zone ID rules PR #877; Accept-Language reduction raised.                                                       |
+| [2024-03-28](2024/2024-03-28.md) | TG2 splits on dropping MessageFormat string syntax (EAO steps back as champion); `eraDisplay`, wrapper units, #691 range validation, #703 `resolvedOptions` year bug.                               |
 | [2024-02-22](2024/2024-02-22.md) | MessageFormat syntax-drop debate (deferred), null-locale idea for Stable Formatting, Decimal integration into NumberFormat guidance, Era Display data-driven approach; no approvals.                |
 | [2023-12-14](2023/2023-12-14.md) | ES2024 edition planning (Feb 2024 cutoff); `ignorePunctuation` default to TG1; eraDisplay update; #707 fix agreed; compact bytes/SI units (#730) left open.                                         |
 | [2023-11-16](2023/2023-11-16.md) | ICU 74 regression and Firefox back-out; four DurationFormat PRs, #839 currency precision and Locale Info `firstDayOfWeek` go to TG1; #830/#777/#809 closed.                                         |
@@ -42,37 +43,40 @@ Topic-by-topic digests of ECMA-402 task group (TG2) monthly calls, produced by `
 | [2023-06-01](2023/2023-06-01.md) | TG2 approves #786 (max fractional digits 100); UTC offset zones (#788) backed with precision open; localized-string misuse and Etc/Unknown discussed without consensus.                             |
 | [2023-05-04](2023/2023-05-04.md) | ES2023 cut; #768 roundingPriority reorder supported; Time Zone Canonicalization design discussed before Stage 2; `-u-fw` normative PR planned for July.                                             |
 | [2023-04-06](2023/2023-04-06.md) | ES2023 blockers: NumberFormat v3 resolvedOptions order, #709 and #758 agreed; ZonedDateTimeFormat Stage 1 support; DurationFormat #139/#146 agreed, #144 leaning to option 4.                       |
+| [2023-03-09](2023/2023-03-09.md) | Canonical time zone identifiers (OK to entertain a proposal); ZonedDateTime vs DateTimeFormat time zone; user-preferences privacy vs i18n debate.                                                   |
 | [2023-01-12](2023/2023-01-12.md) | Stage 3 issues cleared for NumberFormat v3 (approximatelySign, read order, exponent limit); DurationFormat heads to Stage 4; Locale Info getters go to TG1.                                         |
 | [2022-12-08](2022/2022-12-08.md) | TG2 approves the Gregorian BC(E) era fix (#729); both fractionalSecondDigits PRs backlogged; DurationFormat plural/singular names (#44); Locale Info getters-to-methods (#65) left open.            |
 | [2022-11-03](2022/2022-11-03.md) | TG2 approves #724 (GMT to UTC), merges #708; User Preferences privacy debate; Era Display decoupled from Temporal; DurationFormat strings throw `RangeError`.                                       |
 | [2022-10-06](2022/2022-10-06.md) | Intl Enumeration cleared for Stage 4 after PR #43; Locale Info Stage 4 delayed; intl-temporal renamed intl-era-and-month-codes; message resources split (Stage 1).                                  |
 | [2022-09-01](2022/2022-09-01.md) | PR #708 adds microsecond/nanosecond units; DurationFormat defaults settled ("short", digital always-display); `useGrouping` throws RangeError; MessageFormat bundle split.                          |
 | [2022-08-04](2022/2022-08-04.md) | NumberFormat v3 `useGrouping` "true"/"false" map to "auto"; Temporal's DateTimeFormat changes to be reverted or justified; DurationFormat numeric parts; W3C localizable-string presentation.       |
+| [2022-06-16](2022/2022-06-16.md) | Consensus on editorial PR #690 (262/402 layering); `roundingPriority` change accepted in principle; `getCollations()` order unresolved; Segmenter URL issue is a V8 bug.                            |
+| [2022-05-19](2022/2022-05-19.md) | Tracking Temporal's ECMA-402 parts; NumberFormat v3 exponent limits and `roundingIncrement` option 2; `Intl.DurationFormat` to be decoupled from Temporal.                                          |
+| [2022-04-21](2022/2022-04-21.md) | TC39 copyright license; ES2022 Stage 4 items; eraDisplay uses internal slots; Intl Enumeration lists iso8601 only; CollationsOfLocale order taken offline.                                          |
+| [2022-03-17](2022/2022-03-17.md) | Units Conversion approved for Stage 1; useGrouping 'true' web compat; RangeError vs TypeError; '\_' calendar PR in ES2022; Segmenter URLs.                                                          |
+| [2022-01-13](2022/2022-01-13.md) | tnsa numbering system and Segmenter PR into ES2022; roundingIncrement throws; DurationFormat #89/#90; Segmenter V2 Stage 2 pushback.                                                                |
+| [2021-11-04](2021/2021-11-04.md) | Approved PRs #572 and #571; NumberFormat v3 selectRange strictness and string precision; Segmenter V2 headed for Stage 1; textInfo.direction debated, no change.                                    |
+| [2021-10-07](2021/2021-10-07.md) | TG2 says Intl.Segmenter can proceed to Stage 4; DurationFormat Stage 3 request meets pushback; "tnsa" numbering system approved; Segmenter v2, transliteration explored.                            |
+| [2021-09-09](2021/2021-09-09.md) | Locale Info PRs #43 and #44 approved; list-order question sent to TG1; whole locale should affect `weekInfo`; JS Input Masking presentation; issue triage.                                          |
+| [2021-06-03](2021/2021-06-03.md) | Consensus on ecma402 PRs #571, #572, #573, #577 and Locale Info PRs #36/#37; DurationFormat extra-fields straw poll unresolved; Enumeration `region` removed.                                       |
 | [2021-04-08](2021/2021-04-08.md) | Locale Info and DisplayNames v2 to Stage 3, Extend TimeZoneName to Stage 2 (shortOffset/longOffset), NumberFormat V3 rounding settled; DurationFormat option and plural issues.                     |
+| [2021-02-11](2021/2021-02-11.md) | NumberFormat v3 rounding-mode, `min2`, `signDisplay`, `-0` bikeshedding; DurationFormat keeps `style` and adopts `smallestUnit`/`largestUnit`/`hideZeroValued`; options must be objects.            |
+| [2021-01-14](2021/2021-01-14.md) | `formatRange` Stage 4 support; DisplayNames V2 narrowed to calendar and unit for Stage 2; Locale Info Stage 2; Extend TimeZoneName Stage 1; DurationFormat decisions.                               |
+| [2020-12-04](2020/2020-12-04.md) | API surface and scope guidelines (PR #517); Stage 1 support for `eraDisplay` and `LocaleMatcher`; Intl Locale Info Stage 2; Extend TimeZoneName introduced.                                         |
 | [2020-09-10](2020/2020-09-10.md) | Intl.DisplayNames gets Stage 4 consensus; DurationFormat scoped to unsigned durations after Temporal signed durations; clock-style naming debated.                                                  |
+| [2020-08-13](2020/2020-08-13.md) | `Intl` `@@toStringTag` consensus; Stage 1 support for Intl Locale Info and `Intl.DisplayNames` V2; Enumeration privacy concerns; repo permissions.                                                  |
+| [2020-07-09](2020/2020-07-09.md) | `formatRange` edge cases, Conformance section, DisplayNames `type`/region questions, four normative PRs, first sequence-unit (#398) discussion.                                                     |
+| [2020-06-11](2020/2020-06-11.md) | First TG2 look at Smart Unit Preferences; TG2 supports Stage 4 for ListFormat and dateStyle/timeStyle; user preferences and `rg` override discussed.                                                |
+| [2020-02-27](2020/2020-02-27.md) | Editor LEO may step down; user-preferences discussion without decision; close #257; mark Annex A fingerprintable; accept Anba's canonicalisation behaviour.                                         |
+| [2020-01-30](2020/2020-01-30.md) | PR and proposal status round; CLDR favours filling DateTimeFormat gaps; Segmenter held at Stage 2; long DurationFormat debate on rounding and hiding, no conclusion.                                |
+| [2020-01-09](2020/2020-01-09.md) | Calendar list and DateTimeFormat option gaps sent to CLDR; RangeError for style plus other options; Intl.DurationFormat gets TG2 "Stage 1 consensus".                                               |
+| [2019-11-14](2019/2019-11-14.md) | Stage 4 prep for RelativeTimeFormat and NumberFormat; ListFormat Spanish bug blocks Stage 4; Unicode properties debate; DurationFormat pitched with FYT as champion.                                |
+| [2019-07-11](2019/2019-07-11.md) | `fractionalSecondDigits` consensus; `quarter` held for CLDR; unified NumberFormat unit data size; camelCase recommended for string enums; Locale `true` keyword.                                    |
+| [2018-03-16](2018/2018-03-16.md) | Locale canonicalization and grandfathered tags; Segmenter options deferred; NumberFormat keeps `style`; flat `formatRangeToParts`; UnitFormat folded into unified NumberFormat.                     |
+| [2017-12-15](2017/2017-12-15.md) | First TG2 call: Segmenter size concerns, ListFormat/RelativeTimeFormat heading to Stage 3, dateStyle/timeStyle idea, monthly cadence agreed.                                                        |
 
 ## Summary backlog
 
 TG2 meetings already cited by proposal pages but not yet summarised (oldest first). `/summarise <date>` removes an entry; `/ingest` adds them (AGENTS.md "Workflow > Ingest" step 7).
 
-| Date                                                                                 | Referenced by                            |
-| ------------------------------------------------------------------------------------ | ---------------------------------------- |
-| [2017-12-15](https://github.com/tc39/ecma402/blob/main/meetings/notes-2017-12-15.md) | intl-durationformat                      |
-| [2018-03-16](https://github.com/tc39/ecma402/blob/main/meetings/notes-2018-03-16.md) | intl-sequence-units                      |
-| [2019-11-14](https://github.com/tc39/ecma402/blob/main/meetings/notes-2019-11-14.md) | intl-durationformat                      |
-| [2020-01-09](https://github.com/tc39/ecma402/blob/main/meetings/notes-2020-01-09.md) | intl-durationformat                      |
-| [2020-01-30](https://github.com/tc39/ecma402/blob/main/meetings/notes-2020-01-30.md) | intl-durationformat                      |
-| [2020-02-27](https://github.com/tc39/ecma402/blob/main/meetings/notes-2020-02-27.md) | intl-locale-info                         |
-| [2020-07-09](https://github.com/tc39/ecma402/blob/main/meetings/notes-2020-07-09.md) | intl-sequence-units                      |
-| [2020-08-13](https://github.com/tc39/ecma402/blob/main/meetings/notes-2020-08-13.md) | intl-locale-info                         |
-| [2020-12-04](https://github.com/tc39/ecma402/blob/main/meetings/notes-2020-12-04.md) | intl-locale-info                         |
-| [2021-01-14](https://github.com/tc39/ecma402/blob/main/meetings/notes-2021-01-14.md) | intl-durationformat, intl-locale-info    |
-| [2021-02-11](https://github.com/tc39/ecma402/blob/main/meetings/notes-2021-02-11.md) | intl-durationformat                      |
-| [2021-06-03](https://github.com/tc39/ecma402/blob/main/meetings/notes-2021-06-03.md) | intl-durationformat, intl-locale-info    |
-| [2021-09-09](https://github.com/tc39/ecma402/blob/main/meetings/notes-2021-09-09.md) | intl-locale-info                         |
-| [2021-10-07](https://github.com/tc39/ecma402/blob/main/meetings/notes-2021-10-07.md) | intl-durationformat                      |
-| [2021-11-04](https://github.com/tc39/ecma402/blob/main/meetings/notes-2021-11-04.md) | intl-locale-info                         |
-| [2022-01-13](https://github.com/tc39/ecma402/blob/main/meetings/notes-2022-01-13.md) | intl-durationformat                      |
-| [2022-04-21](https://github.com/tc39/ecma402/blob/main/meetings/notes-2022-04-21.md) | intl-locale-info                         |
-| [2022-05-19](https://github.com/tc39/ecma402/blob/main/meetings/notes-2022-05-19.md) | intl-durationformat, intl-era-month-code |
-| [2022-06-16](https://github.com/tc39/ecma402/blob/main/meetings/notes-2022-06-16.md) | intl-era-month-code, intl-locale-info    |
+(empty — every TG2 meeting cited by a proposal page has a summary)

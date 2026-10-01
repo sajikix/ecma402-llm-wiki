@@ -12,33 +12,33 @@ tags: [person]
 - **Full name**: Jeff Walden
 - **Affiliation**: SpiderMonkey/Mozilla / Spidermonkey
 - **Champion drafts**: (none among curated pages)
-- **Mentioned on proposal pages**: [Intl.DurationFormat](../proposals/intl-durationformat.md), [Intl Locale Info](../proposals/intl-locale-info.md)
+- **Mentioned on proposal pages**: [Intl.DurationFormat](../proposals/intl-durationformat.md), [Intl Locale Info](../proposals/intl-locale-info.md), [Smart Unit Preferences in Intl.NumberFormat](../proposals/smart-unit-preferences.md)
 - **TG2 meetings attended**: 23
 - **Plenary meetings attended**: 0
 
 ## TG2 meetings attended
 
 - 2021-07-01
-- 2021-06-03
+- [2021-06-03](../meetings/2021/2021-06-03.md)
 - 2021-05-06
 - 2021-03-11
-- 2021-02-11
-- 2021-01-14
-- 2020-12-04
+- [2021-02-11](../meetings/2021/2021-02-11.md)
+- [2021-01-14](../meetings/2021/2021-01-14.md)
+- [2020-12-04](../meetings/2020/2020-12-04.md)
 - 2020-11-05
 - 2020-10-08
 - [2020-09-10](../meetings/2020/2020-09-10.md)
-- 2020-08-13
-- 2020-07-09
-- 2020-06-11
+- [2020-08-13](../meetings/2020/2020-08-13.md)
+- [2020-07-09](../meetings/2020/2020-07-09.md)
+- [2020-06-11](../meetings/2020/2020-06-11.md)
 - 2020-05-21
 - 2020-04-23
 - 2020-03-26
-- 2020-02-27
-- 2020-01-30
-- 2020-01-09
+- [2020-02-27](../meetings/2020/2020-02-27.md)
+- [2020-01-30](../meetings/2020/2020-01-30.md)
+- [2020-01-09](../meetings/2020/2020-01-09.md)
 - 2019-12-12
-- 2019-11-14
+- [2019-11-14](../meetings/2019/2019-11-14.md)
 - 2019-10-24
 - 2019-09-26
 

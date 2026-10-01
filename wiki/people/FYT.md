@@ -12,7 +12,7 @@ tags: [person]
 - **Full name**: Frank Yung-Fong Tang
 - **Affiliation**: Google / Google i18n, V8
 - **Champion drafts**: [Intl Era/Month Code](../proposals/intl-era-month-code.md), [Intl Locale Info](../proposals/intl-locale-info.md)
-- **Mentioned on proposal pages**: [Amount](../proposals/amount.md), [Intl.DurationFormat](../proposals/intl-durationformat.md), [Intl Era/Month Code](../proposals/intl-era-month-code.md), [Intl Locale Info](../proposals/intl-locale-info.md), [Stable Formatting](../proposals/stable-formatting.md)
+- **Mentioned on proposal pages**: [Amount](../proposals/amount.md), [Intl.DurationFormat](../proposals/intl-durationformat.md), [Intl Era/Month Code](../proposals/intl-era-month-code.md), [Intl Locale Info](../proposals/intl-locale-info.md), [Smart Unit Preferences in Intl.NumberFormat](../proposals/smart-unit-preferences.md), [Stable Formatting](../proposals/stable-formatting.md)
 - **TG2 meetings attended**: 62
 - **Plenary meetings attended**: 21
 
@@ -32,7 +32,7 @@ tags: [person]
 - [2024-08-22](../meetings/2024/2024-08-22.md)
 - [2024-07-18](../meetings/2024/2024-07-18.md)
 - [2024-04-25](../meetings/2024/2024-04-25.md)
-- 2024-03-28
+- [2024-03-28](../meetings/2024/2024-03-28.md)
 - [2024-02-22](../meetings/2024/2024-02-22.md)
 - 2024-01-18
 - [2023-12-14](../meetings/2023/2023-12-14.md)
@@ -52,32 +52,32 @@ tags: [person]
 - [2022-09-01](../meetings/2022/2022-09-01.md)
 - [2022-08-04](../meetings/2022/2022-08-04.md)
 - 2022-07-07
-- 2022-05-19
-- 2022-04-21
-- 2022-03-17
-- 2022-01-13
+- [2022-05-19](../meetings/2022/2022-05-19.md)
+- [2022-04-21](../meetings/2022/2022-04-21.md)
+- [2022-03-17](../meetings/2022/2022-03-17.md)
+- [2022-01-13](../meetings/2022/2022-01-13.md)
 - 2021-12-02
-- 2021-11-04
-- 2021-10-07
-- 2021-09-09
+- [2021-11-04](../meetings/2021/2021-11-04.md)
+- [2021-10-07](../meetings/2021/2021-10-07.md)
+- [2021-09-09](../meetings/2021/2021-09-09.md)
 - 2021-07-01
-- 2021-06-03
+- [2021-06-03](../meetings/2021/2021-06-03.md)
 - 2021-05-06
 - [2021-04-08](../meetings/2021/2021-04-08.md)
 - 2021-03-11
-- 2021-01-14
-- 2020-12-04
+- [2021-01-14](../meetings/2021/2021-01-14.md)
+- [2020-12-04](../meetings/2020/2020-12-04.md)
 - 2020-11-05
 - [2020-09-10](../meetings/2020/2020-09-10.md)
-- 2020-08-13
-- 2020-07-09
-- 2020-06-11
+- [2020-08-13](../meetings/2020/2020-08-13.md)
+- [2020-07-09](../meetings/2020/2020-07-09.md)
+- [2020-06-11](../meetings/2020/2020-06-11.md)
 - 2020-05-21
 - 2020-04-23
 - 2020-03-26
-- 2020-02-27
+- [2020-02-27](../meetings/2020/2020-02-27.md)
 - 2019-12-12
-- 2019-11-14
+- [2019-11-14](../meetings/2019/2019-11-14.md)
 - 2019-10-24
 - 2019-09-26
 

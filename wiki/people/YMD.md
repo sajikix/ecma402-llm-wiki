@@ -11,26 +11,26 @@ tags: [person]
 
 - **Full name**: Younies Mahmoud
 - **Affiliation**: Google / Google i18n
-- **Champion drafts**: [Intl.DurationFormat](../proposals/intl-durationformat.md)
-- **Mentioned on proposal pages**: [Intl.DurationFormat](../proposals/intl-durationformat.md)
+- **Champion drafts**: [Intl.DurationFormat](../proposals/intl-durationformat.md), [Smart Unit Preferences in Intl.NumberFormat](../proposals/smart-unit-preferences.md)
+- **Mentioned on proposal pages**: [Intl.DurationFormat](../proposals/intl-durationformat.md), [Smart Unit Preferences in Intl.NumberFormat](../proposals/smart-unit-preferences.md)
 - **TG2 meetings attended**: 13
 - **Plenary meetings attended**: 1
 
 ## TG2 meetings attended
 
 - [2025-03-06](../meetings/2025/2025-03-06.md)
-- 2022-03-17
-- 2022-01-13
+- [2022-03-17](../meetings/2022/2022-03-17.md)
+- [2022-01-13](../meetings/2022/2022-01-13.md)
 - [2021-04-08](../meetings/2021/2021-04-08.md)
-- 2021-02-11
-- 2021-01-14
+- [2021-02-11](../meetings/2021/2021-02-11.md)
+- [2021-01-14](../meetings/2021/2021-01-14.md)
 - [2020-09-10](../meetings/2020/2020-09-10.md)
-- 2020-08-13
-- 2020-06-11
+- [2020-08-13](../meetings/2020/2020-08-13.md)
+- [2020-06-11](../meetings/2020/2020-06-11.md)
 - 2020-04-23
-- 2020-01-30
-- 2020-01-09
-- 2019-11-14
+- [2020-01-30](../meetings/2020/2020-01-30.md)
+- [2020-01-09](../meetings/2020/2020-01-09.md)
+- [2019-11-14](../meetings/2019/2019-11-14.md)
 
 ## Plenary meetings attended
 

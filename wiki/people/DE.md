@@ -12,7 +12,7 @@ tags: [person]
 - **Full name**: Daniel Ehrenberg
 - **Affiliation**: Bloomberg / Igalia
 - **Champion drafts**: (none among curated pages)
-- **Mentioned on proposal pages**: [Amount](../proposals/amount.md), [Intl.DurationFormat](../proposals/intl-durationformat.md), [Intl Locale Info](../proposals/intl-locale-info.md), [Stable Formatting](../proposals/stable-formatting.md)
+- **Mentioned on proposal pages**: [Amount](../proposals/amount.md), [Intl.DurationFormat](../proposals/intl-durationformat.md), [Intl Locale Info](../proposals/intl-locale-info.md), [Smart Unit Preferences in Intl.NumberFormat](../proposals/smart-unit-preferences.md), [Stable Formatting](../proposals/stable-formatting.md)
 - **TG2 meetings attended**: 11
 - **Plenary meetings attended**: 22
 
@@ -21,9 +21,9 @@ tags: [person]
 - 2020-05-21
 - 2020-04-23
 - 2020-03-26
-- 2020-01-30
-- 2020-01-09
-- 2019-11-14
+- [2020-01-30](../meetings/2020/2020-01-30.md)
+- [2020-01-09](../meetings/2020/2020-01-09.md)
+- [2019-11-14](../meetings/2019/2019-11-14.md)
 - 2019-09-26
 - 2019-09-05
 - 2019-06-13

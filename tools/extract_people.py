@@ -59,7 +59,8 @@ NON_PERSON = {
     # Ad-hoc / mistyped TG2 abbreviations that pages normalise (AGENTS.md
     # "Known mappings") and may cite in parentheses; never person pages.
     "SC", "FT", "YFT", "FTY", "USH", "ZBI", "PCO", "PRC", "HSI", "HSJ",
-    "HYS", "DMN", "YSK", "JNM", "EAIO", "SFO", "LFS", "FYC", "FYI", "SFA",
+    "HYS", "DMN", "YSK", "JNM", "EAIO", "SFO", "LFS", "FYC", "FYI", "SFA", "EOA", "LFA", "YZS", "RGT", "CC", "FB",
+    "SL", "SFL", "JV", "JW", "RG", "RC", "VY", "YM", "BK",
 }
 
 # Real delegate abbreviations that usually mean something else in prose. They
@@ -71,6 +72,7 @@ AMBIGUOUS = {
     "MF",   # MessageFormat, or Michael Ficarra
     "MGR",  # TG2 2025 notes: Manish Goregaokar; delegates.txt: Mira Gross
     "BCE",  # the era code, or Ben Coe
+    "JH",   # 2017-2018 TG2: Jack Horton; delegates.txt: Jafar Husain
 }
 
 

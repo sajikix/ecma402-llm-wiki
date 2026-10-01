@@ -12,13 +12,13 @@ tags: [person]
 - **Full name**: Yulia Startsev
 - **Affiliation**: Mozilla
 - **Champion drafts**: (none among curated pages)
-- **Mentioned on proposal pages**: [Amount](../proposals/amount.md), [Intl Locale Info](../proposals/intl-locale-info.md)
+- **Mentioned on proposal pages**: [Amount](../proposals/amount.md), [Intl Locale Info](../proposals/intl-locale-info.md), [Smart Unit Preferences in Intl.NumberFormat](../proposals/smart-unit-preferences.md)
 - **TG2 meetings attended**: 1
 - **Plenary meetings attended**: 16
 
 ## TG2 meetings attended
 
-- 2022-04-21
+- [2022-04-21](../meetings/2022/2022-04-21.md)
 
 ## Plenary meetings attended
 

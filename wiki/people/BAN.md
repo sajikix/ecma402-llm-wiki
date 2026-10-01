@@ -12,7 +12,7 @@ tags: [person]
 - **Full name**: Ben Allen
 - **Affiliation**: Igalia
 - **Champion drafts**: [Amount](../proposals/amount.md), [Intl Era/Month Code](../proposals/intl-era-month-code.md)
-- **Mentioned on proposal pages**: [Amount](../proposals/amount.md), [Intl.DurationFormat](../proposals/intl-durationformat.md), [Intl Era/Month Code](../proposals/intl-era-month-code.md), [Intl Keep Trailing Zeros](../proposals/intl-keep-trailing-zeros.md), [Intl Sequence Units](../proposals/intl-sequence-units.md)
+- **Mentioned on proposal pages**: [Amount](../proposals/amount.md), [Intl.DurationFormat](../proposals/intl-durationformat.md), [Intl Era/Month Code](../proposals/intl-era-month-code.md), [Intl Keep Trailing Zeros](../proposals/intl-keep-trailing-zeros.md), [Intl Sequence Units](../proposals/intl-sequence-units.md), [Intl Unit Protocol](../proposals/intl-unit-protocol.md), [Smart Unit Preferences in Intl.NumberFormat](../proposals/smart-unit-preferences.md)
 - **TG2 meetings attended**: 29
 - **Plenary meetings attended**: 14
 
@@ -33,7 +33,7 @@ tags: [person]
 - [2024-07-18](../meetings/2024/2024-07-18.md)
 - [2024-05-23](../meetings/2024/2024-05-23.md)
 - [2024-04-25](../meetings/2024/2024-04-25.md)
-- 2024-03-28
+- [2024-03-28](../meetings/2024/2024-03-28.md)
 - [2024-02-22](../meetings/2024/2024-02-22.md)
 - 2024-01-18
 - [2023-11-16](../meetings/2023/2023-11-16.md)
@@ -44,7 +44,7 @@ tags: [person]
 - [2023-06-01](../meetings/2023/2023-06-01.md)
 - [2023-05-04](../meetings/2023/2023-05-04.md)
 - [2023-04-06](../meetings/2023/2023-04-06.md)
-- 2023-03-09
+- [2023-03-09](../meetings/2023/2023-03-09.md)
 - 2023-02-09
 - [2023-01-12](../meetings/2023/2023-01-12.md)
 

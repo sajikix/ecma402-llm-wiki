@@ -12,7 +12,7 @@ tags: [person]
 - **Full name**: Zibi Braniecki
 - **Affiliation**: Amazon / Amazon Alexa / Invited Expert / Mozilla
 - **Champion drafts**: (none among curated pages)
-- **Mentioned on proposal pages**: [Amount](../proposals/amount.md), [Intl.DurationFormat](../proposals/intl-durationformat.md), [Intl Locale Info](../proposals/intl-locale-info.md), [Intl Sequence Units](../proposals/intl-sequence-units.md), [Stable Formatting](../proposals/stable-formatting.md)
+- **Mentioned on proposal pages**: [Amount](../proposals/amount.md), [Intl.DurationFormat](../proposals/intl-durationformat.md), [Intl Locale Info](../proposals/intl-locale-info.md), [Intl Sequence Units](../proposals/intl-sequence-units.md), [Smart Unit Preferences in Intl.NumberFormat](../proposals/smart-unit-preferences.md), [Stable Formatting](../proposals/stable-formatting.md)
 - **TG2 meetings attended**: 42
 - **Plenary meetings attended**: 3
 
@@ -29,35 +29,35 @@ tags: [person]
 - [2023-01-12](../meetings/2023/2023-01-12.md)
 - [2022-12-08](../meetings/2022/2022-12-08.md)
 - [2022-08-04](../meetings/2022/2022-08-04.md)
-- 2022-05-19
-- 2022-03-17
-- 2022-01-13
+- [2022-05-19](../meetings/2022/2022-05-19.md)
+- [2022-03-17](../meetings/2022/2022-03-17.md)
+- [2022-01-13](../meetings/2022/2022-01-13.md)
 - 2021-12-02
-- 2021-11-04
-- 2021-09-09
+- [2021-11-04](../meetings/2021/2021-11-04.md)
+- [2021-09-09](../meetings/2021/2021-09-09.md)
 - 2021-07-01
-- 2021-06-03
+- [2021-06-03](../meetings/2021/2021-06-03.md)
 - 2021-05-06
 - [2021-04-08](../meetings/2021/2021-04-08.md)
-- 2021-02-11
-- 2021-01-14
-- 2020-12-04
+- [2021-02-11](../meetings/2021/2021-02-11.md)
+- [2021-01-14](../meetings/2021/2021-01-14.md)
+- [2020-12-04](../meetings/2020/2020-12-04.md)
 - 2020-11-05
 - 2020-10-08
-- 2020-08-13
-- 2020-07-09
-- 2020-06-11
+- [2020-08-13](../meetings/2020/2020-08-13.md)
+- [2020-07-09](../meetings/2020/2020-07-09.md)
+- [2020-06-11](../meetings/2020/2020-06-11.md)
 - 2020-04-23
 - 2020-03-26
-- 2020-02-27
-- 2020-01-30
-- 2020-01-09
+- [2020-02-27](../meetings/2020/2020-02-27.md)
+- [2020-01-30](../meetings/2020/2020-01-30.md)
+- [2020-01-09](../meetings/2020/2020-01-09.md)
 - 2019-12-12
-- 2019-11-14
+- [2019-11-14](../meetings/2019/2019-11-14.md)
 - 2019-10-24
 - 2019-09-05
 - 2019-08-08
-- 2019-07-11
+- [2019-07-11](../meetings/2019/2019-07-11.md)
 - 2019-06-13
 - 2018-01-19
 

@@ -12,7 +12,7 @@ tags: [person]
 - **Full name**: Jesse Alama
 - **Affiliation**: Igalia / Igalia, S.L
 - **Champion drafts**: (none among curated pages)
-- **Mentioned on proposal pages**: [Amount](../proposals/amount.md), [Intl Keep Trailing Zeros](../proposals/intl-keep-trailing-zeros.md), [Intl Sequence Units](../proposals/intl-sequence-units.md)
+- **Mentioned on proposal pages**: [Amount](../proposals/amount.md), [Intl Keep Trailing Zeros](../proposals/intl-keep-trailing-zeros.md), [Intl Sequence Units](../proposals/intl-sequence-units.md), [Intl Unit Protocol](../proposals/intl-unit-protocol.md)
 - **TG2 meetings attended**: 22
 - **Plenary meetings attended**: 18
 
@@ -38,7 +38,7 @@ tags: [person]
 - [2024-09-26](../meetings/2024/2024-09-26.md)
 - [2024-07-18](../meetings/2024/2024-07-18.md)
 - [2024-04-25](../meetings/2024/2024-04-25.md)
-- 2024-03-28
+- [2024-03-28](../meetings/2024/2024-03-28.md)
 - [2024-02-22](../meetings/2024/2024-02-22.md)
 
 ## Plenary meetings attended

@@ -12,7 +12,7 @@ tags: [person]
 - **Full name**: Richard Gibson
 - **Affiliation**: Agoric / Agoric / OpenJS Foundation / Open JS Foundation / OpenJS Foundation / OpenJS foundation, Oracle / OpenJSF and Oracle
 - **Champion drafts**: (none among curated pages)
-- **Mentioned on proposal pages**: [Amount](../proposals/amount.md), [Intl.DurationFormat](../proposals/intl-durationformat.md), [Intl Era/Month Code](../proposals/intl-era-month-code.md), [Intl Keep Trailing Zeros](../proposals/intl-keep-trailing-zeros.md), [Intl Locale Info](../proposals/intl-locale-info.md), [Intl Sequence Units](../proposals/intl-sequence-units.md), [Stable Formatting](../proposals/stable-formatting.md)
+- **Mentioned on proposal pages**: [Amount](../proposals/amount.md), [Intl.DurationFormat](../proposals/intl-durationformat.md), [Intl Era/Month Code](../proposals/intl-era-month-code.md), [Intl Keep Trailing Zeros](../proposals/intl-keep-trailing-zeros.md), [Intl Locale Info](../proposals/intl-locale-info.md), [Intl Sequence Units](../proposals/intl-sequence-units.md), [Intl Unit Protocol](../proposals/intl-unit-protocol.md), [Smart Unit Preferences in Intl.NumberFormat](../proposals/smart-unit-preferences.md), [Stable Formatting](../proposals/stable-formatting.md)
 - **TG2 meetings attended**: 67
 - **Plenary meetings attended**: 30
 
@@ -40,7 +40,7 @@ tags: [person]
 - [2024-07-18](../meetings/2024/2024-07-18.md)
 - [2024-05-23](../meetings/2024/2024-05-23.md)
 - [2024-04-25](../meetings/2024/2024-04-25.md)
-- 2024-03-28
+- [2024-03-28](../meetings/2024/2024-03-28.md)
 - [2024-02-22](../meetings/2024/2024-02-22.md)
 - [2023-12-14](../meetings/2023/2023-12-14.md)
 - [2023-11-16](../meetings/2023/2023-11-16.md)
@@ -50,7 +50,7 @@ tags: [person]
 - [2023-06-01](../meetings/2023/2023-06-01.md)
 - [2023-05-04](../meetings/2023/2023-05-04.md)
 - [2023-04-06](../meetings/2023/2023-04-06.md)
-- 2023-03-09
+- [2023-03-09](../meetings/2023/2023-03-09.md)
 - 2023-02-09
 - [2023-01-12](../meetings/2023/2023-01-12.md)
 - [2022-12-08](../meetings/2022/2022-12-08.md)
@@ -58,33 +58,33 @@ tags: [person]
 - [2022-09-01](../meetings/2022/2022-09-01.md)
 - [2022-08-04](../meetings/2022/2022-08-04.md)
 - 2022-07-07
-- 2022-05-19
-- 2022-04-21
-- 2022-03-17
-- 2022-01-13
+- [2022-05-19](../meetings/2022/2022-05-19.md)
+- [2022-04-21](../meetings/2022/2022-04-21.md)
+- [2022-03-17](../meetings/2022/2022-03-17.md)
+- [2022-01-13](../meetings/2022/2022-01-13.md)
 - 2021-12-02
-- 2021-11-04
-- 2021-10-07
-- 2021-09-09
+- [2021-11-04](../meetings/2021/2021-11-04.md)
+- [2021-10-07](../meetings/2021/2021-10-07.md)
+- [2021-09-09](../meetings/2021/2021-09-09.md)
 - 2021-07-01
 - 2021-05-06
 - [2021-04-08](../meetings/2021/2021-04-08.md)
 - 2021-03-11
-- 2021-02-11
-- 2021-01-14
-- 2020-12-04
+- [2021-02-11](../meetings/2021/2021-02-11.md)
+- [2021-01-14](../meetings/2021/2021-01-14.md)
+- [2020-12-04](../meetings/2020/2020-12-04.md)
 - 2020-11-05
 - 2020-10-08
 - [2020-09-10](../meetings/2020/2020-09-10.md)
-- 2020-08-13
-- 2020-07-09
-- 2020-06-11
+- [2020-08-13](../meetings/2020/2020-08-13.md)
+- [2020-07-09](../meetings/2020/2020-07-09.md)
+- [2020-06-11](../meetings/2020/2020-06-11.md)
 - 2020-05-21
 - 2020-04-23
 - 2020-03-26
-- 2020-01-30
-- 2020-01-09
-- 2019-11-14
+- [2020-01-30](../meetings/2020/2020-01-30.md)
+- [2020-01-09](../meetings/2020/2020-01-09.md)
+- [2019-11-14](../meetings/2019/2019-11-14.md)
 
 ## Plenary meetings attended
 

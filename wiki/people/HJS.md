@@ -12,7 +12,7 @@ tags: [person]
 - **Full name**: Henri Sivonen
 - **Affiliation**: Mozilla
 - **Champion drafts**: (none among curated pages)
-- **Mentioned on proposal pages**: [Amount](../proposals/amount.md), [Intl Era/Month Code](../proposals/intl-era-month-code.md), [Intl Keep Trailing Zeros](../proposals/intl-keep-trailing-zeros.md), [Intl Locale Info](../proposals/intl-locale-info.md), [Stable Formatting](../proposals/stable-formatting.md)
+- **Mentioned on proposal pages**: [Amount](../proposals/amount.md), [Intl Era/Month Code](../proposals/intl-era-month-code.md), [Intl Keep Trailing Zeros](../proposals/intl-keep-trailing-zeros.md), [Intl Locale Info](../proposals/intl-locale-info.md), [Smart Unit Preferences in Intl.NumberFormat](../proposals/smart-unit-preferences.md), [Stable Formatting](../proposals/stable-formatting.md)
 - **TG2 meetings attended**: 27
 - **Plenary meetings attended**: 1
 
@@ -40,10 +40,10 @@ tags: [person]
 - [2024-08-22](../meetings/2024/2024-08-22.md)
 - [2024-07-18](../meetings/2024/2024-07-18.md)
 - [2024-05-23](../meetings/2024/2024-05-23.md)
-- 2024-03-28
+- [2024-03-28](../meetings/2024/2024-03-28.md)
 - [2024-02-22](../meetings/2024/2024-02-22.md)
 - 2024-01-18
-- 2023-03-09
+- [2023-03-09](../meetings/2023/2023-03-09.md)
 - 2023-02-09
 
 ## Plenary meetings attended

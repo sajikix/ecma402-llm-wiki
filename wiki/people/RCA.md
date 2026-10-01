@@ -12,14 +12,14 @@ tags: [person]
 - **Full name**: Romulo Cintra
 - **Affiliation**: CaixaBank / Igalia / Igalia S.L. / Igalia, S.L
 - **Champion drafts**: (none among curated pages)
-- **Mentioned on proposal pages**: [Intl.DurationFormat](../proposals/intl-durationformat.md)
+- **Mentioned on proposal pages**: [Intl.DurationFormat](../proposals/intl-durationformat.md), [Smart Unit Preferences in Intl.NumberFormat](../proposals/smart-unit-preferences.md)
 - **TG2 meetings attended**: 35
 - **Plenary meetings attended**: 11
 
 ## TG2 meetings attended
 
 - [2023-11-16](../meetings/2023/2023-11-16.md)
-- 2023-03-09
+- [2023-03-09](../meetings/2023/2023-03-09.md)
 - 2023-02-09
 - [2023-01-12](../meetings/2023/2023-01-12.md)
 - [2022-11-03](../meetings/2022/2022-11-03.md)
@@ -27,30 +27,30 @@ tags: [person]
 - [2022-09-01](../meetings/2022/2022-09-01.md)
 - [2022-08-04](../meetings/2022/2022-08-04.md)
 - 2022-07-07
-- 2022-06-16
-- 2022-05-19
-- 2022-04-21
-- 2022-03-17
+- [2022-06-16](../meetings/2022/2022-06-16.md)
+- [2022-05-19](../meetings/2022/2022-05-19.md)
+- [2022-04-21](../meetings/2022/2022-04-21.md)
+- [2022-03-17](../meetings/2022/2022-03-17.md)
 - 2022-02-10
-- 2022-01-13
+- [2022-01-13](../meetings/2022/2022-01-13.md)
 - 2021-12-02
-- 2021-11-04
-- 2021-10-07
-- 2021-09-09
-- 2021-06-03
+- [2021-11-04](../meetings/2021/2021-11-04.md)
+- [2021-10-07](../meetings/2021/2021-10-07.md)
+- [2021-09-09](../meetings/2021/2021-09-09.md)
+- [2021-06-03](../meetings/2021/2021-06-03.md)
 - 2021-05-06
 - 2021-03-11
-- 2021-01-14
+- [2021-01-14](../meetings/2021/2021-01-14.md)
 - 2020-11-05
 - [2020-09-10](../meetings/2020/2020-09-10.md)
-- 2020-08-13
-- 2020-06-11
+- [2020-08-13](../meetings/2020/2020-08-13.md)
+- [2020-06-11](../meetings/2020/2020-06-11.md)
 - 2020-05-21
 - 2020-03-26
-- 2020-02-27
-- 2020-01-09
+- [2020-02-27](../meetings/2020/2020-02-27.md)
+- [2020-01-09](../meetings/2020/2020-01-09.md)
 - 2019-12-12
-- 2019-11-14
+- [2019-11-14](../meetings/2019/2019-11-14.md)
 - 2019-10-24
 - 2019-09-26
 

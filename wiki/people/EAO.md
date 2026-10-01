@@ -12,7 +12,7 @@ tags: [person]
 - **Full name**: Eemeli Aro
 - **Affiliation**: Mozilla / OpenJSF
 - **Champion drafts**: [Amount](../proposals/amount.md), [Intl Keep Trailing Zeros](../proposals/intl-keep-trailing-zeros.md), [Stable Formatting](../proposals/stable-formatting.md)
-- **Mentioned on proposal pages**: [Amount](../proposals/amount.md), [Intl.DurationFormat](../proposals/intl-durationformat.md), [Intl Era/Month Code](../proposals/intl-era-month-code.md), [Intl Keep Trailing Zeros](../proposals/intl-keep-trailing-zeros.md), [Intl Locale Info](../proposals/intl-locale-info.md), [Intl Sequence Units](../proposals/intl-sequence-units.md), [Stable Formatting](../proposals/stable-formatting.md)
+- **Mentioned on proposal pages**: [Amount](../proposals/amount.md), [Intl.DurationFormat](../proposals/intl-durationformat.md), [Intl Era/Month Code](../proposals/intl-era-month-code.md), [Intl Keep Trailing Zeros](../proposals/intl-keep-trailing-zeros.md), [Intl Locale Info](../proposals/intl-locale-info.md), [Intl Sequence Units](../proposals/intl-sequence-units.md), [Intl Unit Protocol](../proposals/intl-unit-protocol.md), [Smart Unit Preferences in Intl.NumberFormat](../proposals/smart-unit-preferences.md), [Stable Formatting](../proposals/stable-formatting.md)
 - **TG2 meetings attended**: 60
 - **Plenary meetings attended**: 21
 
@@ -43,7 +43,7 @@ tags: [person]
 - [2024-07-18](../meetings/2024/2024-07-18.md)
 - [2024-05-23](../meetings/2024/2024-05-23.md)
 - [2024-04-25](../meetings/2024/2024-04-25.md)
-- 2024-03-28
+- [2024-03-28](../meetings/2024/2024-03-28.md)
 - [2024-02-22](../meetings/2024/2024-02-22.md)
 - 2024-01-18
 - [2023-12-14](../meetings/2023/2023-12-14.md)
@@ -60,23 +60,23 @@ tags: [person]
 - [2022-10-06](../meetings/2022/2022-10-06.md)
 - [2022-09-01](../meetings/2022/2022-09-01.md)
 - [2022-08-04](../meetings/2022/2022-08-04.md)
-- 2022-05-19
-- 2022-04-21
-- 2022-03-17
+- [2022-05-19](../meetings/2022/2022-05-19.md)
+- [2022-04-21](../meetings/2022/2022-04-21.md)
+- [2022-03-17](../meetings/2022/2022-03-17.md)
 - 2022-02-10
-- 2022-01-13
-- 2021-09-09
+- [2022-01-13](../meetings/2022/2022-01-13.md)
+- [2021-09-09](../meetings/2021/2021-09-09.md)
 - 2021-07-01
-- 2021-06-03
+- [2021-06-03](../meetings/2021/2021-06-03.md)
 - 2021-05-06
 - 2021-03-11
-- 2021-02-11
-- 2021-01-14
-- 2020-12-04
+- [2021-02-11](../meetings/2021/2021-02-11.md)
+- [2021-01-14](../meetings/2021/2021-01-14.md)
+- [2020-12-04](../meetings/2020/2020-12-04.md)
 - 2020-11-05
 - 2020-10-08
-- 2020-08-13
-- 2020-07-09
+- [2020-08-13](../meetings/2020/2020-08-13.md)
+- [2020-07-09](../meetings/2020/2020-07-09.md)
 - 2020-05-21
 
 ## Plenary meetings attended

@@ -12,7 +12,7 @@ tags: [person]
 - **Full name**: Dan Minor
 - **Affiliation**: Mozilla / Mozilla Foundation
 - **Champion drafts**: (none among curated pages)
-- **Mentioned on proposal pages**: [Amount](../proposals/amount.md), [Intl.DurationFormat](../proposals/intl-durationformat.md), [Intl Era/Month Code](../proposals/intl-era-month-code.md), [Intl Keep Trailing Zeros](../proposals/intl-keep-trailing-zeros.md), [Intl Locale Info](../proposals/intl-locale-info.md), [Intl Sequence Units](../proposals/intl-sequence-units.md), [Stable Formatting](../proposals/stable-formatting.md)
+- **Mentioned on proposal pages**: [Amount](../proposals/amount.md), [Intl.DurationFormat](../proposals/intl-durationformat.md), [Intl Era/Month Code](../proposals/intl-era-month-code.md), [Intl Keep Trailing Zeros](../proposals/intl-keep-trailing-zeros.md), [Intl Locale Info](../proposals/intl-locale-info.md), [Intl Sequence Units](../proposals/intl-sequence-units.md), [Intl Unit Protocol](../proposals/intl-unit-protocol.md), [Smart Unit Preferences in Intl.NumberFormat](../proposals/smart-unit-preferences.md), [Stable Formatting](../proposals/stable-formatting.md)
 - **TG2 meetings attended**: 27
 - **Plenary meetings attended**: 25
 
@@ -34,16 +34,16 @@ tags: [person]
 - [2023-09-07](../meetings/2023/2023-09-07.md)
 - [2023-06-01](../meetings/2023/2023-06-01.md)
 - [2023-04-06](../meetings/2023/2023-04-06.md)
-- 2023-03-09
+- [2023-03-09](../meetings/2023/2023-03-09.md)
 - 2023-02-09
 - [2023-01-12](../meetings/2023/2023-01-12.md)
 - [2022-12-08](../meetings/2022/2022-12-08.md)
 - [2022-11-03](../meetings/2022/2022-11-03.md)
 - [2022-10-06](../meetings/2022/2022-10-06.md)
 - 2022-07-07
-- 2022-03-17
+- [2022-03-17](../meetings/2022/2022-03-17.md)
 - 2022-02-10
-- 2022-01-13
+- [2022-01-13](../meetings/2022/2022-01-13.md)
 - 2021-05-06
 
 ## Plenary meetings attended
