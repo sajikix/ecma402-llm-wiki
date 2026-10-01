@@ -153,3 +153,10 @@ Append-only record of operations on this wiki. Each entry starts with `## [YYYY-
 - Covers the 2018-2019 move of the syntax to the Unicode MFWG, the 2022 MessageResource split, the 2024-02 plenary DSL-stability debate and the "dozen organizations" bar, the rejected data-model-only PR #47, the TG2 2024-08-22 TG5-study recommendation, MF2 milestones, onError/error handling, API shape, and MF2 function options diverging from ECMA-402.
 - New abbreviation notes: `KGN` → KG; `EA` (Eemeli Aro) and `AH` (Axel Hecht) collide with delegates.txt in 2019 TG2 notes and are now `AMBIGUOUS`.
 - Summary backlog: 6 TG2 meetings added (2018-08-16, 2019-06-13, 2021-07-01, 2022-02-10, 2023-02-09, 2024-01-18).
+
+## [2026-10-01] summarise | Summary backlog from Intl.MessageFormat (6 meetings)
+
+- Summarised 2018-08-16, 2019-06-13, 2021-07-01, 2022-02-10, 2023-02-09, 2024-01-18; the Summary backlog is empty again (76 TG2 meetings summarised).
+- TG2 events: Unified NumberFormat #11/#9 settled (2018-08-16); MessageFormat landscape survey and the move toward Unicode MessageFormat 2.0 (2019-06-13); NumberFormat v3 Stage 3 approval and Enumeration to proceed to Stage 3 (2021-07-01); Intl.MessageFormat TG2 "consensus for Stage 1" (2022-02-10); EAO turns a MessageFormat Stage 2 request into an update (2024-01-18).
+- Cross-check: softened intl-messageformat's "ZB's counter-proposal won" (2019-06-13 records only agreement, no formal conclusion). New mapping `SG` → SGN.
+- Unlinked ad-hoc `MM` (= MCM) in 2019-06-13 that `link_people.py` had linked to Mark S. Miller.

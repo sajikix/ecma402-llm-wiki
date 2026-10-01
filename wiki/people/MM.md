@@ -19,7 +19,7 @@ tags: [person]
 ## TG2 meetings attended
 
 - [2019-07-11](../meetings/2019/2019-07-11.md)
-- 2019-06-13
+- [2019-06-13](../meetings/2019/2019-06-13.md)
 
 ## Plenary meetings attended
 
