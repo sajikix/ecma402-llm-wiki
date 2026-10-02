@@ -31,6 +31,7 @@ Topic-by-topic digests of ECMA-402 task group (TG2) monthly calls, produced by `
 | [2024-09-26](2024/2024-09-26.md) | NRO and JMN announce Stage 0 numerics-with-precision alongside the Measure design; #925 approved, #922 conditionally approved, #608 closed; DurationFormat Stage 4 check set for October.           |
 | [2024-08-22](2024/2024-08-22.md) | TG2 recommends a TG5 study before `Intl.MessageFormat` moves ahead; plural `GetOperands`/sort-order PRs; Smart Units pivots to a Measure type; "und" locale unresolved.                             |
 | [2024-07-18](2024/2024-07-18.md) | ECMA-402 11th edition approved and BAN to become co-editor; DurationFormat V8/JSC status; Decimal-Intl check-in; MessageFormat static functions; `getWeekInfo` PR narrowed.                         |
+| [2024-06-20](2024/2024-06-20.md) | Editor and MessageFormat WG updates; LAF on CLDR-driven `eraDisplay` (#9) and the "sub-era" concept, with no conclusion.                                                                            |
 | [2024-05-23](2024/2024-05-23.md) | Apple's tentative Accept-Language feedback; Smart Unit Preferences black box vs building blocks; MessageFormat `onError`; Collator substring search deferred to Unicode/ICU4X.                      |
 | [2024-04-25](2024/2024-04-25.md) | DurationFormat refactor and grouping fixes; #881 deferred to 2025; TG2 approves time zone ID rules PR #877; Accept-Language reduction raised.                                                       |
 | [2024-03-28](2024/2024-03-28.md) | TG2 splits on dropping MessageFormat string syntax (EAO steps back as champion); `eraDisplay`, wrapper units, #691 range validation, #703 `resolvedOptions` year bug.                               |
@@ -67,6 +68,7 @@ Topic-by-topic digests of ECMA-402 task group (TG2) monthly calls, produced by `
 | [2021-02-11](2021/2021-02-11.md) | NumberFormat v3 rounding-mode, `min2`, `signDisplay`, `-0` bikeshedding; DurationFormat keeps `style` and adopts `smallestUnit`/`largestUnit`/`hideZeroValued`; options must be objects.            |
 | [2021-01-14](2021/2021-01-14.md) | `formatRange` Stage 4 support; DisplayNames V2 narrowed to calendar and unit for Stage 2; Locale Info Stage 2; Extend TimeZoneName Stage 1; DurationFormat decisions.                               |
 | [2020-12-04](2020/2020-12-04.md) | API surface and scope guidelines (PR #517); Stage 1 support for `eraDisplay` and `LocaleMatcher`; Intl Locale Info Stage 2; Extend TimeZoneName introduced.                                         |
+| [2020-11-05](2020/2020-11-05.md) | Scope-guidelines debate (#442); consensus that 402 not own the default time zone (#507); #500 held back; first `eraDisplay` (#426) discussion.                                                      |
 | [2020-09-10](2020/2020-09-10.md) | Intl.DisplayNames gets Stage 4 consensus; DurationFormat scoped to unsigned durations after Temporal signed durations; clock-style naming debated.                                                  |
 | [2020-08-13](2020/2020-08-13.md) | `Intl` `@@toStringTag` consensus; Stage 1 support for Intl Locale Info and `Intl.DisplayNames` V2; Enumeration privacy concerns; repo permissions.                                                  |
 | [2020-07-09](2020/2020-07-09.md) | `formatRange` edge cases, Conformance section, DisplayNames `type`/region questions, four normative PRs, first sequence-unit (#398) discussion.                                                     |
@@ -85,7 +87,4 @@ Topic-by-topic digests of ECMA-402 task group (TG2) monthly calls, produced by `
 
 TG2 meetings already cited by proposal pages but not yet summarised (oldest first). `/summarise <date>` removes an entry; `/ingest` adds them (AGENTS.md "Workflow > Ingest" step 7).
 
-| Date                                                                                 | Referenced by   |
-| ------------------------------------------------------------------------------------ | --------------- |
-| [2020-11-05](https://github.com/tc39/ecma402/blob/main/meetings/notes-2020-11-05.md) | intl-eradisplay |
-| [2024-06-20](https://github.com/tc39/ecma402/blob/main/meetings/notes-2024-06-20.md) | intl-eradisplay |
+(empty — every TG2 meeting cited by a proposal page has a summary)

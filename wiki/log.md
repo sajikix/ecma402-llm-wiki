@@ -180,3 +180,7 @@ Append-only record of operations on this wiki. Each entry starts with `## [YYYY-
 - Linked the new pages from stable-formatting and intl-era-month-code; `link_proposals.py` aliases "eraDisplay", "Era Display", "Default Behaviours".
 - Summary wording fixes found during these ingests: 2025-02-06 (`["und","tr"]` fallback was SFC's answer accepted by RGN, not a group agreement), 2026-05-19 (SFC's and RGN's actual stability points), 2026-03-19 (eraDisplay cutoffs were SFC's proposed conclusion, not an agreed direction).
 - `BE` (Buddhist Era vs. Brendan Eich) added to `AMBIGUOUS`; removed the auto-links on intl-eradisplay.
+
+## [2026-10-02] summarise | Summary backlog from eraDisplay (2 meetings)
+
+- Summarised 2020-11-05 (scope guidelines #442, default time zone #507, first eraDisplay #426 discussion) and 2024-06-20 (CLDR-driven eraDisplay #9, "sub-era"); the Summary backlog is empty again (78 TG2 meetings summarised). Both match intl-eradisplay.
