@@ -60,6 +60,7 @@ Topic-by-topic digests of ECMA-402 task group (TG2) monthly calls, produced by `
 | [2022-03-17](2022/2022-03-17.md) | Units Conversion approved for Stage 1; useGrouping 'true' web compat; RangeError vs TypeError; '\_' calendar PR in ES2022; Segmenter URLs.                                                          |
 | [2022-02-10](2022/2022-02-10.md) | TG2 consensus for Stage 1 on Intl.MessageFormat; Temporal localized names, eras (#598), `toLocaleString` calendar/timeZone and EraDisplay #7 discussed.                                             |
 | [2022-01-13](2022/2022-01-13.md) | tnsa numbering system and Segmenter PR into ES2022; roundingIncrement throws; DurationFormat #89/#90; Segmenter V2 Stage 2 pushback.                                                                |
+| [2021-12-02](2021/2021-12-02.md) | TG2 consensus to request Stage 4 for DisplayNames v2 and Extend TimeZoneName; Segmenter v2 Stage 1 only partly supported; FYT concern about Temporal DateTimeFormat slots.                          |
 | [2021-11-04](2021/2021-11-04.md) | Approved PRs #572 and #571; NumberFormat v3 selectRange strictness and string precision; Segmenter V2 headed for Stage 1; textInfo.direction debated, no change.                                    |
 | [2021-10-07](2021/2021-10-07.md) | TG2 says Intl.Segmenter can proceed to Stage 4; DurationFormat Stage 3 request meets pushback; "tnsa" numbering system approved; Segmenter v2, transliteration explored.                            |
 | [2021-09-09](2021/2021-09-09.md) | Locale Info PRs #43 and #44 approved; list-order question sent to TG1; whole locale should affect `weekInfo`; JS Input Masking presentation; issue triage.                                          |
@@ -74,12 +75,16 @@ Topic-by-topic digests of ECMA-402 task group (TG2) monthly calls, produced by `
 | [2020-08-13](2020/2020-08-13.md) | `Intl` `@@toStringTag` consensus; Stage 1 support for Intl Locale Info and `Intl.DisplayNames` V2; Enumeration privacy concerns; repo permissions.                                                  |
 | [2020-07-09](2020/2020-07-09.md) | `formatRange` edge cases, Conformance section, DisplayNames `type`/region questions, four normative PRs, first sequence-unit (#398) discussion.                                                     |
 | [2020-06-11](2020/2020-06-11.md) | First TG2 look at Smart Unit Preferences; TG2 supports Stage 4 for ListFormat and dateStyle/timeStyle; user preferences and `rg` override discussed.                                                |
+| [2020-04-23](2020/2020-04-23.md) | PFC pitches Temporal (which calendar wins in `toLocaleString`); NumberFormat v3 range, grouping and `scale` discussed; `scale` paused; PluralRules handled by education.                            |
 | [2020-02-27](2020/2020-02-27.md) | Editor LEO may step down; user-preferences discussion without decision; close #257; mark Annex A fingerprintable; accept Anba's canonicalisation behaviour.                                         |
 | [2020-01-30](2020/2020-01-30.md) | PR and proposal status round; CLDR favours filling DateTimeFormat gaps; Segmenter held at Stage 2; long DurationFormat debate on rounding and hiding, no conclusion.                                |
 | [2020-01-09](2020/2020-01-09.md) | Calendar list and DateTimeFormat option gaps sent to CLDR; RangeError for style plus other options; Intl.DurationFormat gets TG2 "Stage 1 consensus".                                               |
+| [2019-12-12](2019/2019-12-12.md) | No change for formatRange data loading; no exception for dateStyle/timeStyle with formatRange; #392 consensus; calendar-dependent DisplayNames types to v2; Temporal default calendar opened.       |
 | [2019-11-14](2019/2019-11-14.md) | Stage 4 prep for RelativeTimeFormat and NumberFormat; ListFormat Spanish bug blocks Stage 4; Unicode properties debate; DurationFormat pitched with FYT as champion.                                |
 | [2019-07-11](2019/2019-07-11.md) | `fractionalSecondDigits` consensus; `quarter` held for CLDR; unified NumberFormat unit data size; camelCase recommended for string enums; Locale `true` keyword.                                    |
 | [2019-06-13](2019/2019-06-13.md) | Normative PR round (consensus on #351 and #346, BigInt #236 merged, #347/#345 open); long Intl.MessageFormat landscape discussion; start of Temporal support in DateTimeFormat.                     |
+| [2018-11-26](2018/2018-11-26.md) | Unicode BCP 47 locale identifiers adopted; case-mapping tailoring not limited to CLDR; rough consensus for Segmenter to iterate boundaries; option values kebab-case.                               |
+| [2018-09-20](2018/2018-09-20.md) | Stage 3 API implementation round; duplicate tags do not throw; Unified NumberFormat prepared for Stage 3; formatRange Stage 3 targeted for January; Intl support for Temporal raised.               |
 | [2018-08-16](2018/2018-08-16.md) | Implementation and issue round for Intl.Locale, RelativeTimeFormat and ListFormat; Unified NumberFormat #11/#9 settled; formatRange kept as is; MessageFormat/Fluent update from ZB.                |
 | [2018-03-16](2018/2018-03-16.md) | Locale canonicalization and grandfathered tags; Segmenter options deferred; NumberFormat keeps `style`; flat `formatRangeToParts`; UnitFormat folded into unified NumberFormat.                     |
 | [2017-12-15](2017/2017-12-15.md) | First TG2 call: Segmenter size concerns, ListFormat/RelativeTimeFormat heading to Stage 3, dateStyle/timeStyle idea, monthly cadence agreed.                                                        |
@@ -88,10 +93,4 @@ Topic-by-topic digests of ECMA-402 task group (TG2) monthly calls, produced by `
 
 TG2 meetings already cited by proposal pages but not yet summarised (oldest first). `/summarise <date>` removes an entry; `/ingest` adds them (AGENTS.md "Workflow > Ingest" step 7).
 
-| Date                                                                                 | Referenced by                 |
-| ------------------------------------------------------------------------------------ | ----------------------------- |
-| [2018-09-20](https://github.com/tc39/ecma402/blob/main/meetings/notes-2018-09-20.md) | temporal                      |
-| [2018-11-26](https://github.com/tc39/ecma402/blob/main/meetings/notes-2018-11-26.md) | intl-currency-display-choices |
-| [2019-12-12](https://github.com/tc39/ecma402/blob/main/meetings/notes-2019-12-12.md) | temporal                      |
-| [2020-04-23](https://github.com/tc39/ecma402/blob/main/meetings/notes-2020-04-23.md) | temporal                      |
-| [2021-12-02](https://github.com/tc39/ecma402/blob/main/meetings/notes-2021-12-02.md) | temporal                      |
+(empty — every TG2 meeting cited by a proposal page has a summary)

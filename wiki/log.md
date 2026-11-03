@@ -238,3 +238,10 @@ Append-only record of operations on this wiki. Each entry starts with `## [YYYY-
 - Linked Temporal from the pages that had it as plain code; plenary agenda index now matches `\btemporal\b`; mappings `US` → USA and `PD` → PDL.
 - Summary backlog: 4 meetings added (2018-09-20, 2019-12-12, 2020-04-23, 2021-12-02).
 - `link_proposals.py` no longer links a proposal name that is part of a dotted identifier (e.g. `Temporal.Duration` in prose); repaired 2 such links (2023-11-16, 2026-10-08).
+
+## [2026-11-03] summarise | Summary backlog from Temporal and More Currency Display Choices (5 meetings)
+
+- Summarised 2018-09-20, 2018-11-26, 2019-12-12, 2020-04-23, 2021-12-02; the Summary backlog is empty again (84 TG2 meetings summarised).
+- TG2 events: Unified NumberFormat prepared for Stage 3 and formatRange Stage 3 targeted for January (2018-09-20); Segmenter to iterate boundaries (2018-11-26); calendar-dependent DisplayNames types moved to v2 and the Temporal default-calendar question opened (2019-12-12); TG2 consensus to request Stage 4 for DisplayNames v2 and Extend TimeZoneName (2021-12-02).
+- Cross-check fixes: temporal (CLA/RCA rejected option 4 but LHO only preferred option 2; "first pitched" not verifiable; PDL's position was relayed by SFC); intl-currency-display-choices (2018-11-26 noted #200 as already covered by Unified NumberFormat and discussed `narrow-symbol` vs `narrowSymbol`, rather than "introducing" `narrowSymbol`).
+- Mappings: `MS` on 2018-11-26 is Markus Scherer (MWS); `SLi` ("S Litherum") → MCM (inferred). The 2021-12-02 notes give a malformed URL `github.com/tc39/proposal/issues/622` (not used).

@@ -99,7 +99,7 @@ At the same [2026-08-06](https://github.com/tc39/ecma402/blob/main/meetings/note
 ## Related proposals
 
 - [Intl.MessageFormat](intl-messageformat.md): `formalSymbol` and `never` were first added to MF2's `:currency`, and the proposal exists partly to keep MF2 and ECMA-402 option names consistent.
-- `intl-unified-numberformat` (Intl.NumberFormat Unified API): introduced `currencyDisplay: "narrowSymbol"` (ecma402#200, TG2 [2018-11-26](https://github.com/tc39/ecma402/blob/main/meetings/notes-2018-11-26.md)), the value this proposal complements.
+- `intl-unified-numberformat` (Intl.NumberFormat Unified API): the source of `currencyDisplay: "narrowSymbol"`, the value this proposal complements. At TG2 [2018-11-26](https://github.com/tc39/ecma402/blob/main/meetings/notes-2018-11-26.md) the narrow-symbol request (ecma402#200) was noted as "Already covered in Unified Intl.NumberFormat", and the value was still being discussed as `narrow-symbol` vs. `narrowSymbol` (kebab-case at the time).
 
 ## Sources
 
