@@ -245,3 +245,18 @@ Append-only record of operations on this wiki. Each entry starts with `## [YYYY-
 - TG2 events: Unified NumberFormat prepared for Stage 3 and formatRange Stage 3 targeted for January (2018-09-20); Segmenter to iterate boundaries (2018-11-26); calendar-dependent DisplayNames types moved to v2 and the Temporal default-calendar question opened (2019-12-12); TG2 consensus to request Stage 4 for DisplayNames v2 and Extend TimeZoneName (2021-12-02).
 - Cross-check fixes: temporal (CLA/RCA rejected option 4 but LHO only preferred option 2; "first pitched" not verifiable; PDL's position was relayed by SFC); intl-currency-display-choices (2018-11-26 noted #200 as already covered by Unified NumberFormat and discussed `narrow-symbol` vs `narrowSymbol`, rather than "introducing" `narrowSymbol`).
 - Mappings: `MS` on 2018-11-26 is Markus Scherer (MWS); `SLi` ("S Litherum") → MCM (inferred). The 2021-12-02 notes give a malformed URL `github.com/tc39/proposal/issues/622` (not used).
+
+## [2026-11-03] ingest | Intl.ZonedDateTimeFormat
+
+- Added `wiki/proposals/intl-zoneddatetimeformat.md` (Stage 1 at the 2023-05 plenary `may-17.md` after "Stage 1 approval from TG2" on 2023-04-06; champion FYT; families: date-time). Origin: Temporal #2479 and PR #2522 (plenary 2023-01 / 2023-03; TG2 2023-02-09, 2023-03-09). No discussion since 2023-05.
+- Main issues: which time zone wins; a new constructor vs. Intl.DateTimeFormat; scope limited to ZonedDateTime; conversion methods between formatters.
+- Fixed temporal: the "presented again" quote is in `feb-02.md`, and FYT's "discussed here in TG2 first" was said at TG2 2023-02-09. Linked the new page from temporal.
+- Summary backlog: no additions.
+
+## [2026-11-03] ingest | Decimal
+
+- Added `wiki/proposals/decimal.md` (ECMA-262, `ecma: [262]`, families: number-format): Stage 0 2017-11 (`nov-29.md`), Stage 1 2020-02 (`february-4.md`, "BigDecimal for Stage 1"); Stage 2 requests in 2024-04, 2024-06 and 2024-07 did not advance (JHD's block); still Stage 1 as of the 2026-07 update.
+- Champions: canonical PFC, API, JMN; historical DE; ABO and JMK (called co-champions by JMN, 2023-11).
+- Main issues from the Intl side: NumberFormat/PluralRules integration (TG2 2024-02-22 thin vs. thick, 2024-07-18), trailing zeros and the 2024-10 removal of the quantum, the Measure/Amount merge discussion, Decimal128 vs. BigDecimal and the Intl mathematical value limits (ecma402 PR #1022), primitive vs. object.
+- Fixed intl-keep-trailing-zeros: SFC first made the "1 star" vs "1.0 stars" point at plenary 2023-03 (not 2023-11). Linked Decimal from amount, intl-keep-trailing-zeros and intl-unit-protocol.
+- Summary backlog: 1 meeting added (2020-03-26).

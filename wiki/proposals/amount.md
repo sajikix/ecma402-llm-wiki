@@ -189,7 +189,7 @@ At the [2025-09](https://github.com/tc39/notes/blob/main/meetings/2025-09/septem
 - [Intl Keep Trailing Zeros](intl-keep-trailing-zeros.md) — the string-precision piece split out of the Decimal/Amount numerics discussions; Amount's precision handling is "stacked on top of" it.
 - [Intl Sequence Units](intl-sequence-units.md) — mixed-unit formatting in `Intl.NumberFormat`; reached Stage 2 at the same plenary, and shares the array-valued `.value` and the time-units question.
 - [Intl Unit Protocol](intl-unit-protocol.md) — the `{ value, unit }` input to `Intl.NumberFormat`, split out of Amount (Stage 1 2025-11, Stage 2 2026-03); converts conflicting units only once Amount provides conversion.
-- `decimal` — the ECMA-262 Decimal proposal; dropped precision in 2024-10, discussed as a merge in 2025-02, kept separate.
+- [Decimal](decimal.md) — the ECMA-262 Decimal proposal; dropped precision in 2024-10, discussed as a merge in 2025-02, kept separate.
 - [Smart Unit Preferences in Intl.NumberFormat](smart-unit-preferences.md) — the Intl proposal Measure was split off from; its `usage` conversion now lives in Amount's ECMA-402 `convertTo` extension.
 - `bigint-from-exponential` and `Math.fma` (Fused Multiply-Add) — ECMA-262 proposals prompted by Amount's canonical string form and conversion math (2026-07).
 - [Intl.DurationFormat](intl-durationformat.md) — the existing answer for formatting durations, central to the time-units dispute.

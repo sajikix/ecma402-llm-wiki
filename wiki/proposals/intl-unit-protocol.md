@@ -152,7 +152,7 @@ At both stage requests [SFC](../people/SFC.md) named the one acknowledged cost. 
 - [Smart Unit Preferences](smart-unit-preferences.md): `usage`-based unit selection. Implicit conversion between the formatter's unit and the value's unit, and a possible `usage` option here, overlap with it.
 - [Intl Keep Trailing Zeros](intl-keep-trailing-zeros.md): makes a string `value` keep its precision, so the protocol needs no precision field for now.
 - [Stable Formatting](stable-formatting.md): answers the same concern that holds back implicit conversion, developers parsing localized output for non-localization purposes.
-- `decimal`: the ECMA-262 Decimal proposal; a future Decimal would be another accepted `value` type.
+- [Decimal](decimal.md): the ECMA-262 Decimal proposal; a future Decimal would be another accepted `value` type.
 
 ## Sources
 

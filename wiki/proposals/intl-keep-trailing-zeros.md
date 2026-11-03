@@ -62,7 +62,7 @@ xychart-beta
 
 ### Origins in the Decimal debate: bug fix or proposal?
 
-The request first came up as an Intl argument for Decimal. When the Decimal champions planned to normalize values, dropping trailing zeros, [SFC](../people/SFC.md) objected at plenary ([2023-11](https://github.com/tc39/notes/blob/main/meetings/2023-11/november-27.md)):
+The request first came up as an Intl argument for Decimal. [SFC](../people/SFC.md) first made the "1 star" vs. "1.0 stars" point at plenary [2023-03](https://github.com/tc39/notes/blob/main/meetings/2023-03/mar-22.md), when the Decimal champions planned to normalize values (dropping trailing zeros), and repeated it at [2023-11](https://github.com/tc39/notes/blob/main/meetings/2023-11/november-27.md):
 
 > [SFC](../people/SFC.md): Second, as I have said, trailing zeros are important for internationalization. There’s a difference between having 1 star versus 1.0 stars.
 
@@ -133,7 +133,7 @@ The proposal was a test case for newer process steps. At the Stage 2 plenary [CD
 
 ## Related proposals
 
-- `proposal-decimal` — the origin of the trailing-zeros argument; Decimal chose normalization and left precision to other proposals.
+- [Decimal](decimal.md) — the origin of the trailing-zeros argument; Decimal chose normalization and left precision to other proposals.
 - `proposal-amount` (formerly Measure) — carries precision alongside a value; discussed in the same plenary sessions (2025-07, 2026-03), and shares the `ToIntlMathematicalValue` limits question.
 - `intl-numberformat-v3` — introduced `trailingZeroDisplay` and the string-precision changes this proposal builds on.
 - [Intl Unit Protocol](intl-unit-protocol.md) / `intl-sequence-units` — 2026 unit proposals where `trailingZeroDisplay` semantics came up again.
