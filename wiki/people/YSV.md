@@ -12,7 +12,7 @@ tags: [person]
 - **Full name**: Yulia Startsev
 - **Affiliation**: Mozilla
 - **Champion drafts**: (none among curated pages)
-- **Mentioned on proposal pages**: [Amount](../proposals/amount.md), [Intl Locale Info](../proposals/intl-locale-info.md), [Smart Unit Preferences in Intl.NumberFormat](../proposals/smart-unit-preferences.md)
+- **Mentioned on proposal pages**: [Amount](../proposals/amount.md), [Decimal](../proposals/decimal.md), [Intl Locale Info](../proposals/intl-locale-info.md), [Intl.NumberFormat V3](../proposals/intl-numberformat-v3.md), [Intl.Segmenter](../proposals/intl-segmenter.md), [Smart Unit Preferences in Intl.NumberFormat](../proposals/smart-unit-preferences.md)
 - **TG2 meetings attended**: 1
 - **Plenary meetings attended**: 16
 

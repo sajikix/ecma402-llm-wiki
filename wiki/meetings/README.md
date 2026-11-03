@@ -93,4 +93,17 @@ Topic-by-topic digests of ECMA-402 task group (TG2) monthly calls, produced by `
 
 TG2 meetings already cited by proposal pages but not yet summarised (oldest first). `/summarise <date>` removes an entry; `/ingest` adds them (AGENTS.md "Workflow > Ingest" step 7).
 
-(empty — every TG2 meeting cited by a proposal page has a summary)
+| Date                                                                                 | Referenced by                                 |
+| ------------------------------------------------------------------------------------ | --------------------------------------------- |
+| [2018-01-19](https://github.com/tc39/ecma402/blob/main/meetings/notes-2018-01-19.md) | intl-segmenter                                |
+| [2018-02-16](https://github.com/tc39/ecma402/blob/main/meetings/notes-2018-02-16.md) | intl-segmenter                                |
+| [2018-07-19](https://github.com/tc39/ecma402/blob/main/meetings/notes-2018-07-19.md) | intl-numberformat-v3                          |
+| [2018-10-18](https://github.com/tc39/ecma402/blob/main/meetings/notes-2018-10-18.md) | intl-segmenter                                |
+| [2019-01-17](https://github.com/tc39/ecma402/blob/main/meetings/notes-2019-01-17.md) | intl-segmenter                                |
+| [2019-02-21](https://github.com/tc39/ecma402/blob/main/meetings/notes-2019-02-21.md) | intl-segmenter                                |
+| [2019-04-19](https://github.com/tc39/ecma402/blob/main/meetings/notes-2019-04-19.md) | intl-segmenter                                |
+| [2019-05-09](https://github.com/tc39/ecma402/blob/main/meetings/notes-2019-05-09.md) | intl-segmenter                                |
+| [2020-03-26](https://github.com/tc39/ecma402/blob/main/meetings/notes-2020-03-26.md) | decimal, intl-numberformat-v3, intl-segmenter |
+| [2020-10-08](https://github.com/tc39/ecma402/blob/main/meetings/notes-2020-10-08.md) | intl-numberformat-v3                          |
+| [2021-03-11](https://github.com/tc39/ecma402/blob/main/meetings/notes-2021-03-11.md) | intl-numberformat-v3, intl-segmenter          |
+| [2022-07-07](https://github.com/tc39/ecma402/blob/main/meetings/notes-2022-07-07.md) | intl-numberformat-v3, intl-segmenter          |

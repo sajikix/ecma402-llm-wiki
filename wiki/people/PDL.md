@@ -12,7 +12,7 @@ tags: [person]
 - **Full name**: Philipp Dunkel
 - **Affiliation**: Bloomberg
 - **Champion drafts**: [Temporal](../proposals/temporal.md)
-- **Mentioned on proposal pages**: [Intl Locale Info](../proposals/intl-locale-info.md), [Temporal](../proposals/temporal.md)
+- **Mentioned on proposal pages**: [Intl Locale Info](../proposals/intl-locale-info.md), [Intl.Segmenter](../proposals/intl-segmenter.md), [Temporal](../proposals/temporal.md)
 - **TG2 meetings attended**: 0
 - **Plenary meetings attended**: 2
 

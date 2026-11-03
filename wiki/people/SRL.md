@@ -12,7 +12,7 @@ tags: [person]
 - **Full name**: Steven Loomis
 - **Affiliation**: Code Hive Tx, LLC / IBM
 - **Champion drafts**: (none among curated pages)
-- **Mentioned on proposal pages**: [Intl.MessageFormat](../proposals/intl-messageformat.md), [Temporal](../proposals/temporal.md)
+- **Mentioned on proposal pages**: [Intl.MessageFormat](../proposals/intl-messageformat.md), [Intl.NumberFormat V3](../proposals/intl-numberformat-v3.md), [Intl.Segmenter](../proposals/intl-segmenter.md), [Temporal](../proposals/temporal.md)
 - **TG2 meetings attended**: 4
 - **Plenary meetings attended**: 0
 

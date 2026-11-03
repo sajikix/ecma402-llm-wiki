@@ -12,7 +12,7 @@ tags: [person]
 - **Full name**: Younies Mahmoud
 - **Affiliation**: Google / Google i18n
 - **Champion drafts**: [Intl.DurationFormat](../proposals/intl-durationformat.md), [Smart Unit Preferences in Intl.NumberFormat](../proposals/smart-unit-preferences.md)
-- **Mentioned on proposal pages**: [Intl.DurationFormat](../proposals/intl-durationformat.md), [Smart Unit Preferences in Intl.NumberFormat](../proposals/smart-unit-preferences.md)
+- **Mentioned on proposal pages**: [Intl.DurationFormat](../proposals/intl-durationformat.md), [Intl.NumberFormat V3](../proposals/intl-numberformat-v3.md), [Smart Unit Preferences in Intl.NumberFormat](../proposals/smart-unit-preferences.md)
 - **TG2 meetings attended**: 13
 - **Plenary meetings attended**: 1
 

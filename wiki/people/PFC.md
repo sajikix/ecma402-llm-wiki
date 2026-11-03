@@ -11,8 +11,8 @@ tags: [person]
 
 - **Full name**: Philip Chimento
 - **Affiliation**: Igalia / Igalia S.L. / Igalia, S.L
-- **Champion drafts**: [Intl Era/Month Code](../proposals/intl-era-month-code.md), [Temporal](../proposals/temporal.md)
-- **Mentioned on proposal pages**: [Amount](../proposals/amount.md), [Intl.DurationFormat](../proposals/intl-durationformat.md), [Intl Era/Month Code](../proposals/intl-era-month-code.md), [Intl Keep Trailing Zeros](../proposals/intl-keep-trailing-zeros.md), [Intl Locale Info](../proposals/intl-locale-info.md), [Intl.MessageFormat](../proposals/intl-messageformat.md), [Intl Sequence Units](../proposals/intl-sequence-units.md), [Stable Formatting](../proposals/stable-formatting.md), [Temporal](../proposals/temporal.md)
+- **Champion drafts**: [Decimal](../proposals/decimal.md), [Intl Era/Month Code](../proposals/intl-era-month-code.md), [Temporal](../proposals/temporal.md)
+- **Mentioned on proposal pages**: [Amount](../proposals/amount.md), [Decimal](../proposals/decimal.md), [Intl.DurationFormat](../proposals/intl-durationformat.md), [Intl Era/Month Code](../proposals/intl-era-month-code.md), [Intl Keep Trailing Zeros](../proposals/intl-keep-trailing-zeros.md), [Intl Locale Info](../proposals/intl-locale-info.md), [Intl.MessageFormat](../proposals/intl-messageformat.md), [Intl.NumberFormat V3](../proposals/intl-numberformat-v3.md), [Intl Sequence Units](../proposals/intl-sequence-units.md), [Intl.ZonedDateTimeFormat](../proposals/intl-zoneddatetimeformat.md), [Stable Formatting](../proposals/stable-formatting.md), [Temporal](../proposals/temporal.md)
 - **TG2 meetings attended**: 25
 - **Plenary meetings attended**: 37
 

@@ -12,7 +12,7 @@ tags: [person]
 - **Full name**: Chip Morningstar
 - **Affiliation**: Agoric / Consensys / Consensys (MetaMask) / Invited expert / MetaMask / tbd
 - **Champion drafts**: (none among curated pages)
-- **Mentioned on proposal pages**: [Intl.MessageFormat](../proposals/intl-messageformat.md), [Intl Unit Protocol](../proposals/intl-unit-protocol.md), [Smart Unit Preferences in Intl.NumberFormat](../proposals/smart-unit-preferences.md)
+- **Mentioned on proposal pages**: [Decimal](../proposals/decimal.md), [Intl.MessageFormat](../proposals/intl-messageformat.md), [Intl Unit Protocol](../proposals/intl-unit-protocol.md), [Smart Unit Preferences in Intl.NumberFormat](../proposals/smart-unit-preferences.md)
 - **TG2 meetings attended**: 0
 - **Plenary meetings attended**: 33
 

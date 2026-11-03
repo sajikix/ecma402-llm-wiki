@@ -12,7 +12,7 @@ tags: [person]
 - **Full name**: Greg Tatum
 - **Affiliation**: Mozilla
 - **Champion drafts**: (none among curated pages)
-- **Mentioned on proposal pages**: [eraDisplay option for Intl.DateTimeFormat](../proposals/intl-eradisplay.md)
+- **Mentioned on proposal pages**: [eraDisplay option for Intl.DateTimeFormat](../proposals/intl-eradisplay.md), [Intl.NumberFormat V3](../proposals/intl-numberformat-v3.md)
 - **TG2 meetings attended**: 10
 - **Plenary meetings attended**: 0
 

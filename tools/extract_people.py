@@ -60,7 +60,7 @@ NON_PERSON = {
     # "Known mappings") and may cite in parentheses; never person pages.
     "SC", "FT", "YFT", "FTY", "USH", "ZBI", "PCO", "PRC", "HSI", "HSJ",
     "HYS", "DMN", "YSK", "JNM", "EAIO", "SFO", "LFS", "FYC", "FYI", "SFA", "EOA", "LFA", "YZS", "RGT", "CC", "FB",
-    "SL", "SFL", "JV", "JW", "RG", "RC", "VY", "YM", "BK", "KGN", "SG", "SLI", "US", "PD",
+    "SL", "SFL", "JV", "JW", "RG", "RC", "VY", "YM", "BK", "KGN", "SG", "SLI", "US", "PD", "JDH", "BEN",
 }
 
 # Real delegate abbreviations that usually mean something else in prose. They

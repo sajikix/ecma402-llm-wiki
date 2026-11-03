@@ -12,7 +12,7 @@ tags: [person]
 - **Full name**: Jeff Walden
 - **Affiliation**: SpiderMonkey/Mozilla / Spidermonkey
 - **Champion drafts**: (none among curated pages)
-- **Mentioned on proposal pages**: [Intl.DurationFormat](../proposals/intl-durationformat.md), [eraDisplay option for Intl.DateTimeFormat](../proposals/intl-eradisplay.md), [Intl Locale Info](../proposals/intl-locale-info.md), [Smart Unit Preferences in Intl.NumberFormat](../proposals/smart-unit-preferences.md)
+- **Mentioned on proposal pages**: [Intl.DurationFormat](../proposals/intl-durationformat.md), [eraDisplay option for Intl.DateTimeFormat](../proposals/intl-eradisplay.md), [Intl Locale Info](../proposals/intl-locale-info.md), [Intl.NumberFormat V3](../proposals/intl-numberformat-v3.md), [Smart Unit Preferences in Intl.NumberFormat](../proposals/smart-unit-preferences.md)
 - **TG2 meetings attended**: 23
 - **Plenary meetings attended**: 0
 

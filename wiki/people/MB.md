@@ -12,7 +12,7 @@ tags: [person]
 - **Full name**: Mathias Bynens
 - **Affiliation**: Google
 - **Champion drafts**: (none among curated pages)
-- **Mentioned on proposal pages**: [Intl Energy Units](../proposals/intl-energy-units.md)
+- **Mentioned on proposal pages**: [Intl Energy Units](../proposals/intl-energy-units.md), [Intl.Segmenter](../proposals/intl-segmenter.md)
 - **TG2 meetings attended**: 0
 - **Plenary meetings attended**: 11
 

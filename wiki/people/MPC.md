@@ -12,7 +12,7 @@ tags: [person]
 - **Full name**: Mark Cohen
 - **Affiliation**: Invited Expert / Netflix / PayPal / Salesforce
 - **Champion drafts**: (none among curated pages)
-- **Mentioned on proposal pages**: [Smart Unit Preferences in Intl.NumberFormat](../proposals/smart-unit-preferences.md)
+- **Mentioned on proposal pages**: [Intl.Segmenter](../proposals/intl-segmenter.md), [Smart Unit Preferences in Intl.NumberFormat](../proposals/smart-unit-preferences.md)
 - **TG2 meetings attended**: 0
 - **Plenary meetings attended**: 7
 

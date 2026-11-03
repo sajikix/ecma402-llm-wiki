@@ -12,7 +12,7 @@ tags: [person]
 - **Full name**: Shu-yu Guo
 - **Affiliation**: Google
 - **Champion drafts**: (none among curated pages)
-- **Mentioned on proposal pages**: [Intl.DurationFormat](../proposals/intl-durationformat.md), [Intl Locale Info](../proposals/intl-locale-info.md), [Intl.MessageFormat](../proposals/intl-messageformat.md), [Smart Unit Preferences in Intl.NumberFormat](../proposals/smart-unit-preferences.md), [Temporal](../proposals/temporal.md)
+- **Mentioned on proposal pages**: [Decimal](../proposals/decimal.md), [Intl.DurationFormat](../proposals/intl-durationformat.md), [Intl Locale Info](../proposals/intl-locale-info.md), [Intl.MessageFormat](../proposals/intl-messageformat.md), [Intl.NumberFormat V3](../proposals/intl-numberformat-v3.md), [Intl.Segmenter](../proposals/intl-segmenter.md), [Smart Unit Preferences in Intl.NumberFormat](../proposals/smart-unit-preferences.md), [Temporal](../proposals/temporal.md)
 - **TG2 meetings attended**: 1
 - **Plenary meetings attended**: 11
 

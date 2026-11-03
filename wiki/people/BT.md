@@ -12,7 +12,7 @@ tags: [person]
 - **Full name**: Brian Terlson
 - **Affiliation**: Microsoft
 - **Champion drafts**: [Temporal](../proposals/temporal.md)
-- **Mentioned on proposal pages**: [Temporal](../proposals/temporal.md)
+- **Mentioned on proposal pages**: [Intl.Segmenter](../proposals/intl-segmenter.md), [Temporal](../proposals/temporal.md)
 - **TG2 meetings attended**: 0
 - **Plenary meetings attended**: 3
 

@@ -260,3 +260,23 @@ Append-only record of operations on this wiki. Each entry starts with `## [YYYY-
 - Main issues from the Intl side: NumberFormat/PluralRules integration (TG2 2024-02-22 thin vs. thick, 2024-07-18), trailing zeros and the 2024-10 removal of the quantum, the Measure/Amount merge discussion, Decimal128 vs. BigDecimal and the Intl mathematical value limits (ecma402 PR #1022), primitive vs. object.
 - Fixed intl-keep-trailing-zeros: SFC first made the "1 star" vs "1.0 stars" point at plenary 2023-03 (not 2023-11). Linked Decimal from amount, intl-keep-trailing-zeros and intl-unit-protocol.
 - Summary backlog: 1 meeting added (2020-03-26).
+
+## [2026-11-03] ingest | Intl.NumberFormat V3
+
+- Created `wiki/proposals/intl-numberformat-v3.md` (Stage 4, champion SFC, publication 2023, families: number-format).
+- Plenary transitions from Conclusions: Stage 1 2020-03 (`april-1.md`), Stage 2 2020-06 (`june-2.md`), Stage 3 2021-07 (`july-15.md`, KG to review the string grammar), Stage 4 2023-01 (`jan-31.md`). The canonical 2023-07 anchor is a post-Stage-4 consensus on proposal PR #130 and ecma402#768, not a transition; ecma402#1022 (2025-09) raised the Intl mathematical value limits.
+- Main issues: scope of the bundle (ecma402#442 criteria; `scale` and the PluralRules shortcut dropped), rounding mode names, the rounding options puzzle, `useGrouping` strings and web compat (#74, KG at the 2022-07 plenary), `formatRange`/`selectRange` semantics, Intl mathematical value limits, option read order. SFC's Stage 4 slides say Stage 2 came "in 2021"; the plenary notes put it at 2020-06.
+- Summary backlog: 5 meetings added (2018-07-19, 2020-03-26, 2020-10-08, 2021-03-11, 2022-07-07).
+
+## [2026-11-03] ingest | Intl.Segmenter
+
+- Added `wiki/proposals/intl-segmenter.md` (Stage 4 at the 2021-10 plenary `oct-25.md`; champions DE (original) and RGN; publication 2022; families: text; `first_seen` 2012-11).
+- Stage history: Stage 1 2016-09, Stage 2 2016-11, three unsuccessful Stage 3 requests (2017-03/05/07), Stage 3 2017-09, demoted to Stage 2 2019-03 (`mar-28.md`), Stage 3 again 2020-07 (`july-21.md`; the 2020-06 request ran out of time), Stage 4 request withdrawn 2021-03 (Mozilla/ICU4X), Stage 4 2021-10.
+- Main issues: ICU dependency and data size; line breaking removed (2019-01-17); `lb`/`lw`/`ss` options; segments vs boundaries redesign and demotion; random access; `isWordLike`; SES getter hazard; waiting for ICU4X; custom dictionaries; URL/e-mail segmentation (ecma402#656); supported locales (ecma402#895).
+- Summary backlog: 10 meetings added (2018-01-19, 2018-02-16, 2018-10-18, 2019-01-17, 2019-02-21, 2019-04-19, 2019-05-09, 2020-03-26, 2021-03-11, 2022-07-07).
+
+## [2026-11-03] wiki | AMBIGUOUS tokens with a wrong delegates.txt identity; aliases
+
+- AGENTS.md: for AMBIGUOUS tokens whose delegates.txt entry is a different person (MGR, JH, EA, AH, JRD), write the person's name in plain text instead of hand-linking (a hand link would generate a page for the delegates.txt person). New mappings: `MM` also on 2019-02/03 → MCM, `JDH` → JHD, `SC` also in plenary 2023-01, `BEN` (plenary attendee tables) → BAN.
+- `extract_proposals.py` alias for "`Intl.Segmenter`: Unicode Segmentation in JavaScript"; `link_proposals.py` aliases "NumberFormat V3", "NFv3", "ZonedDateTimeFormat".
+- `link_proposals.py` no longer links a proposal name followed by a version suffix (e.g. "Intl.Segmenter v2"); repaired 2 such links.

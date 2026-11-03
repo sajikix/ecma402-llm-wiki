@@ -12,7 +12,7 @@ tags: [person]
 - **Full name**: André Bargull
 - **Affiliation**: Spidermonkey
 - **Champion drafts**: (none among curated pages)
-- **Mentioned on proposal pages**: [Default Behaviours for some Intl APIs](../proposals/intl-default-behaviours.md), [Intl.DurationFormat](../proposals/intl-durationformat.md), [Intl Era/Month Code](../proposals/intl-era-month-code.md), [Intl Locale Info](../proposals/intl-locale-info.md), [Temporal](../proposals/temporal.md)
+- **Mentioned on proposal pages**: [Default Behaviours for some Intl APIs](../proposals/intl-default-behaviours.md), [Intl.DurationFormat](../proposals/intl-durationformat.md), [Intl Era/Month Code](../proposals/intl-era-month-code.md), [Intl Locale Info](../proposals/intl-locale-info.md), [Intl.NumberFormat V3](../proposals/intl-numberformat-v3.md), [Temporal](../proposals/temporal.md)
 - **TG2 meetings attended**: 1
 - **Plenary meetings attended**: 0
 

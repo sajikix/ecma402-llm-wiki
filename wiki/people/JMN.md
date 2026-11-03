@@ -11,8 +11,8 @@ tags: [person]
 
 - **Full name**: Jesse Alama
 - **Affiliation**: Igalia / Igalia, S.L
-- **Champion drafts**: (none among curated pages)
-- **Mentioned on proposal pages**: [Amount](../proposals/amount.md), [Intl Keep Trailing Zeros](../proposals/intl-keep-trailing-zeros.md), [Intl Sequence Units](../proposals/intl-sequence-units.md), [Intl Unit Protocol](../proposals/intl-unit-protocol.md)
+- **Champion drafts**: [Decimal](../proposals/decimal.md)
+- **Mentioned on proposal pages**: [Amount](../proposals/amount.md), [Decimal](../proposals/decimal.md), [Intl Keep Trailing Zeros](../proposals/intl-keep-trailing-zeros.md), [Intl Sequence Units](../proposals/intl-sequence-units.md), [Intl Unit Protocol](../proposals/intl-unit-protocol.md)
 - **TG2 meetings attended**: 22
 - **Plenary meetings attended**: 18
 

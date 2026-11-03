@@ -12,7 +12,7 @@ tags: [person]
 - **Full name**: Justin Grant
 - **Affiliation**: Invited Expert / Invited Expert for Temporal / Temporal (Invited)
 - **Champion drafts**: [Temporal](../proposals/temporal.md)
-- **Mentioned on proposal pages**: [Intl.DurationFormat](../proposals/intl-durationformat.md), [eraDisplay option for Intl.DateTimeFormat](../proposals/intl-eradisplay.md), [Intl Locale Info](../proposals/intl-locale-info.md), [Intl.MessageFormat](../proposals/intl-messageformat.md), [Smart Unit Preferences in Intl.NumberFormat](../proposals/smart-unit-preferences.md), [Stable Formatting](../proposals/stable-formatting.md), [Temporal](../proposals/temporal.md)
+- **Mentioned on proposal pages**: [Intl.DurationFormat](../proposals/intl-durationformat.md), [eraDisplay option for Intl.DateTimeFormat](../proposals/intl-eradisplay.md), [Intl Locale Info](../proposals/intl-locale-info.md), [Intl.MessageFormat](../proposals/intl-messageformat.md), [Intl.NumberFormat V3](../proposals/intl-numberformat-v3.md), [Intl.ZonedDateTimeFormat](../proposals/intl-zoneddatetimeformat.md), [Smart Unit Preferences in Intl.NumberFormat](../proposals/smart-unit-preferences.md), [Stable Formatting](../proposals/stable-formatting.md), [Temporal](../proposals/temporal.md)
 - **TG2 meetings attended**: 14
 - **Plenary meetings attended**: 9
 

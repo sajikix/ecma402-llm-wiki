@@ -12,7 +12,7 @@ tags: [person]
 - **Full name**: John Hax
 - **Affiliation**: (Invited Expert) / 360 / Invited Expert
 - **Champion drafts**: (none among curated pages)
-- **Mentioned on proposal pages**: [Intl Era/Month Code](../proposals/intl-era-month-code.md)
+- **Mentioned on proposal pages**: [Intl Era/Month Code](../proposals/intl-era-month-code.md), [Intl.Segmenter](../proposals/intl-segmenter.md)
 - **TG2 meetings attended**: 0
 - **Plenary meetings attended**: 8
 

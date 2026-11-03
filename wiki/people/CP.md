@@ -12,7 +12,7 @@ tags: [person]
 - **Full name**: Caridy Patiño
 - **Affiliation**: Salesforce
 - **Champion drafts**: (none among curated pages)
-- **Mentioned on proposal pages**: [Intl.MessageFormat](../proposals/intl-messageformat.md)
+- **Mentioned on proposal pages**: [Intl.MessageFormat](../proposals/intl-messageformat.md), [Intl.Segmenter](../proposals/intl-segmenter.md)
 - **TG2 meetings attended**: 1
 - **Plenary meetings attended**: 6
 

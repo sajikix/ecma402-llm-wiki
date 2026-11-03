@@ -11,8 +11,8 @@ tags: [person]
 
 - **Full name**: Daniel Ehrenberg
 - **Affiliation**: Bloomberg / Igalia
-- **Champion drafts**: (none among curated pages)
-- **Mentioned on proposal pages**: [Amount](../proposals/amount.md), [More Currency Display Choices](../proposals/intl-currency-display-choices.md), [Intl.DurationFormat](../proposals/intl-durationformat.md), [Intl Locale Info](../proposals/intl-locale-info.md), [Intl.MessageFormat](../proposals/intl-messageformat.md), [Intl.MessageResource](../proposals/intl-messageresource.md), [Smart Unit Preferences in Intl.NumberFormat](../proposals/smart-unit-preferences.md), [Stable Formatting](../proposals/stable-formatting.md), [Temporal](../proposals/temporal.md)
+- **Champion drafts**: [Decimal](../proposals/decimal.md), [Intl.Segmenter](../proposals/intl-segmenter.md)
+- **Mentioned on proposal pages**: [Amount](../proposals/amount.md), [Decimal](../proposals/decimal.md), [More Currency Display Choices](../proposals/intl-currency-display-choices.md), [Intl.DurationFormat](../proposals/intl-durationformat.md), [Intl Locale Info](../proposals/intl-locale-info.md), [Intl.MessageFormat](../proposals/intl-messageformat.md), [Intl.MessageResource](../proposals/intl-messageresource.md), [Intl.NumberFormat V3](../proposals/intl-numberformat-v3.md), [Intl.Segmenter](../proposals/intl-segmenter.md), [Intl.ZonedDateTimeFormat](../proposals/intl-zoneddatetimeformat.md), [Smart Unit Preferences in Intl.NumberFormat](../proposals/smart-unit-preferences.md), [Stable Formatting](../proposals/stable-formatting.md), [Temporal](../proposals/temporal.md)
 - **TG2 meetings attended**: 11
 - **Plenary meetings attended**: 22
 
