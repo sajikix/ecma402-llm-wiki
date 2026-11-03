@@ -4,6 +4,7 @@ Topic-by-topic digests of ECMA-402 task group (TG2) monthly calls, produced by `
 
 | Date                             | Gist                                                                                                                                                                                                |
 | -------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [2026-10-08](2026/2026-10-08.md) | EST5EDT-style tz IDs to stop being canonical (JGT PR); Unit Protocol #7 option 4 to TG1, #6/#8; Amount time units unresolved; Sequence Units #19 postponed; TPAC title-case breakout.               |
 | [2026-09-17](2026/2026-09-17.md) | TG2 approves #1074, #1097 and #1095; Sequence Units: throw on significant-digit rounding, array input; EAO proposed as third editor; #434 deprioritised.                                            |
 | [2026-08-06](2026/2026-08-06.md) | #1078 merged; Amount, Sequence Units and Unit Protocol converge on an array-valued `.value`; `Accept-Language` locale data; Stage 2 proposal reviews.                                               |
 | [2026-07-09](2026/2026-07-09.md) | TG2 approves #1086; Sequence Units zero and unit-table decisions; time units go to TG1; EAO cleared for a Stage 1 datetime-options proposal.                                                        |

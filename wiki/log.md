@@ -190,3 +190,9 @@ Append-only record of operations on this wiki. Each entry starts with `## [YYYY-
 - `raw/ecma402`: e463f3c → 3691634 (9 commits). New TG2 notes `notes-2026-10-08.md` (Amount duration units #139, Sequence Units #19, Unit Protocol #6/#7/#8, toTitleCase #294, cyclic year #816). Spec: merged normative PR #1095 (`%TypedArray%.prototype.toLocaleString`) and editorial PRs #1048, #1050, #1063, #1079, #1087, #1096, #1106.
 - `raw/notes`: already up to date on main (latest plenary 2026-07). The 2026-09 plenary (116th) minutes are still an open PR (tc39/notes#424).
 - Regenerated the TG2 agenda index (1359 topics) and people pages. Follow-ups: `/summarise 2026-10-08`; revisit Amount, Intl Sequence Units and Intl Unit Protocol with the new TG2 discussion.
+
+## [2026-11-03] summarise | TG2 2026-10-08, plus unit-proposal page updates
+
+- Summarised 2026-10-08 (79 TG2 meetings summarised): time zone IDs like `EST5EDT` to stop being canonical (JGT to write a PR, no formal conclusion); Unit Protocol #7 "Go with option 4" (normative change, SFC to TG1), #8 to be highlighted at Stage 2.7 review, #6 no conclusion; Amount #139 time-unit formatting unresolved (SFC to file a `Temporal.Duration` conversion issue); Sequence Units #19 postponed after EAO declined to discuss it under the TC39 AI policy; #294 title-casing to a TPAC breakout; #816 needs a test262 test. EAO has joined the ECMA-402 editors.
+- Updated amount (time/duration units, #139), intl-sequence-units (#19; time units #8 now stated by SFC as unsupported in Sequence Units, NumberFormat only), intl-unit-protocol (TG2 2026-10-08 Stage history row for #7; new "Coercing and validating the fields (#6, #8)" issue). Where the Sequence Units time-unit exclusion was decided is not in the notes; to be re-checked once the 2026-09 plenary minutes (tc39/notes#424) land.
+- "Robert Bastian" (Google) has no delegates.txt abbreviation and is written by name.

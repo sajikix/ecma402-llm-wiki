@@ -34,7 +34,7 @@ new Intl.NumberFormat("en", { style: "unit" })
   .format({ value: [10, 50], unit: "meter-and-centimeter" });
 ```
 
-Only the "sanctioned" sequence unit groups are accepted, in descending order of magnitude, with any subset of each group: mile/yard/foot/inch, kilometer/meter/centimeter/millimeter, stone/pound/ounce, kilogram/gram, gallon/fluid-ounce and liter/milliliter. Time units are not part of the table; whether they should be is the proposal's main open question (#8).
+Only the "sanctioned" sequence unit groups are accepted, in descending order of magnitude, with any subset of each group: mile/yard/foot/inch, kilometer/meter/centimeter/millimeter, stone/pound/ounce, kilogram/gram, gallon/fluid-ounce and liter/milliliter. Time units are not part of the table; whether they should be was the proposal's main open question (#8), and at TG2 2026-10-08 [SFC](../people/SFC.md) described the proposal as not supporting them.
 
 ## Stage history
 
@@ -111,6 +111,8 @@ At the [2026-05](https://github.com/tc39/notes/blob/main/meetings/2026-05/may-20
 
 The shape changed again through Amount. Amount needed a way to hold several values, and at TG2 [2026-08-06](https://github.com/tc39/ecma402/blob/main/meetings/notes-2026-08-06.md) (proposal-amount#118) [SFC](../people/SFC.md) reported that the numerics call found a non-primitive `.value` acceptable. [EAO](../people/EAO.md) recalled agreement on an array ordered as in the `-and-` identifier, and [RGN](../people/RGN.md) wanted uniformity between Amount and Intl, whether array or object. [RGN](../people/RGN.md) found mixing numeric types in the array "distasteful". [EAO](../people/EAO.md) gave a use case (BigInt for the larger integer components, an exact decimal string for the last), and [RGN](../people/RGN.md) did not object. With a polymorphic `.value` there is no need for a `.values` field, "So intl unit protocol shouldn’t go looking for it" ([EAO](../people/EAO.md)). At TG2 [2026-09-17](https://github.com/tc39/ecma402/blob/main/meetings/notes-2026-09-17.md) (issue #16) [SFC](../people/SFC.md) proposed the same array for `format()` itself; [JMN](../people/JMN.md): "It feels like a much nicer data model." Conclusion: "TG2 approves switching to an array." This departs from the object design approved at plenary and has not yet been presented there.
 
+How exactly `format()` should read that array (issue #19: Iterable vs. array-like vs. `IsArray`) was on the agenda at TG2 [2026-10-08](https://github.com/tc39/ecma402/blob/main/meetings/notes-2026-10-08.md), but was not discussed on its merits. [EAO](../people/EAO.md) asked to skip the issue "because it's in violation of the TC39 AI policy". [SFC](../people/SFC.md) replied "My position on the AI policy is not a position of TG2, it's my personal position" and asked to discuss the content. [EAO](../people/EAO.md) declined: "If there are issues with the AI policy, we should work those out first in the appropriate channels." Conclusion: "Postpone." The input-handling question is open.
+
 ### Field reading and validation: missing, extra, out-of-range and negative values (#2, #4, #5, #6)
 
 TG2 [2026-05-19](https://github.com/tc39/ecma402/blob/main/meetings/notes-2026-05-19.md) settled the edge cases one by one, mostly by the "not coercing things" principle ([EAO](../people/EAO.md)):
@@ -158,13 +160,15 @@ At the [2026-07](https://github.com/tc39/notes/blob/main/meetings/2026-07/july-2
 
 > [PFC](../people/PFC.md): I don't really have a strong position on whether Amount should support the duration units. I do have a strong position on not ending up with two things that make different choices about duration units.
 
-[EAO](../people/EAO.md) replied that NumberFormat does no conversion at all ("seconds never become minutes"). The remaining conflict is between Temporal and CLDR `units.xml`, which defines a month as a twelfth of a year; [SFC](../people/SFC.md) and [PFC](../people/PFC.md) agreed to list the problematic conversions. [EAO](../people/EAO.md) raised a new direction: should an Amount with time units format through `Intl.DurationFormat`? The conclusion was only to "Continue iterating on the proposal, taking the new perspectives into consideration". The question is unresolved.
+[EAO](../people/EAO.md) replied that NumberFormat does no conversion at all ("seconds never become minutes"). The remaining conflict is between Temporal and CLDR `units.xml`, which defines a month as a twelfth of a year; [SFC](../people/SFC.md) and [PFC](../people/PFC.md) agreed to list the problematic conversions. [EAO](../people/EAO.md) raised a new direction: should an Amount with time units format through `Intl.DurationFormat`? The conclusion was only to "Continue iterating on the proposal, taking the new perspectives into consideration". The question was left unresolved.
+
+At TG2 [2026-10-08](https://github.com/tc39/ecma402/blob/main/meetings/notes-2026-10-08.md) [SFC](../people/SFC.md) opened the Amount topic (proposal-amount#139) with "Intl Sequence Units does not support time units", adding "This only impacts Intl.NumberFormat, not Amount." Nobody disputed this for NumberFormat. [EAO](../people/EAO.md) answered that time-unit Amounts should then format through `Intl.DurationFormat` ("If we can't make it work through Intl.NumberFormat, we should make it work through Intl.DurationFormat"), while still preferring that NumberFormat support them. The notes do not say where the exclusion was settled. It may come from the Sequence Units update that TG2 2026-09-17 put on the next plenary agenda (the Editors' update at this meeting mentions TG1 approvals "last week"; those plenary notes are not yet available), or it may restate the Stage 2 unit table. Either way, the open part of the question has moved to how Amount formats time units; see [Amount](amount.md#time-and-duration-units).
 
 Arcminute and arcsecond, used as examples throughout, are not ECMA-402 units ([EAO](../people/EAO.md) at TG2 [2026-05-19](https://github.com/tc39/ecma402/blob/main/meetings/notes-2026-05-19.md) and at plenary; the minute and second units Intl has are durations). [RGN](../people/RGN.md) argued that sequence units motivate them, citing geographic coordinates on Wikipedia (TG2 [2026-06-11](https://github.com/tc39/ecma402/blob/main/meetings/notes-2026-06-11.md)). At [2026-07-09](https://github.com/tc39/ecma402/blob/main/meetings/notes-2026-07-09.md) (#13) [EAO](../people/EAO.md) and [SFC](../people/SFC.md) agreed that new units should follow the Intl Energy Units model of a separate proposal.
 
 ## Related proposals
 
-- [Amount](amount.md) — held mixed units while it was Measure (2024-10 to 2025-07); its `person-height` conversion to `foot-and-inch` motivated splitting this proposal out, and its array-valued `.value` (proposal-amount#118) drove the switch to array input. Time-unit support (#8) is decided jointly.
+- [Amount](amount.md) — held mixed units while it was Measure (2024-10 to 2025-07); its `person-height` conversion to `foot-and-inch` motivated splitting this proposal out, and its array-valued `.value` (proposal-amount#118) drove the switch to array input. Time-unit support (#8) was discussed jointly; by TG2 2026-10-08 the open part is how Amount formats time units (proposal-amount#139).
 - [Intl Unit Protocol](intl-unit-protocol.md) ("explore associating a unit with a number") — the `{ value, unit }` protocol through which `Intl.NumberFormat` reads Amount-like objects; TG2 agreed it reads only `.value` and `.unit`, with `.value` possibly an array for sequence units.
 - [Smart Unit Preferences in Intl.NumberFormat](smart-unit-preferences.md) — locale- and usage-based unit selection (e.g. US `person-height` gives feet and inches); sequence units were once treated as part of it (2020-02, 2024).
 - [Intl.DurationFormat](intl-durationformat.md) — the precedent for formatting compound values: same-sign rule, no balancing, integer-only non-smallest fields. It differs in reading all fields, per-field zero display and a digital style, and it is the current answer for time units.
@@ -189,6 +193,7 @@ TG2:
 - https://github.com/tc39/ecma402/blob/main/meetings/notes-2026-07-09.md
 - https://github.com/tc39/ecma402/blob/main/meetings/notes-2026-08-06.md
 - https://github.com/tc39/ecma402/blob/main/meetings/notes-2026-09-17.md
+- https://github.com/tc39/ecma402/blob/main/meetings/notes-2026-10-08.md
 
 Plenary:
 
