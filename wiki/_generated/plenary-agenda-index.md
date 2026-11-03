@@ -547,6 +547,8 @@
 
 ## 2024-12
 
+- **More Currency Display Choices** — stage: 2  `raw/notes/meetings/2024-12/december-02.md`
+  - → “More Currency Display Choices” was accepted for Stage 2, with JHD and NRO as committed spec reviews.
 - **`Intl.DurationFormat` for Stage 4** — stage: 4  `raw/notes/meetings/2024-12/december-02.md`
   - → DurationFormat reached Stage 4 with supporting comments from DLM and PFC.
 - **ECMA402 Status Updates**  `raw/notes/meetings/2024-12/december-03.md`

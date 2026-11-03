@@ -36,7 +36,7 @@ STATIC_KEYWORDS = [
     r"\btg ?2\b", r"locale", r"tolocale\w*", r"collat", r"plural",
     r"messageformat", r"cldr", r"\bicu\b", r"time ?zone",
     r"calendar", r"stable formatting", r"\bera\b", r"month ?code",
-    r"\bamount\b", r"\bmeasure\b",  # Amount (formerly Measure), ECMA-262 with Intl surface
+    r"\bamount\b", r"\bmeasure\b", r"\bcurrency\b",  # Amount (formerly Measure), ECMA-262 with Intl surface
 ]
 
 # Identifiers from proposal titles that are too generic to match on their own.

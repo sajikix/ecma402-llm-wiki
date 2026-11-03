@@ -76,6 +76,7 @@ AMBIGUOUS = {
     "JH",   # 2017-2018 TG2: Jack Horton; delegates.txt: Jafar Husain
     "EA",   # 2019 TG2: Eemeli Aro; delegates.txt: Erik Arvidsson
     "AH",   # 2019 TG2: Axel Hecht; delegates.txt: Anna Henningsen
+    "JRD",  # Johan Røed, but a different speaker in the 2019-01 plenary
 }
 
 

@@ -12,7 +12,7 @@ tags: [person]
 - **Full name**: Ashley Claymore
 - **Affiliation**: Bloomberg
 - **Champion drafts**: (none among curated pages)
-- **Mentioned on proposal pages**: [Intl Era/Month Code](../proposals/intl-era-month-code.md), [Intl.MessageFormat](../proposals/intl-messageformat.md), [Intl Unit Protocol](../proposals/intl-unit-protocol.md)
+- **Mentioned on proposal pages**: [Intl Energy Units](../proposals/intl-energy-units.md), [Intl Era/Month Code](../proposals/intl-era-month-code.md), [Intl.MessageFormat](../proposals/intl-messageformat.md), [Intl Unit Protocol](../proposals/intl-unit-protocol.md)
 - **TG2 meetings attended**: 0
 - **Plenary meetings attended**: 22
 

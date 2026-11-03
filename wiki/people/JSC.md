@@ -12,7 +12,7 @@ tags: [person]
 - **Full name**: Joshua S. Choi
 - **Affiliation**: IE (Univ. of Utah ) / Indiana University / Invited Expert / Invited expert
 - **Champion drafts**: (none among curated pages)
-- **Mentioned on proposal pages**: [Smart Unit Preferences in Intl.NumberFormat](../proposals/smart-unit-preferences.md)
+- **Mentioned on proposal pages**: [Intl Energy Units](../proposals/intl-energy-units.md), [Smart Unit Preferences in Intl.NumberFormat](../proposals/smart-unit-preferences.md)
 - **TG2 meetings attended**: 4
 - **Plenary meetings attended**: 10
 

@@ -88,4 +88,6 @@ Topic-by-topic digests of ECMA-402 task group (TG2) monthly calls, produced by `
 
 TG2 meetings already cited by proposal pages but not yet summarised (oldest first). `/summarise <date>` removes an entry; `/ingest` adds them (AGENTS.md "Workflow > Ingest" step 7).
 
-(empty — every TG2 meeting cited by a proposal page has a summary)
+| Date                                                                                 | Referenced by                 |
+| ------------------------------------------------------------------------------------ | ----------------------------- |
+| [2018-11-26](https://github.com/tc39/ecma402/blob/main/meetings/notes-2018-11-26.md) | intl-currency-display-choices |

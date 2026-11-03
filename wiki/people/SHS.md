@@ -12,7 +12,7 @@ tags: [person]
 - **Full name**: Stephen Hicks
 - **Affiliation**: Google
 - **Champion drafts**: (none among curated pages)
-- **Mentioned on proposal pages**: [Intl Era/Month Code](../proposals/intl-era-month-code.md), [Intl Keep Trailing Zeros](../proposals/intl-keep-trailing-zeros.md)
+- **Mentioned on proposal pages**: [Intl Energy Units](../proposals/intl-energy-units.md), [Intl Era/Month Code](../proposals/intl-era-month-code.md), [Intl Keep Trailing Zeros](../proposals/intl-keep-trailing-zeros.md)
 - **TG2 meetings attended**: 0
 - **Plenary meetings attended**: 7
 

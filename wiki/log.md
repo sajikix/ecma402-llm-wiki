@@ -196,3 +196,20 @@ Append-only record of operations on this wiki. Each entry starts with `## [YYYY-
 - Summarised 2026-10-08 (79 TG2 meetings summarised): time zone IDs like `EST5EDT` to stop being canonical (JGT to write a PR, no formal conclusion); Unit Protocol #7 "Go with option 4" (normative change, SFC to TG1), #8 to be highlighted at Stage 2.7 review, #6 no conclusion; Amount #139 time-unit formatting unresolved (SFC to file a `Temporal.Duration` conversion issue); Sequence Units #19 postponed after EAO declined to discuss it under the TC39 AI policy; #294 title-casing to a TPAC breakout; #816 needs a test262 test. EAO has joined the ECMA-402 editors.
 - Updated amount (time/duration units, #139), intl-sequence-units (#19; time units #8 now stated by SFC as unsupported in Sequence Units, NumberFormat only), intl-unit-protocol (TG2 2026-10-08 Stage history row for #7; new "Coercing and validating the fields (#6, #8)" issue). Where the Sequence Units time-unit exclusion was decided is not in the notes; to be re-checked once the 2026-09 plenary minutes (tc39/notes#424) land.
 - "Robert Bastian" (Google) has no delegates.txt abbreviation and is written by name.
+
+## [2026-11-03] ingest | Intl Energy Units
+
+- Added `wiki/proposals/intl-energy-units.md` (Stage 1, families: number-format).
+- Stage 1 at the 2025-11 plenary (`november-20.md`); the 2026-03 update (`march-11.md`) deferred Stage 2 to after CLDR research ("Will seek Stage 2 in a future meeting"). No Stage 2 request through 2026-07.
+- Champions: NRO, SFC (canonical) plus BAN (NRO at the Stage 1 request: "BAN is the champion") and KAP (invited expert Kaleb Pace; SFC at TG2 2026-01-08: "so we're co-champions"); author Johan Røed (JRD) named in the text.
+- Main issues: batch vs holistic units proposal, joules / SI / scientific scope, the unit list and CLDR research before Stage 2, data size, criteria for new usages (ecma402#1047), unresponsive author, relationship to Amount.
+- Fixed the 2026-08-06 summary, which called it a Stage 2 proposal (it is at Stage 1). `JRD` added to `AMBIGUOUS` (a different speaker in the 2019-01 plenary).
+- Summary backlog: no additions.
+
+## [2026-11-03] ingest | More Currency Display Choices
+
+- Added `wiki/proposals/intl-currency-display-choices.md` (Stage 2, champion EAO, families: number-format).
+- Stage history: TG2 2024-11-25 (ecma402#643, TG2 supports a Stage 1 proposal) → plenary 2024-12 Stage 0 → 2 in one slot (`december-02.md`, reviewers JHD, NRO) → TG2 2025-01-16 (CLDR data accepted as a Stage 2.7 blocker; `formalSymbol` vs `longSymbol`) → TG2 2025-06-12 (JavaScriptCore implementation landed, not shippable) → TG2 2026-08-06 (no recent updates; SFC to take the CLDR issue to the CLDR design group).
+- Main issues: proposal vs PR and the unexpected jump to Stage 2; meaning and name of the "formal" symbol (MF2 naming alignment); CLDR data for formal symbols (Stage 2.7 blocker, unresolved); scope of a "global" currency format.
+- The plenary item was missing from `plenary-agenda-index.md`; `extract_plenary_agenda.py` now matches `\bcurrency\b` (word-bounded so "Concurrency" doesn't match).
+- Summary backlog: 1 meeting added (2018-11-26).

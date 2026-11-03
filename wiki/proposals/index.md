@@ -39,7 +39,7 @@
 | Proposal | Champion |
 | --- | --- |
 | **[eraDisplay option for Intl.DateTimeFormat](intl-eradisplay.md)** | Shane Carr, Louis-Aime |
-| [More Currency Display Choices](https://github.com/tc39/proposal-intl-currency-display-choices) | Eemeli Aro |
+| **[More Currency Display Choices](intl-currency-display-choices.md)** | Eemeli Aro |
 
 ## Stage 1 (12)
 
@@ -47,7 +47,7 @@
 | --- | --- |
 | **[Default Behaviours for some Intl APIs](intl-default-behaviours.md)** | Eemeli Aro |
 | **[explore associating a unit with a number](intl-unit-protocol.md)** | Shane Carr |
-| [Intl Energy Units](https://github.com/johanrd/proposal-intl-energy-units) | Nicolò Ribaudo, Shane Carr |
+| **[Intl Energy Units](intl-energy-units.md)** | Nicolò Ribaudo, Shane Carr |
 | [Intl LocaleMatcher](https://github.com/tc39/proposal-intl-localematcher) | Shane Carr, Long Ho |
 | **[Intl Sequence Units](intl-sequence-units.md)** | Shane Carr |
 | [Intl.DateTimeFormat Alignment With Other Standards](https://github.com/tc39/proposal-intl-datetime-alignment) | Eemeli Aro |
