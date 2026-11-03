@@ -2099,3 +2099,26 @@
 - 2026-09-17 · Proposals and Discussion Topics › **Async APIs for Intl loading #434**  [ecma402#434]
 - 2026-09-17 · Proposals and Discussion Topics › **Cyclic year doesn't show up in resolvedOptions #816**  [ecma402#816]
 - 2026-09-17 · Proposals and Discussion Topics › **Allow compact notation to depend on style**  [ecma402#810]
+
+## 2026-10-08
+
+`raw/ecma402/meetings/notes-2026-10-08.md`
+
+- 2026-10-08 · Logistics › **Time Zone Issue**  [ecma402#1103]
+- 2026-10-08 · Status Updates › **Updates from the Editors**
+- 2026-10-08 · Status Updates › **Updates about MessageFormat (MFWG, W3C i18n, WHATWG)**
+- 2026-10-08 · Status Updates › **Updates from Implementers**
+- 2026-10-08 · Status Updates › **Updates from the W3C i18n Group**
+- 2026-10-08 · Proposals and Discussion Topics › **Issue #294: add String.toTitleCase, String.toLocaleTitleCase — Bring to W3C at TPAC?**  [ecma402#294]
+  - SFC to submit a breakout session
+- 2026-10-08 · Proposals and Discussion Topics › **Amount Issue #139: Duration / time units in Amount — Use Intl.DurationFormat?**  [proposal-amount#139]
+  - SFC to file an issue about conversion from Amount to Temporal.Duration.
+- 2026-10-08 · Proposals and Discussion Topics › **Sequence Units Issue #19: Exact input handling for sequence unit values: Iterable vs. Array-like vs. IsArray**  [proposal-intl-sequence-units#19]
+  - Postpone.
+- 2026-10-08 · Proposals and Discussion Topics › **Unit Protocol Issue #6: Should we coerce the value field?**  [proposal-intl-unit-protocol#6]
+- 2026-10-08 · Proposals and Discussion Topics › **Unit Protocol Issue #7: Should we check for the protocol even if the formatter is not a unit/currency formatter?**  [proposal-intl-unit-protocol#7]
+  - Go with option 4. SFC to submit the normative change to next TG1.
+- 2026-10-08 · Proposals and Discussion Topics › **Unit Protocol Issue #8: Input unit type checking — Validation timing and string conversion rules for identifiers.** — stage: 2.7  [proposal-intl-unit-protocol#8]
+  - Highlight this at stage 2.7 review time.
+- 2026-10-08 · Proposals and Discussion Topics › **Issue #816 - Cyclic year doesn't show up in resolvedOptions**  [ecma402#816]
+  - Needs a test262 test.

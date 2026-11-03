@@ -2,7 +2,7 @@
 abbr: RGN
 name: Richard Gibson
 orgs: [Agoric, Agoric / OpenJS Foundation, Open JS Foundation, OpenJS Foundation, OpenJS foundation, Oracle, OpenJSF and Oracle]
-tg2_meetings_attended: 67
+tg2_meetings_attended: 68
 plenary_meetings_attended: 30
 tags: [person]
 ---
@@ -13,11 +13,12 @@ tags: [person]
 - **Affiliation**: Agoric / Agoric / OpenJS Foundation / Open JS Foundation / OpenJS Foundation / OpenJS foundation, Oracle / OpenJSF and Oracle
 - **Champion drafts**: (none among curated pages)
 - **Mentioned on proposal pages**: [Amount](../proposals/amount.md), [Default Behaviours for some Intl APIs](../proposals/intl-default-behaviours.md), [Intl.DurationFormat](../proposals/intl-durationformat.md), [Intl Era/Month Code](../proposals/intl-era-month-code.md), [eraDisplay option for Intl.DateTimeFormat](../proposals/intl-eradisplay.md), [Intl Keep Trailing Zeros](../proposals/intl-keep-trailing-zeros.md), [Intl Locale Info](../proposals/intl-locale-info.md), [Intl.MessageFormat](../proposals/intl-messageformat.md), [Intl Sequence Units](../proposals/intl-sequence-units.md), [Intl Unit Protocol](../proposals/intl-unit-protocol.md), [Smart Unit Preferences in Intl.NumberFormat](../proposals/smart-unit-preferences.md), [Stable Formatting](../proposals/stable-formatting.md)
-- **TG2 meetings attended**: 67
+- **TG2 meetings attended**: 68
 - **Plenary meetings attended**: 30
 
 ## TG2 meetings attended
 
+- 2026-10-08
 - [2026-08-06](../meetings/2026/2026-08-06.md)
 - [2026-06-11](../meetings/2026/2026-06-11.md)
 - [2026-05-19](../meetings/2026/2026-05-19.md)

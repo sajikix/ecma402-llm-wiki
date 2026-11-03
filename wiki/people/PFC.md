@@ -2,7 +2,7 @@
 abbr: PFC
 name: Philip Chimento
 orgs: [Igalia, Igalia S.L., Igalia, S.L]
-tg2_meetings_attended: 24
+tg2_meetings_attended: 25
 plenary_meetings_attended: 37
 tags: [person]
 ---
@@ -13,11 +13,12 @@ tags: [person]
 - **Affiliation**: Igalia / Igalia S.L. / Igalia, S.L
 - **Champion drafts**: [Intl Era/Month Code](../proposals/intl-era-month-code.md)
 - **Mentioned on proposal pages**: [Amount](../proposals/amount.md), [Intl.DurationFormat](../proposals/intl-durationformat.md), [Intl Era/Month Code](../proposals/intl-era-month-code.md), [Intl Keep Trailing Zeros](../proposals/intl-keep-trailing-zeros.md), [Intl Locale Info](../proposals/intl-locale-info.md), [Intl.MessageFormat](../proposals/intl-messageformat.md), [Intl Sequence Units](../proposals/intl-sequence-units.md), [Stable Formatting](../proposals/stable-formatting.md)
-- **TG2 meetings attended**: 24
+- **TG2 meetings attended**: 25
 - **Plenary meetings attended**: 37
 
 ## TG2 meetings attended
 
+- 2026-10-08
 - [2026-05-19](../meetings/2026/2026-05-19.md)
 - [2026-02-19](../meetings/2026/2026-02-19.md)
 - [2026-01-08](../meetings/2026/2026-01-08.md)

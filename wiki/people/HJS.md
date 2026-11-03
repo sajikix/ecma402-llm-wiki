@@ -2,7 +2,7 @@
 abbr: HJS
 name: Henri Sivonen
 orgs: [Mozilla]
-tg2_meetings_attended: 27
+tg2_meetings_attended: 28
 plenary_meetings_attended: 1
 tags: [person]
 ---
@@ -13,11 +13,12 @@ tags: [person]
 - **Affiliation**: Mozilla
 - **Champion drafts**: (none among curated pages)
 - **Mentioned on proposal pages**: [Amount](../proposals/amount.md), [Default Behaviours for some Intl APIs](../proposals/intl-default-behaviours.md), [Intl Era/Month Code](../proposals/intl-era-month-code.md), [eraDisplay option for Intl.DateTimeFormat](../proposals/intl-eradisplay.md), [Intl Keep Trailing Zeros](../proposals/intl-keep-trailing-zeros.md), [Intl Locale Info](../proposals/intl-locale-info.md), [Smart Unit Preferences in Intl.NumberFormat](../proposals/smart-unit-preferences.md), [Stable Formatting](../proposals/stable-formatting.md)
-- **TG2 meetings attended**: 27
+- **TG2 meetings attended**: 28
 - **Plenary meetings attended**: 1
 
 ## TG2 meetings attended
 
+- 2026-10-08
 - [2026-08-06](../meetings/2026/2026-08-06.md)
 - [2026-06-11](../meetings/2026/2026-06-11.md)
 - [2026-05-19](../meetings/2026/2026-05-19.md)

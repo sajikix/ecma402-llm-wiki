@@ -184,3 +184,9 @@ Append-only record of operations on this wiki. Each entry starts with `## [YYYY-
 ## [2026-10-02] summarise | Summary backlog from eraDisplay (2 meetings)
 
 - Summarised 2020-11-05 (scope guidelines #442, default time zone #507, first eraDisplay #426 discussion) and 2024-06-20 (CLDR-driven eraDisplay #9, "sub-era"); the Summary backlog is empty again (78 TG2 meetings summarised). Both match intl-eradisplay.
+
+## [2026-11-03] update | raw/ecma402, raw/notes
+
+- `raw/ecma402`: e463f3c → 3691634 (9 commits). New TG2 notes `notes-2026-10-08.md` (Amount duration units #139, Sequence Units #19, Unit Protocol #6/#7/#8, toTitleCase #294, cyclic year #816). Spec: merged normative PR #1095 (`%TypedArray%.prototype.toLocaleString`) and editorial PRs #1048, #1050, #1063, #1079, #1087, #1096, #1106.
+- `raw/notes`: already up to date on main (latest plenary 2026-07). The 2026-09 plenary (116th) minutes are still an open PR (tc39/notes#424).
+- Regenerated the TG2 agenda index (1359 topics) and people pages. Follow-ups: `/summarise 2026-10-08`; revisit Amount, Intl Sequence Units and Intl Unit Protocol with the new TG2 discussion.

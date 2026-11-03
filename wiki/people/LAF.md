@@ -2,7 +2,7 @@
 abbr: LAF
 name: Louis-Aimé de Fouquières
 orgs: [Invited Expert]
-tg2_meetings_attended: 35
+tg2_meetings_attended: 36
 plenary_meetings_attended: 0
 tags: [person]
 ---
@@ -13,11 +13,12 @@ tags: [person]
 - **Affiliation**: Invited Expert
 - **Champion drafts**: [eraDisplay option for Intl.DateTimeFormat](../proposals/intl-eradisplay.md)
 - **Mentioned on proposal pages**: [Amount](../proposals/amount.md), [Intl.DurationFormat](../proposals/intl-durationformat.md), [Intl Era/Month Code](../proposals/intl-era-month-code.md), [eraDisplay option for Intl.DateTimeFormat](../proposals/intl-eradisplay.md), [Intl Locale Info](../proposals/intl-locale-info.md)
-- **TG2 meetings attended**: 35
+- **TG2 meetings attended**: 36
 - **Plenary meetings attended**: 0
 
 ## TG2 meetings attended
 
+- 2026-10-08
 - [2026-08-06](../meetings/2026/2026-08-06.md)
 - [2026-03-19](../meetings/2026/2026-03-19.md)
 - [2025-12-04](../meetings/2025/2025-12-04.md)

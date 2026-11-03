@@ -2,7 +2,7 @@
 abbr: EAO
 name: Eemeli Aro
 orgs: [Mozilla, OpenJSF]
-tg2_meetings_attended: 60
+tg2_meetings_attended: 61
 plenary_meetings_attended: 21
 tags: [person]
 ---
@@ -13,11 +13,12 @@ tags: [person]
 - **Affiliation**: Mozilla / OpenJSF
 - **Champion drafts**: [Amount](../proposals/amount.md), [Default Behaviours for some Intl APIs](../proposals/intl-default-behaviours.md), [Intl Keep Trailing Zeros](../proposals/intl-keep-trailing-zeros.md), [Intl.MessageFormat](../proposals/intl-messageformat.md), [Stable Formatting](../proposals/stable-formatting.md)
 - **Mentioned on proposal pages**: [Amount](../proposals/amount.md), [Default Behaviours for some Intl APIs](../proposals/intl-default-behaviours.md), [Intl.DurationFormat](../proposals/intl-durationformat.md), [Intl Era/Month Code](../proposals/intl-era-month-code.md), [eraDisplay option for Intl.DateTimeFormat](../proposals/intl-eradisplay.md), [Intl Keep Trailing Zeros](../proposals/intl-keep-trailing-zeros.md), [Intl Locale Info](../proposals/intl-locale-info.md), [Intl.MessageFormat](../proposals/intl-messageformat.md), [Intl Sequence Units](../proposals/intl-sequence-units.md), [Intl Unit Protocol](../proposals/intl-unit-protocol.md), [Smart Unit Preferences in Intl.NumberFormat](../proposals/smart-unit-preferences.md), [Stable Formatting](../proposals/stable-formatting.md)
-- **TG2 meetings attended**: 60
+- **TG2 meetings attended**: 61
 - **Plenary meetings attended**: 21
 
 ## TG2 meetings attended
 
+- 2026-10-08
 - [2026-09-17](../meetings/2026/2026-09-17.md)
 - [2026-08-06](../meetings/2026/2026-08-06.md)
 - [2026-07-09](../meetings/2026/2026-07-09.md)

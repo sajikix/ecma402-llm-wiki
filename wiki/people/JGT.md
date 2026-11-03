@@ -2,7 +2,7 @@
 abbr: JGT
 name: Justin Grant
 orgs: [Invited Expert, Invited Expert for Temporal, Temporal (Invited)]
-tg2_meetings_attended: 13
+tg2_meetings_attended: 14
 plenary_meetings_attended: 9
 tags: [person]
 ---
@@ -13,11 +13,12 @@ tags: [person]
 - **Affiliation**: Invited Expert / Invited Expert for Temporal / Temporal (Invited)
 - **Champion drafts**: (none among curated pages)
 - **Mentioned on proposal pages**: [Intl.DurationFormat](../proposals/intl-durationformat.md), [eraDisplay option for Intl.DateTimeFormat](../proposals/intl-eradisplay.md), [Intl Locale Info](../proposals/intl-locale-info.md), [Intl.MessageFormat](../proposals/intl-messageformat.md), [Smart Unit Preferences in Intl.NumberFormat](../proposals/smart-unit-preferences.md), [Stable Formatting](../proposals/stable-formatting.md)
-- **TG2 meetings attended**: 13
+- **TG2 meetings attended**: 14
 - **Plenary meetings attended**: 9
 
 ## TG2 meetings attended
 
+- 2026-10-08
 - [2023-09-07](../meetings/2023/2023-09-07.md)
 - [2023-06-29](../meetings/2023/2023-06-29.md)
 - [2023-06-01](../meetings/2023/2023-06-01.md)

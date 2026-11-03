@@ -2,7 +2,7 @@
 abbr: SFC
 name: Shane Carr
 orgs: [Google, Google i18n]
-tg2_meetings_attended: 84
+tg2_meetings_attended: 85
 plenary_meetings_attended: 26
 tags: [person]
 ---
@@ -13,11 +13,12 @@ tags: [person]
 - **Affiliation**: Google / Google i18n
 - **Champion drafts**: [Amount](../proposals/amount.md), [Intl Era/Month Code](../proposals/intl-era-month-code.md), [eraDisplay option for Intl.DateTimeFormat](../proposals/intl-eradisplay.md), [Intl Sequence Units](../proposals/intl-sequence-units.md), [Intl Unit Protocol](../proposals/intl-unit-protocol.md)
 - **Mentioned on proposal pages**: [Amount](../proposals/amount.md), [Default Behaviours for some Intl APIs](../proposals/intl-default-behaviours.md), [Intl.DurationFormat](../proposals/intl-durationformat.md), [Intl Era/Month Code](../proposals/intl-era-month-code.md), [eraDisplay option for Intl.DateTimeFormat](../proposals/intl-eradisplay.md), [Intl Keep Trailing Zeros](../proposals/intl-keep-trailing-zeros.md), [Intl Locale Info](../proposals/intl-locale-info.md), [Intl.MessageFormat](../proposals/intl-messageformat.md), [Intl Sequence Units](../proposals/intl-sequence-units.md), [Intl Unit Protocol](../proposals/intl-unit-protocol.md), [Smart Unit Preferences in Intl.NumberFormat](../proposals/smart-unit-preferences.md), [Stable Formatting](../proposals/stable-formatting.md)
-- **TG2 meetings attended**: 84
+- **TG2 meetings attended**: 85
 - **Plenary meetings attended**: 26
 
 ## TG2 meetings attended
 
+- 2026-10-08
 - [2026-09-17](../meetings/2026/2026-09-17.md)
 - [2026-08-06](../meetings/2026/2026-08-06.md)
 - [2026-07-09](../meetings/2026/2026-07-09.md)
