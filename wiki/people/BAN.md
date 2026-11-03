@@ -12,7 +12,7 @@ tags: [person]
 - **Full name**: Ben Allen
 - **Affiliation**: Igalia
 - **Champion drafts**: [Amount](../proposals/amount.md), [Intl Energy Units](../proposals/intl-energy-units.md), [Intl Era/Month Code](../proposals/intl-era-month-code.md)
-- **Mentioned on proposal pages**: [Amount](../proposals/amount.md), [More Currency Display Choices](../proposals/intl-currency-display-choices.md), [Intl.DurationFormat](../proposals/intl-durationformat.md), [Intl Energy Units](../proposals/intl-energy-units.md), [Intl Era/Month Code](../proposals/intl-era-month-code.md), [eraDisplay option for Intl.DateTimeFormat](../proposals/intl-eradisplay.md), [Intl Keep Trailing Zeros](../proposals/intl-keep-trailing-zeros.md), [Intl Sequence Units](../proposals/intl-sequence-units.md), [Intl Unit Protocol](../proposals/intl-unit-protocol.md), [Smart Unit Preferences in Intl.NumberFormat](../proposals/smart-unit-preferences.md)
+- **Mentioned on proposal pages**: [Amount](../proposals/amount.md), [More Currency Display Choices](../proposals/intl-currency-display-choices.md), [Intl.DurationFormat](../proposals/intl-durationformat.md), [Intl Energy Units](../proposals/intl-energy-units.md), [Intl Era/Month Code](../proposals/intl-era-month-code.md), [eraDisplay option for Intl.DateTimeFormat](../proposals/intl-eradisplay.md), [Intl Keep Trailing Zeros](../proposals/intl-keep-trailing-zeros.md), [Intl Sequence Units](../proposals/intl-sequence-units.md), [Intl Unit Protocol](../proposals/intl-unit-protocol.md), [Smart Unit Preferences in Intl.NumberFormat](../proposals/smart-unit-preferences.md), [Temporal](../proposals/temporal.md)
 - **TG2 meetings attended**: 29
 - **Plenary meetings attended**: 14
 

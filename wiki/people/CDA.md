@@ -12,7 +12,7 @@ tags: [person]
 - **Full name**: Chris de Almeida
 - **Affiliation**: IBM / International Business Machines Corporation
 - **Champion drafts**: (none among curated pages)
-- **Mentioned on proposal pages**: [Intl Keep Trailing Zeros](../proposals/intl-keep-trailing-zeros.md), [Intl Unit Protocol](../proposals/intl-unit-protocol.md)
+- **Mentioned on proposal pages**: [Intl Keep Trailing Zeros](../proposals/intl-keep-trailing-zeros.md), [Intl Unit Protocol](../proposals/intl-unit-protocol.md), [Temporal](../proposals/temporal.md)
 - **TG2 meetings attended**: 13
 - **Plenary meetings attended**: 26
 

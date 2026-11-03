@@ -12,7 +12,7 @@ tags: [person]
 - **Full name**: Louis-Aimé de Fouquières
 - **Affiliation**: Invited Expert
 - **Champion drafts**: [eraDisplay option for Intl.DateTimeFormat](../proposals/intl-eradisplay.md)
-- **Mentioned on proposal pages**: [Amount](../proposals/amount.md), [Intl.DurationFormat](../proposals/intl-durationformat.md), [Intl Era/Month Code](../proposals/intl-era-month-code.md), [eraDisplay option for Intl.DateTimeFormat](../proposals/intl-eradisplay.md), [Intl Locale Info](../proposals/intl-locale-info.md)
+- **Mentioned on proposal pages**: [Amount](../proposals/amount.md), [Intl.DurationFormat](../proposals/intl-durationformat.md), [Intl Era/Month Code](../proposals/intl-era-month-code.md), [eraDisplay option for Intl.DateTimeFormat](../proposals/intl-eradisplay.md), [Intl Locale Info](../proposals/intl-locale-info.md), [Temporal](../proposals/temporal.md)
 - **TG2 meetings attended**: 36
 - **Plenary meetings attended**: 0
 

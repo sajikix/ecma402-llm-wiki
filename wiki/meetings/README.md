@@ -90,4 +90,8 @@ TG2 meetings already cited by proposal pages but not yet summarised (oldest firs
 
 | Date                                                                                 | Referenced by                 |
 | ------------------------------------------------------------------------------------ | ----------------------------- |
+| [2018-09-20](https://github.com/tc39/ecma402/blob/main/meetings/notes-2018-09-20.md) | temporal                      |
 | [2018-11-26](https://github.com/tc39/ecma402/blob/main/meetings/notes-2018-11-26.md) | intl-currency-display-choices |
+| [2019-12-12](https://github.com/tc39/ecma402/blob/main/meetings/notes-2019-12-12.md) | temporal                      |
+| [2020-04-23](https://github.com/tc39/ecma402/blob/main/meetings/notes-2020-04-23.md) | temporal                      |
+| [2021-12-02](https://github.com/tc39/ecma402/blob/main/meetings/notes-2021-12-02.md) | temporal                      |

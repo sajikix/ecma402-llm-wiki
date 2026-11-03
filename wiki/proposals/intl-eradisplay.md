@@ -133,7 +133,7 @@ Most of the delays come from limited champion time, not from objections. At the 
 ## Related proposals
 
 - [Intl Era/Month Code](intl-era-month-code.md) defines the era _codes_ that Temporal passes in and returns, while this proposal is about when the localized era is _displayed_. When [FYT](../people/FYT.md) presented Era/Month Code for Stage 2 (plenary [2023-01](https://github.com/tc39/notes/blob/main/meetings/2023-01/feb-01.md)), [FYT](../people/FYT.md) contrasted the two: the existing option bag only controls "whether you display the era or not display the era", and "not just talking about era display". The two proposals were discussed in TG2 in the same period, and ecma402#845 waits on both.
-- `temporal` supplies the current era via `Temporal.Now` (the proposal was decoupled from Temporal on 2022-11-03). It is also the precedent for per-type pattern slots in `Intl.DateTimeFormat`, and its `year` field matches the proposed "numeric" year style.
+- [Temporal](temporal.md) supplies the current era via `Temporal.Now` (the proposal was decoupled from Temporal on 2022-11-03). It is also the precedent for per-type pattern slots in `Intl.DateTimeFormat`, and its `year` field matches the proposed "numeric" year style.
 - `Intl.DateTimeFormat.prototype.formatRange` was the first feature with runtime pattern selection, and this proposal follows its internal-slot design.
 
 ## Sources

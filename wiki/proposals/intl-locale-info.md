@@ -189,7 +189,7 @@ The proposal was cited in the committee's staging discussions. After another `fi
 - `intl-locale` (Intl.Locale) — the object this proposal extends. [DE](../people/DE.md), a co-champion of Intl.Locale, said it "fits in a clean way to the design of Intl.Locale" (2021-04).
 - `intl-enumeration` (Intl Enumeration API) — also by [FYT](../people/FYT.md) and discussed alongside it. It lists what the engine _supports_, while Locale Info lists what a locale _uses_ (plenary 2021-04, 2021-05).
 - [Smart Unit Preferences in Intl.NumberFormat](smart-unit-preferences.md) — took over the measurement-system question dropped at Stage 2.
-- `temporal` — source of the 1-7 weekday numbering that `getWeekInfo()` and the `firstDayOfWeek` debate followed; its issue 1808 (getters vs functions) ran in parallel.
+- [Temporal](temporal.md) — source of the 1-7 weekday numbering that `getWeekInfo()` and the `firstDayOfWeek` debate followed; its issue 1808 (getters vs functions) ran in parallel.
 - Post-Stage-4 ECMA-402 normative PRs on the same algorithms: #1051 (`RegionPreference` in `WeekInfoOfLocale`), #1072 (`getCollations()` without default-locale fallback), #1074 (`getNumberingSystems()` returning more than one item), #1086 (language subtag in hour-cycle lookup), #1097 (First Day Overrides), and the `-rg` / subdivision question (#1059) that TG2 wants handled as a proposal.
 
 ## Sources

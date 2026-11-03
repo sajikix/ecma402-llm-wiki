@@ -20,6 +20,7 @@
 - **Review and Approve Final Draft of Internationalization API Specification**  `raw/notes/meetings/2012-09/sept-18.md`
 - **Approval of Intl**  `raw/notes/meetings/2012-09/sept-18.md`
 - **Intl 2nd Edition**  `raw/notes/meetings/2012-09/sept-18.md`
+- **Performance Costs of Temporal Dead Zone**  `raw/notes/meetings/2012-09/sept-19.md`
 
 ## 2012-11
 
@@ -114,6 +115,7 @@
 - **7. ECMA-402 Status Updates**  `raw/notes/meetings/2017-07/jul-25.md`
 - **11.i.a. Intl.Segmenter for Stage 3** — stage: 3  `raw/notes/meetings/2017-07/jul-25.md`
 - **11.ii.d. Intl.RelativeTimeFormat for Stage 2** — stage: 2  `raw/notes/meetings/2017-07/jul-25.md`
+- **11.ii.f. Temporal Proposal updates**  `raw/notes/meetings/2017-07/jul-27.md`
 
 ## 2017-09
 
@@ -146,11 +148,14 @@
 ## 2018-07
 
 - **Intl.DateTimeFormat.prototype.formatRange**  `raw/notes/meetings/2018-07/july-24.md`
+- **Temporal Proposal update**  `raw/notes/meetings/2018-07/july-26.md`
 - **Intl.NumberFormat Unified Feature Proposal for Stage 2** — stage: 2  `raw/notes/meetings/2018-07/july-26.md`
 
 ## 2018-09
 
 - **7.ii ECMA-402 Status Updates**  `raw/notes/meetings/2018-09/sept-25.md`
+- **Temporal for Stage 2** — stage: 2  `raw/notes/meetings/2018-09/sept-27.md`
+- **Temporal**  `raw/notes/meetings/2018-09/sept-27.md`
 
 ## 2018-11
 
@@ -168,6 +173,7 @@
 - **dateStyle/timeStyle for Stage 3** — stage: 3  `raw/notes/meetings/2019-03/mar-26.md`
 - **Intl.DateTimeFormat.prototype.formatRange for Stage 3** — stage: 3  `raw/notes/meetings/2019-03/mar-26.md`
 - **BigInt function parameter overloading and Intl.NumberFormat.prototype.format**  `raw/notes/meetings/2019-03/mar-27.md`
+- **Temporal stage 2 update** — stage: 2  `raw/notes/meetings/2019-03/mar-27.md`
 - **Intl.Segmenter Stage 3 to Stage 2** — stage: 2/3  `raw/notes/meetings/2019-03/mar-28.md`
 
 ## 2019-06
@@ -187,6 +193,7 @@
 - **ECMA402 Status Updates**  `raw/notes/meetings/2019-10/october-1.md`
 - **Reduce the amount of implementation-defined behavior in Array.prototype.sort**  `raw/notes/meetings/2019-10/october-2.md`
 - **Revisit ECMA-402 casing conventions**  `raw/notes/meetings/2019-10/october-2.md`
+- **An update on Temporal**  `raw/notes/meetings/2019-10/october-2.md`
 - **Intl.DisplayNames**  `raw/notes/meetings/2019-10/october-2.md`
 
 ## 2019-12
@@ -211,6 +218,7 @@
 
 ## 2020-03
 
+- **Temporal update**  `raw/notes/meetings/2020-03/april-1.md`
 - **Intl.NumberFormat v3 for Stage 1** — stage: 1  `raw/notes/meetings/2020-03/april-1.md`
   - → Consensus reached for Intl.NumberFormat V3 for Stage 1.
 - **TC39-TG2 Status Updates**  `raw/notes/meetings/2020-03/march-31.md`
@@ -222,6 +230,7 @@
 
 - **ECMA402 Status Update**  `raw/notes/meetings/2020-06/june-1.md`
   - Consensus on:
+- **Temporal Update**  `raw/notes/meetings/2020-06/june-2.md`
 - **Intl.NumberFormat V3 for stage 2** — stage: 2  `raw/notes/meetings/2020-06/june-2.md`
   - Stage 2
 - **Intl.DurationFormat for Stage 2** — stage: 2  `raw/notes/meetings/2020-06/june-2.md`
@@ -240,6 +249,7 @@
   - Stage 4!
 - **Intl.DateTimeFormat dateStyle/timeStyle for Stage 4** — stage: 4  `raw/notes/meetings/2020-07/july-21.md`
   - Stage 4!
+- **Temporal stage 2 update** — stage: 2  `raw/notes/meetings/2020-07/july-21.md`
 - **Intl.Segmenter for Stage 3** — stage: 3  `raw/notes/meetings/2020-07/july-21.md`
   - Stage 3!
 
@@ -250,6 +260,7 @@
   - Stage 4!
 - **Intl Enumeration API for Stage 2** — stage: 2  `raw/notes/meetings/2020-09/sept-22.md`
   - → Consensus on Stage 2!
+- **Temporal Stage 2 Update** — stage: 2  `raw/notes/meetings/2020-09/sept-23.md`
 - **Intl.DisplayNames V2 for Stage 1** — stage: 1  `raw/notes/meetings/2020-09/sept-23.md`
   - Stage 1
 - **Intl Locale Info for stage 1** — stage: 1  `raw/notes/meetings/2020-09/sept-23.md`
@@ -259,6 +270,7 @@
 ## 2020-11
 
 - **ECMA-402 (Intl) status update**  `raw/notes/meetings/2020-11/nov-16.md`
+- **Tour of Temporal**  `raw/notes/meetings/2020-11/nov-18.md`
 - **Intl Enumeration API update**  `raw/notes/meetings/2020-11/nov-18.md`
   - No change
 
@@ -271,6 +283,8 @@
   - Stage 2 without the unit info part.
 - **`Intl.DisplayNames` for stage 2** — stage: 2  `raw/notes/meetings/2021-01/jan-26.md`
   - Stage 2
+- **Temporal** — stage: 3  `raw/notes/meetings/2021-01/jan-27.md`
+  - Proposal is camera-ready, will go for Stage 3 in March.
 - **Extend TimeZoneName Option Proposal for stage 1** — stage: 1  `raw/notes/meetings/2021-01/jan-27.md`
   - Stage 1
 - **EraDisplay for Stage 1** — stage: 1  `raw/notes/meetings/2021-01/jan-27.md`
@@ -282,12 +296,16 @@
 
 - **Intl.Segmenter for Stage 4** — stage: 4  `raw/notes/meetings/2021-03/mar-10.md`
   - was not seeking advancement, awaiting future feedback from Mozilla re: implementing this using ICU4X
+- **Temporal Pt 2** — stage: 3  `raw/notes/meetings/2021-03/mar-10.md`
+  - stage 3, pending:
 - **ECMA 402**  `raw/notes/meetings/2021-03/mar-9.md`
   - Unanimous consent for 2021 Candidate
+- **Temporal for Stage 3** — stage: 3  `raw/notes/meetings/2021-03/mar-9.md`
 
 ## 2021-04
 
 - **ECMA402 Status Update**  `raw/notes/meetings/2021-04/apr-19.md`
+- **`Temporal` Update**  `raw/notes/meetings/2021-04/apr-19.md`
 - **`Intl.NumberFormat` V3 Stage 2 Update** — stage: 2  `raw/notes/meetings/2021-04/apr-19.md`
   - Proposal was not seeking advancement, but will likely come back for advancement with the changes presented here
 - **Intl Locale Info for Stage 3** — stage: 3  `raw/notes/meetings/2021-04/apr-20.md`
@@ -303,6 +321,8 @@
 
 - **ECMA402 status update**  `raw/notes/meetings/2021-05/may-25.md`
   - Consensus on these PRs.
+- **Temporal Normative PRs**  `raw/notes/meetings/2021-05/may-25.md`
+  - All normative changes achieved consensus
 - **Intl Displaynames** — stage: 3  `raw/notes/meetings/2021-05/may-25.md`
   - Stage 3
 - **Extend timeZoneName Option for stage 3** — stage: 3  `raw/notes/meetings/2021-05/may-25.md`
@@ -329,6 +349,8 @@
 - **402 Editor's Report**  `raw/notes/meetings/2021-08/aug-31.md`
 - **DurationFormat Update**  `raw/notes/meetings/2021-08/aug-31.md`
   - Was not seeking changes
+- **Temporal**  `raw/notes/meetings/2021-08/aug-31.md`
+  - No objection to changes
 
 ## 2021-10
 
@@ -340,6 +362,10 @@
 - **Intl Locale Info update**  `raw/notes/meetings/2021-10/oct-26.md`
   - Consensus on all three PRs:
 - **Specifying order of lists returned from Intl APIs**  `raw/notes/meetings/2021-10/oct-26.md`
+- **Normative PRs for Temporal**  `raw/notes/meetings/2021-10/oct-27.md`
+  - Consensus for adding a string overload to the `round` and `total` methods, which will mean the smallest unit
+- **Temporal (overflow)**  `raw/notes/meetings/2021-10/oct-28.md`
+  - consensus only on mentioned bugfix
 
 ## 2021-12
 
@@ -351,6 +377,8 @@
 - **Intl Enumeration API Update in Stage 3** — stage: 3  `raw/notes/meetings/2021-12/dec-14.md`
 - **Intl Locale Info Stage 3 Update** — stage: 3  `raw/notes/meetings/2021-12/dec-14.md`
   - #60 and #61 approved
+- **Temporal Update**  `raw/notes/meetings/2021-12/dec-14.md`
+  - Got Consensus on normative changes
 - **Intl.Segmenter v2** — stage: 1  `raw/notes/meetings/2021-12/dec-15.md`
   - Stage 1
 
@@ -363,6 +391,8 @@
 ## 2022-03
 
 - **ECMA402 Updates**  `raw/notes/meetings/2022-03/mar-28.md`
+- **Temporal update and normative changes**  `raw/notes/meetings/2022-03/mar-29.md`
+  - Consensus on presented changes.
 - **Intl.MessageFormat for Stage 1** — stage: 1  `raw/notes/meetings/2022-03/mar-30.md`
   - Stage 1
 
@@ -371,6 +401,8 @@
 - **ECMA-402 Status Update**  `raw/notes/meetings/2022-06/jun-06.md`
 - **Where do you get your default time zone?**  `raw/notes/meetings/2022-06/jun-06.md`
   - consensus for TODO details
+- **Temporal normative changes**  `raw/notes/meetings/2022-06/jun-06.md`
+  - Consensus
 - **Intl.DurationFormat Stage 3 Update** — stage: 3  `raw/notes/meetings/2022-06/jun-07.md`
 
 ## 2022-07
@@ -380,6 +412,8 @@
   - Keeping current spec. Of per-realm.
 - **Remove Order Check in NumberFormat v3 and ECMA402 DateTimeFormat**  `raw/notes/meetings/2022-07/jul-20.md`
   - Consensus for both PRs
+- **Temporal Update**  `raw/notes/meetings/2022-07/jul-20.md`
+  - Consensus on the following normative changes:
 - **NumberFormat V3 update**  `raw/notes/meetings/2022-07/jul-20.md`
 - **Clarify the layering relationship between ECMA-262 and ECMA-402**  `raw/notes/meetings/2022-07/jul-21.md`
   - consensus on presented PRs
@@ -389,6 +423,10 @@
 - **ECMA-402 status update**  `raw/notes/meetings/2022-09/sep-13.md`
 - **Intl.DurationFormat Stage 3 Update** — stage: 3  `raw/notes/meetings/2022-09/sep-13.md`
   - Consensus for presented normative changes:
+- **Temporal update**  `raw/notes/meetings/2022-09/sep-13.md`
+  - Consensus on
+- **Temporal extension**  `raw/notes/meetings/2022-09/sep-15.md`
+  - Consensus for the proposed behavior in <https://github.com/tc39/proposal-temporal/pull/2397>
 
 ## 2022-11
 
@@ -407,6 +445,8 @@
   - → Advancement to stage 2
 - **Intl MessageResource for Stage 1** — stage: 1  `raw/notes/meetings/2022-11/nov-29.md`
   - Stage 1 for MessageResource
+- **Temporal status overview and normative changes**  `raw/notes/meetings/2022-11/nov-29.md`
+  - No objections to any normative changes (and explicit support for DE and DLM)
 - **Is ECMA402 allowed to extend ECMA262 prototypes? - What does "narrow yes" mean?**  `raw/notes/meetings/2022-11/nov-29.md`
   - We as a committee do not allow such extensions by specifications under our control except where indicated in the text of ECMA-262.
 - **Intl Enumeration for Stage 4** — stage: 4  `raw/notes/meetings/2022-11/nov-30.md`
@@ -420,6 +460,8 @@
   - → Got explicit support and consensus to advanced into Stage 2
 - **Temporal, naming of `.calendarId` and `.timeZoneId`**  `raw/notes/meetings/2023-01/feb-01.md`
   - Consensus on `Id` spelling in properties as presented yesterday
+- **Temporal Stage 3 update continuation** — stage: 3  `raw/notes/meetings/2023-01/feb-02.md`
+  - Consensus on merging https://github.com/tc39/proposal-temporal/pull/2447
 - **ECMA402 Status Updates**  `raw/notes/meetings/2023-01/jan-30.md`
   - Presented PR was approved with positive notes from DLM and PFC.
 - **Intl.NumberFormat V3 for Stage 4** — stage: 4  `raw/notes/meetings/2023-01/jan-31.md`
@@ -427,11 +469,16 @@
   - TC39 consensus for normative PR https://github.com/tc39/proposal-intl-duration-format/pull/126. This pull request alters the output of `formatToParts` in many ways: fixes bugs, makes the output more g
 - **Intl Locale Info API Stage 3 update** — stage: 3  `raw/notes/meetings/2023-01/jan-31.md`
   - Reached consensus to Merge PR 67  https://github.com/tc39/proposal-intl-locale-info/pull/67
+- **Temporal Stage 3 update and normative PRs** — stage: 3  `raw/notes/meetings/2023-01/jan-31.md`
+  - Temporal is advancing towards a goal of being able to say that it no longer “requires implementer coordination”, with a goal from the champion group of March 2023.
 
 ## 2023-03
 
 - **ECMA 402 Update**  `raw/notes/meetings/2023-03/mar-21.md`
   - ES2023 cut is on track
+- **Temporal update and normative changes**  `raw/notes/meetings/2023-03/mar-21.md`
+  - Barring any showstoppers raised by implementors, we expect to present one more normative change to avoid unbounded integer arithmetic in the next plenary.
+- **Temporal nanoseconds precision follow-up**  `raw/notes/meetings/2023-03/mar-23.md`
 - **Time Zone Canonicalization for Stage 1** — stage: 1  `raw/notes/meetings/2023-03/mar-23.md`
   - → Proposal reaches Stage 1
 
@@ -445,6 +492,8 @@
   - Stage 1 for finding an efficient and ergonomic API for Intl formatting on Temporal.ZonedDateTime objects
 - **Intl.DurationFormat Stage 3 Update** — stage: 3  `raw/notes/meetings/2023-05/may-17.md`
   - Consensus for changes, with explicit support from DLM and PFC
+- **Temporal updates**  `raw/notes/meetings/2023-05/may-17.md`
+  - Consensus on making normative changes to:
 - **Time Zone Canonicalization for stage 2** — stage: 2/3  `raw/notes/meetings/2023-05/may-17.md`
   - → The proposal reaches Stage 2, including both the new API, the removed canonicalization of timezone IDs, and a strong endorsement of the new project to come to a common definition of canonical timezone
   - → For future Stage 3: We should not block on the latter, more difficult project of standardizing timezone names; we can go to Stage 3 with just the new API and patched-out canonicalization, leaving the 
@@ -462,6 +511,8 @@
   - → Currently in Stage 3, already for a while, including the current issue there are three more issues and will be discussed, Issue 30, issue 71. Issue 73, in the coming TG2 and hopefully reach Stage 4 by
 - **Stage 3 update for Intl.DurationFormat** — stage: 3  `raw/notes/meetings/2023-07/july-12.md`
   - Two normative changes ([PR#150](https://github.com/tc39/proposal-intl-duration-format/pull/150), [PR#158](https://github.com/tc39/proposal-intl-duration-format/pull/158)) achieved consensus
+- **Temporal Stage 3 update and normative PRs** — stage: 3  `raw/notes/meetings/2023-07/july-12.md`
+  - Consensus on making normative changes to:
 - **Time Zone Canonicalization for Stage 3** — stage: 2/3  `raw/notes/meetings/2023-07/july-12.md`
   - → 2x TG2 reviews, with outcome of not expanding spec changes beyond Stage 2 text, because further changes didn't have TG2 consensus and/or were dependent on CLDR/ICU changes that aren't ready.
   - → Proposal reaches Stage 3 🚀🚀🚀
@@ -488,8 +539,11 @@
 - **Ecma402 Updates**  `raw/notes/meetings/2023-11/november-27.md`
 - **Stage 3 update of Intl Locale Info API** — stage: 2/3  `raw/notes/meetings/2023-11/november-28.md`
   - → The proposal remains at Stage 3 for now, but may be downgraded to Stage 2 if outstanding issues aren’t fixed promptly.
+- **Temporal normative PR #2718 & general update**  `raw/notes/meetings/2023-11/november-28.md`
 - **Intl.DurationFormat stage 3 update and normative PRs** — stage: 3  `raw/notes/meetings/2023-11/november-28.md`
   - TG1 consensus on all PRs
+- **Continuation of Temporal**  `raw/notes/meetings/2023-11/november-30.md`
+  - A normative change to overflow behavior in PlainYearMonth/PlainMonthDay.p.toPlainDate (PR #2718) reached consensus.
 
 ## 2024-02
 
@@ -500,6 +554,7 @@
   - FYT: The conclusion is that we reach consensus to merge ECMA 402 PR 846, which was accidentally mentioned last night, so we’re not going to revert it. Thank you.
 - **Intl.MessageFormat: I have some questions**  `raw/notes/meetings/2024-02/feb-6.md`
   - We will have an overflow topic to cover the second half of the slides, and
+- **Temporal update & proposed normative changes**  `raw/notes/meetings/2024-02/feb-6.md`
 - **Continuation: Intl.MessageFormat update and discussion** — stage: 2  `raw/notes/meetings/2024-02/feb-7.md`
   - In a future TC39 meeting, there will be a presentation on Intl.MessageFormat for Stage 2, leaving out the parser. The committee has not expressed any concerns about this approach, but it remains to be
 - **Intl.MessageFormat** — stage: 1  `raw/notes/meetings/2024-02/feb-7.md`
@@ -511,6 +566,7 @@
 ## 2024-04
 
 - **ECMA402 Status Updates**  `raw/notes/meetings/2024-04/april-08.md`
+- **Temporal normative bugfix**  `raw/notes/meetings/2024-04/april-08.md`
 - **Intl.MessageFormat status update**  `raw/notes/meetings/2024-04/april-10.md`
   - The proposal has hit some blockers during its development.
 
@@ -522,6 +578,8 @@
   - ECMA-402 PR #787 is approved to align ECMA-402 with the "web reality" of CLDR data and ICU behaviour used by many large ECMAScript engines. This will reduce current and future divergence between engin
 - **`Intl.MessageFormat` Stage 1 open question involving error handling design patterns** — stage: 1  `raw/notes/meetings/2024-06/june-11.md`
   - The Unicode MessageFormat specification emphasizes error handling with two types of errors: message errors (handled during message processing) and resolution errors (detected during message formatting
+- **Temporal Stage 3 update and scope reduction** — stage: 3  `raw/notes/meetings/2024-06/june-12.md`
+  - Consensus reached on fixing an arithmetic bug, https://github.com/tc39/proposal-temporal/pull/2838.
 - **Intl.DurationFormat Stage 3 update and normative PRs** — stage: 3  `raw/notes/meetings/2024-06/june-13.md`
   - USA: All right, you have consensus. Fantastic.
 
@@ -536,6 +594,8 @@
   - ECMA-262 to remain unchanged
 - **Intl.Locale Update in Stage 3** — stage: 3  `raw/notes/meetings/2024-07/july-30.md`
   - Intl.Locale Update PR has consensus
+- **Temporal update & bug fixes** — stage: 3  `raw/notes/meetings/2024-07/july-30.md`
+  - → The existing consensus not to go back and apply the Stop Coercing Things principles to this Stage 3 proposal was reaffirmed.
 - **Normative: Add text about locale installation in browser implementations as fingerprinting vector**  `raw/notes/meetings/2024-07/july-30.md`
 
 ## 2024-10
@@ -543,6 +603,7 @@
 - **402 Editor’s Update**  `raw/notes/meetings/2024-10/october-08.md`
 - **`Intl.DurationFormat` do not include grouping separators in numeric-like styles**  `raw/notes/meetings/2024-10/october-09.md`
   - We have consensus for the normative change removing grouping separators when using the digital format in DurationFormat.
+- **Temporal progress update**  `raw/notes/meetings/2024-10/october-09.md`
 - **Measure object stage 0** — stage: 0  `raw/notes/meetings/2024-10/october-10.md`
 
 ## 2024-12
@@ -557,6 +618,7 @@
 ## 2025-02
 
 - **ECMA-402 Update**  `raw/notes/meetings/2025-02/february-18.md`
+- **Temporal normative PR and status update**  `raw/notes/meetings/2025-02/february-18.md`
 - **A unified vision for measure and decimal**  `raw/notes/meetings/2025-02/february-19.md`
   - There is little to no support for outright merging of the proposals from outside of the champion group. There was some uncertainty about use cases for Measure. Adding conversion between units (measure
 - **Stable Formatting update**  `raw/notes/meetings/2025-02/february-19.md`
@@ -570,6 +632,8 @@
 - **ECMA-402 Editors’ Update**  `raw/notes/meetings/2025-04/april-14.md`
 - **Normative: add notation to PluralRules**  `raw/notes/meetings/2025-04/april-14.md`
   - The committee reached consensus on [the pull request](https://github.com/tc39/ecma402/pull/989), with explicit support from DE and DLM.
+- **Temporal Update** — stage: 3  `raw/notes/meetings/2025-04/april-14.md`
+  - Temporal is at Stage 3 and ready to ship
 - **Intl Era Month Code Stage 2 Update** — stage: 2  `raw/notes/meetings/2025-04/april-16.md`
   - An update was given.
 - **Stage 1 update for decimal & measure: Amounts** — stage: 1  `raw/notes/meetings/2025-04/april-16.md`
@@ -584,6 +648,8 @@
   - The purpose of this pull request is to add language into ECMA-402 that explains expected behavior by browsers to prevent user fingerprinting by tracking available locales
 - **Normative: Add 8 new numbering systems for Unicode 16 ([ecma402\#929](https://github.com/tc39/ecma402/pull/929))**  `raw/notes/meetings/2025-05/may-28.md`
   - ECMA-402 needs to regularly update its table of numbering systems to align with the table published by the Unicode Consortium
+- **Temporal status update and normative change**  `raw/notes/meetings/2025-05/may-28.md`
+  - A change to tighten the requirements on an optional string notation for unusual UTC offsets reached consensus. This change was based on user feedback.
 - **Intl Locale Info Stage 3 Update: Normative: Return undefined if direction is unknown** — stage: 3  `raw/notes/meetings/2025-05/may-28.md`
   - TG1 approves adding the return value of undefined to the return value of gettext info, but the committee would like more time to consider adding other string values to the enumerations. So TG2 will go
 - **Normative: Add `Intl.Locale.prototype.variants` ([ecma402\#960](https://github.com/tc39/ecma402/pull/960))**  `raw/notes/meetings/2025-05/may-28.md`
@@ -596,6 +662,8 @@
 - **Ecma 402 Status Updates**  `raw/notes/meetings/2025-07/july-28.md`
 - **Missing name property for `%IntlSegmentsPrototype%[%Symbol.iterator%]`**  `raw/notes/meetings/2025-07/july-28.md`
   - Due to oversight, we are missing, we were missing a name property for `Intl.Segments.prototype[Symbol.iterator]`. It doesn’t break, because of the code block, but you know, what’s it supposed to be.
+- **[Temporal](https://github.com/tc39/proposal-temporal) normative PR**  `raw/notes/meetings/2025-07/july-28.md`
+  - we have consensus for the change.
 - **[Keep trailing zeros in `Intl.NumberFormat` and Intl.PluralRules](https://github.com/tc39/proposal-intl-keep-trailing-zeros) for Stage 2 or 2.7** — stage: 2  `raw/notes/meetings/2025-07/july-29.md`
   - The proposal and its specification was presented, and was accepted for Stage 2. RGN and SFC volunteered to act as its Stage 2.7 reviewers, and completed their reviews during the meeting. In the contin
 - **[~~Measure~~Amount](https://github.com/tc39/proposal-measure) for Stage 2** — stage: 2  `raw/notes/meetings/2025-07/july-29.md`
@@ -620,6 +688,8 @@
   - Just an update.. No comments from queue
 - **Continuation: Intl Era Month Code—Normative changes**  `raw/notes/meetings/2025-09/september-23.md`
   - The committee provided consensus to make the requested changes
+- **Temporal update and normative change**  `raw/notes/meetings/2025-09/september-23.md`
+  - The committee reached consensus on the proposed normative change to `ZonedDateTime`.
 - **Continuation: Amount for Stage 2** — stage: 2  `raw/notes/meetings/2025-09/september-24.md`
   - Continuation requested
 - **Increase limits on Intl MV**  `raw/notes/meetings/2025-09/september-24.md`
@@ -633,6 +703,8 @@
 - **ECMA402 Status Updates**  `raw/notes/meetings/2025-11/november-18.md`
 - **Normative: In PluralRules, set compactDisplay only if notation is "compact"**  `raw/notes/meetings/2025-11/november-18.md`
   - TG1 approve the PR
+- **Temporal status report and normative PR (slides) (30m, Philip Chimento)**  `raw/notes/meetings/2025-11/november-18.md`
+  - A normative change to address an edge case in `Temporal.Duration` rounding (https://github.com/tc39/proposal-temporal/pull/3172) reached consensus.
 - **Intl Locale Info API for Stage 4** — stage: 4  `raw/notes/meetings/2025-11/november-18.md`
   - TG1 agree to merge PR92
 - **Keep trailing zeros in `Intl.NumberFormat` and `Intl.PluralRules` update**  `raw/notes/meetings/2025-11/november-18.md`
@@ -648,6 +720,8 @@
 ## 2026-01
 
 - **ECMA402 Status Updates**  `raw/notes/meetings/2026-01/january-20.md`
+- **Temporal update and needs-consensus PRs**  `raw/notes/meetings/2026-01/january-20.md`
+  - PR [tc39/proposal-temporal#3253](https://github.com/tc39/proposal-temporal/pull/3253) reached consensus.
 - **Intl Era/Month Code for Stage 3** — stage: 3  `raw/notes/meetings/2026-01/january-20.md`
   - All PRs approved
 - **Withdrawing Intl.UnitFormat**  `raw/notes/meetings/2026-01/january-20.md`
@@ -662,6 +736,8 @@
   - Continue to work with WH on rounding issues
 - **Intl: Keep Trailing Zeros for Stage 3** — stage: 3  `raw/notes/meetings/2026-03/march-10.md`
   - Issue #15 should be resolved with a change as requested.
+- **Temporal for Stage 4** — stage: 4  `raw/notes/meetings/2026-03/march-11.md`
+  - → Temporal advances to stage 4.
 - **Intl Unit Protocol for Stage 2** — stage: 2  `raw/notes/meetings/2026-03/march-11.md`
   - → Approved for Stage 2
 - **Intl Energy Units Stage 1 Update** — stage: 1/2  `raw/notes/meetings/2026-03/march-11.md`
@@ -672,6 +748,8 @@
 - **Project Editors’ Reports: ECMA-402 Status Updates**  `raw/notes/meetings/2026-05/may-19.md`
 - **Intl: Keep Trailing Zeros for Stage 3** — stage: 3  `raw/notes/meetings/2026-05/may-19.md`
   - → The proposal got support for advancing to Stage 3, with PRs #19 and #20 merged.
+- **Temporal progress update**  `raw/notes/meetings/2026-05/may-19.md`
+  - The two proposed fixes achieved consensus and will be integrated into the spec PRs.
 - **Stable Formatting for Stage 2** — stage: 2  `raw/notes/meetings/2026-05/may-20.md`
   - → The proposal was approved for Stage 2.
 - **Default Behaviours for some Intl APIs for Stage 1** — stage: 1  `raw/notes/meetings/2026-05/may-20.md`

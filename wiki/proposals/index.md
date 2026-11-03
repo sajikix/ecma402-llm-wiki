@@ -71,10 +71,11 @@
 | --- | --- | --- |
 | [Intl.UnitFormat](https://github.com/tc39/proposal-intl-unit-format) | Zibi Braniecki | Withdrawn: deprecated in favor of Unified Intl.NumberFormat |
 
-## Related ECMA-262 proposals (ingested) (1)
+## Related ECMA-262 proposals (ingested) (2)
 
 > Not in `raw/proposals/ecma402/`; stage and champions come from the page frontmatter (canonical: the ECMA-262 tables in `raw/proposals/`).
 
 | Proposal | Champion | Stage |
 | --- | --- | --- |
 | **[Amount](amount.md)** | [BAN](../people/BAN.md), [EAO](../people/EAO.md), [SFC](../people/SFC.md) | 2 |
+| **[Temporal](temporal.md)** | [PDL](../people/PDL.md), [MPT](../people/MPT.md), [MAJ](../people/MAJ.md), [BT](../people/BT.md), [SFC](../people/SFC.md), [USA](../people/USA.md), [PFC](../people/PFC.md), [JWS](../people/JWS.md), [JGT](../people/JGT.md), [RGN](../people/RGN.md) | 4 |

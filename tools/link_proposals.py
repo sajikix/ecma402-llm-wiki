@@ -214,7 +214,7 @@ def main():
     titles_ci = {t.lower(): fname for t, fname in titles.items()}
     alt = "|".join(re.escape(t) for t in ordered)
     token_re = re.compile(
-        r"(?<![A-Za-z0-9])(" + alt + r")(?![A-Za-z0-9])", re.IGNORECASE
+        r"(?<![A-Za-z0-9.])(" + alt + r")(?![A-Za-z0-9]|\.[A-Za-z])", re.IGNORECASE
     )
 
     repos = repo_pages()

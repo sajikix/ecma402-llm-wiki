@@ -12,7 +12,7 @@ tags: [person]
 - **Full name**: Sean Burke
 - **Affiliation**: Mozilla
 - **Champion drafts**: (none among curated pages)
-- **Mentioned on proposal pages**: [Intl.MessageFormat](../proposals/intl-messageformat.md)
+- **Mentioned on proposal pages**: [Intl.MessageFormat](../proposals/intl-messageformat.md), [Temporal](../proposals/temporal.md)
 - **TG2 meetings attended**: 5
 - **Plenary meetings attended**: 1
 

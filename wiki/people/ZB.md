@@ -12,7 +12,7 @@ tags: [person]
 - **Full name**: Zibi Braniecki
 - **Affiliation**: Amazon / Amazon Alexa / Invited Expert / Mozilla
 - **Champion drafts**: (none among curated pages)
-- **Mentioned on proposal pages**: [Amount](../proposals/amount.md), [Default Behaviours for some Intl APIs](../proposals/intl-default-behaviours.md), [Intl.DurationFormat](../proposals/intl-durationformat.md), [Intl Energy Units](../proposals/intl-energy-units.md), [eraDisplay option for Intl.DateTimeFormat](../proposals/intl-eradisplay.md), [Intl Locale Info](../proposals/intl-locale-info.md), [Intl.MessageFormat](../proposals/intl-messageformat.md), [Intl.MessageResource](../proposals/intl-messageresource.md), [Intl Sequence Units](../proposals/intl-sequence-units.md), [Smart Unit Preferences in Intl.NumberFormat](../proposals/smart-unit-preferences.md), [Stable Formatting](../proposals/stable-formatting.md)
+- **Mentioned on proposal pages**: [Amount](../proposals/amount.md), [Default Behaviours for some Intl APIs](../proposals/intl-default-behaviours.md), [Intl.DurationFormat](../proposals/intl-durationformat.md), [Intl Energy Units](../proposals/intl-energy-units.md), [eraDisplay option for Intl.DateTimeFormat](../proposals/intl-eradisplay.md), [Intl Locale Info](../proposals/intl-locale-info.md), [Intl.MessageFormat](../proposals/intl-messageformat.md), [Intl.MessageResource](../proposals/intl-messageresource.md), [Intl Sequence Units](../proposals/intl-sequence-units.md), [Smart Unit Preferences in Intl.NumberFormat](../proposals/smart-unit-preferences.md), [Stable Formatting](../proposals/stable-formatting.md), [Temporal](../proposals/temporal.md)
 - **TG2 meetings attended**: 42
 - **Plenary meetings attended**: 3
 

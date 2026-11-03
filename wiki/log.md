@@ -227,3 +227,14 @@ Append-only record of operations on this wiki. Each entry starts with `## [YYYY-
 - Main issues: MessageFormat-first vs ECMA-402-first for semantic skeletons; a third options style vs new options on the style shortcuts; option names that differ across ECMA-402 / MF2 / HTML (`dateLength`, `timeZoneStyle`); no new capabilities or data.
 - Linked from intl-messageformat (was a wrong plain-code slug); `link_proposals.py` aliases "MessageResource", "Message Resource", "DateTimeFormat Alignment".
 - Summary backlog: no additions.
+
+## [2026-11-03] ingest | Temporal
+
+- Added `wiki/proposals/temporal.md` (ECMA-262 proposal with a large ECMA-402 part; `ecma: [262, 402]`, families: date-time), focused on the Intl side.
+- Stage history: Stage 1 2017-03 (`mar-23.md`), Stage 2 2018-09 (`sept-27.md`; the 2018-07 slot ended "Not advancing yet due to deadline"), Stage 3 2021-03 (`mar-9.md` / `mar-10.md`, no unflagged shipping before the IETF syntax), Stage 4 2026-03 (`march-11.md`). TG2 milestones from 2018-09-20 to 2026-04-16, plus related plenary rows (Intl.ZonedDateTimeFormat Stage 1 2023-05, Time Zone Canonicalization Stage 3 2023-07 merged into Temporal, ecma402#788 2023-09, ecma402#877 2024-06).
+- Champions: the nine canonical champions (PDL, MPT, MAJ, BT, SFC, USA, PFC, JWS, JGT) plus RGN (PFC at Stage 4: "RGN is a proposal champion").
+- Publication: canonical 2027; missed the ES2026 cut (TG2 2026-04-16, 2026-05-07); ecma402#1044 not yet merged in the raw snapshot.
+- Main issues: Intl support in or out of the proposal; calendars and the default calendar; formatting via Intl.DateTimeFormat and ZonedDateTime (PR #2522, Intl.ZonedDateTimeFormat, PR #3246); time zones (offset zones, canonicalization, Etc/Unknown, EST5EDT); localized names; DurationFormat; TG2 oversight; the 2024 scope reduction; ecma402#1044 and the edition; a short paragraph on non-Intl plenary issues.
+- Linked Temporal from the pages that had it as plain code; plenary agenda index now matches `\btemporal\b`; mappings `US` → USA and `PD` → PDL.
+- Summary backlog: 4 meetings added (2018-09-20, 2019-12-12, 2020-04-23, 2021-12-02).
+- `link_proposals.py` no longer links a proposal name that is part of a dotted identifier (e.g. `Temporal.Duration` in prose); repaired 2 such links (2023-11-16, 2026-10-08).

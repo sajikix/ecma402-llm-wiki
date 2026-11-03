@@ -162,7 +162,7 @@ Whether `formatToParts` should expose the individual numeric parts of each unit 
 
 ## Related proposals
 
-- `temporal` — `Temporal.Duration` is the primary input type; the two proposals were coupled and then deliberately decoupled (see above).
+- [Temporal](temporal.md) — `Temporal.Duration` is the primary input type; the two proposals were coupled and then deliberately decoupled (see above).
 - `intl-relativetimeformat` — single-unit relative time formatting; the alternative home considered in 2020.
 - `intl-numberformat-v3` / `intl-unified-numberformat` — DurationFormat formats each unit with NumberFormat unit formatting (and relies on `roundingMode: "trunc"` from NumberFormat v3).
 - `intl-listformat` — joins the formatted units.
