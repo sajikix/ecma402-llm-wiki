@@ -49,6 +49,9 @@ ALIASES = {
     "eraDisplay": "intl-eradisplay.md",
     "Era Display": "intl-eradisplay.md",
     "Default Behaviours": "intl-default-behaviours.md",
+    "MessageResource": "intl-messageresource.md",
+    "Message Resource": "intl-messageresource.md",
+    "DateTimeFormat Alignment": "intl-datetimeformat-alignment.md",
 }
 
 

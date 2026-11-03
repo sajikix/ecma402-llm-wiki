@@ -12,7 +12,7 @@ tags: [person]
 - **Full name**: Romulo Cintra
 - **Affiliation**: CaixaBank / Igalia / Igalia S.L. / Igalia, S.L
 - **Champion drafts**: (none among curated pages)
-- **Mentioned on proposal pages**: [Intl.DurationFormat](../proposals/intl-durationformat.md), [Intl.MessageFormat](../proposals/intl-messageformat.md), [Smart Unit Preferences in Intl.NumberFormat](../proposals/smart-unit-preferences.md)
+- **Mentioned on proposal pages**: [Intl.DurationFormat](../proposals/intl-durationformat.md), [Intl.MessageFormat](../proposals/intl-messageformat.md), [Intl.MessageResource](../proposals/intl-messageresource.md), [Smart Unit Preferences in Intl.NumberFormat](../proposals/smart-unit-preferences.md)
 - **TG2 meetings attended**: 35
 - **Plenary meetings attended**: 11
 

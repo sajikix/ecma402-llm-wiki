@@ -12,7 +12,7 @@ tags: [person]
 - **Full name**: Frank Yung-Fong Tang
 - **Affiliation**: Google / Google i18n, V8
 - **Champion drafts**: [Intl Era/Month Code](../proposals/intl-era-month-code.md), [Intl Locale Info](../proposals/intl-locale-info.md)
-- **Mentioned on proposal pages**: [Amount](../proposals/amount.md), [Default Behaviours for some Intl APIs](../proposals/intl-default-behaviours.md), [Intl.DurationFormat](../proposals/intl-durationformat.md), [Intl Energy Units](../proposals/intl-energy-units.md), [Intl Era/Month Code](../proposals/intl-era-month-code.md), [eraDisplay option for Intl.DateTimeFormat](../proposals/intl-eradisplay.md), [Intl Locale Info](../proposals/intl-locale-info.md), [Intl.MessageFormat](../proposals/intl-messageformat.md), [Smart Unit Preferences in Intl.NumberFormat](../proposals/smart-unit-preferences.md), [Stable Formatting](../proposals/stable-formatting.md)
+- **Mentioned on proposal pages**: [Amount](../proposals/amount.md), [Default Behaviours for some Intl APIs](../proposals/intl-default-behaviours.md), [Intl.DurationFormat](../proposals/intl-durationformat.md), [Intl Energy Units](../proposals/intl-energy-units.md), [Intl Era/Month Code](../proposals/intl-era-month-code.md), [eraDisplay option for Intl.DateTimeFormat](../proposals/intl-eradisplay.md), [Intl Locale Info](../proposals/intl-locale-info.md), [Intl.MessageFormat](../proposals/intl-messageformat.md), [Intl.MessageResource](../proposals/intl-messageresource.md), [Smart Unit Preferences in Intl.NumberFormat](../proposals/smart-unit-preferences.md), [Stable Formatting](../proposals/stable-formatting.md)
 - **TG2 meetings attended**: 62
 - **Plenary meetings attended**: 21
 

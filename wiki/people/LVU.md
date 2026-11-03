@@ -12,7 +12,7 @@ tags: [person]
 - **Full name**: Lea Verou
 - **Affiliation**: OpenJS / OpenJS Foundation
 - **Champion drafts**: (none among curated pages)
-- **Mentioned on proposal pages**: [Intl Unit Protocol](../proposals/intl-unit-protocol.md)
+- **Mentioned on proposal pages**: [Intl.DateTimeFormat Alignment With Other Standards](../proposals/intl-datetimeformat-alignment.md), [Intl Unit Protocol](../proposals/intl-unit-protocol.md)
 - **TG2 meetings attended**: 0
 - **Plenary meetings attended**: 6
 

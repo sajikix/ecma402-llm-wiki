@@ -50,9 +50,9 @@
 | **[Intl Energy Units](intl-energy-units.md)** | Nicolò Ribaudo, Shane Carr |
 | [Intl LocaleMatcher](https://github.com/tc39/proposal-intl-localematcher) | Shane Carr, Long Ho |
 | **[Intl Sequence Units](intl-sequence-units.md)** | Shane Carr |
-| [Intl.DateTimeFormat Alignment With Other Standards](https://github.com/tc39/proposal-intl-datetime-alignment) | Eemeli Aro |
+| **[Intl.DateTimeFormat Alignment With Other Standards](intl-datetimeformat-alignment.md)** | Eemeli Aro |
 | **[Intl.MessageFormat](intl-messageformat.md)** | Eemeli Aro |
-| [Intl.MessageResource](https://github.com/tc39/proposal-intl-message-resource) | Eemeli Aro |
+| **[Intl.MessageResource](intl-messageresource.md)** | Eemeli Aro |
 | [Intl.Segmenter v2](https://github.com/tc39/proposal-intl-segmenter-v2) | Frank Yung-Fong Tang |
 | [Intl.ZonedDateTimeFormat](https://github.com/FrankYFTang/intl-zoneddatetimeformat) | Frank Yung-Fong Tang |
 | **[Smart Unit Preferences in Intl.NumberFormat](smart-unit-preferences.md)** | Younies Mahmoud |

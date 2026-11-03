@@ -213,3 +213,17 @@ Append-only record of operations on this wiki. Each entry starts with `## [YYYY-
 - Main issues: proposal vs PR and the unexpected jump to Stage 2; meaning and name of the "formal" symbol (MF2 naming alignment); CLDR data for formal symbols (Stage 2.7 blocker, unresolved); scope of a "global" currency format.
 - The plenary item was missing from `plenary-agenda-index.md`; `extract_plenary_agenda.py` now matches `\bcurrency\b` (word-bounded so "Concurrency" doesn't match).
 - Summary backlog: 1 meeting added (2018-11-26).
+
+## [2026-11-03] ingest | Intl.MessageResource
+
+- Added `wiki/proposals/intl-messageresource.md` (Stage 1 at the 2022-11 plenary, `nov-29.md`; champion EAO; families: message-format).
+- Traced the split from Intl.MessageFormat (TG2 2022-03-17, 2022-09-01, PR #16 approved 2022-10-06) and the 2022-11 Stage 1 (SFC asked whether TC39 is the right body; KG called the split premature). No plenary item since; EAO stepping back as champion of "these proposals" (TG2 2024-03-28); the resource format moved to W3C i18n WG incubation (2025-12-04), W3C repo cleared (2026-10-08).
+- Fixed intl-messageformat: resources were split out in 2022 (PR #16), not dropped by the 2023 refactor (PR #22); "Bundles stayed outside Unicode" was overstated.
+- Summary backlog: no additions.
+
+## [2026-11-03] ingest | Intl.DateTimeFormat Alignment With Other Standards
+
+- Added `wiki/proposals/intl-datetimeformat-alignment.md` (Stage 1 at the 2026-07 plenary, `july-22.md`; champion EAO; families: date-time). TG2 support for a Stage 1 proposal on 2026-07-09 (ecma402#1089); idea traced to MF2 semantic-skeleton discussions from 2024-08-22.
+- Main issues: MessageFormat-first vs ECMA-402-first for semantic skeletons; a third options style vs new options on the style shortcuts; option names that differ across ECMA-402 / MF2 / HTML (`dateLength`, `timeZoneStyle`); no new capabilities or data.
+- Linked from intl-messageformat (was a wrong plain-code slug); `link_proposals.py` aliases "MessageResource", "Message Resource", "DateTimeFormat Alignment".
+- Summary backlog: no additions.

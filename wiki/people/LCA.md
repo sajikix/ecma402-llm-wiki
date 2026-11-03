@@ -12,7 +12,7 @@ tags: [person]
 - **Full name**: Luca Casonato
 - **Affiliation**: Deno / Deno Land / Deno Land Inc / Invited Expert
 - **Champion drafts**: (none among curated pages)
-- **Mentioned on proposal pages**: [Intl.MessageFormat](../proposals/intl-messageformat.md), [Intl Sequence Units](../proposals/intl-sequence-units.md), [Stable Formatting](../proposals/stable-formatting.md)
+- **Mentioned on proposal pages**: [Intl.DateTimeFormat Alignment With Other Standards](../proposals/intl-datetimeformat-alignment.md), [Intl.MessageFormat](../proposals/intl-messageformat.md), [Intl Sequence Units](../proposals/intl-sequence-units.md), [Stable Formatting](../proposals/stable-formatting.md)
 - **TG2 meetings attended**: 0
 - **Plenary meetings attended**: 16
 

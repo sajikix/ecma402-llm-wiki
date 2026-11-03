@@ -12,7 +12,7 @@ tags: [person]
 - **Full name**: James M Snell
 - **Affiliation**: Cloudflare
 - **Champion drafts**: (none among curated pages)
-- **Mentioned on proposal pages**: [Amount](../proposals/amount.md)
+- **Mentioned on proposal pages**: [Amount](../proposals/amount.md), [Intl.DateTimeFormat Alignment With Other Standards](../proposals/intl-datetimeformat-alignment.md)
 - **TG2 meetings attended**: 0
 - **Plenary meetings attended**: 7
 
